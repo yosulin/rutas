@@ -110,6 +110,23 @@ const ICON_CHART = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" s
 const ICON_WIKILOC = `<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.1-7-11.5A7 7 0 0 1 19 9.5C19 14.9 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.4"/></svg>`;
 const ICON_YOUTUBE = `<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5.5" width="19" height="13" rx="3.5"/><path d="M10.5 9.2 15 12l-4.5 2.8Z" fill="currentColor" stroke="none"/></svg>`;
 const ICON_SOURCE = `<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10 12 4l9 6"/><line x1="5" y1="10" x2="5" y2="19"/><line x1="10" y1="10" x2="10" y2="19"/><line x1="14" y1="10" x2="14" y2="19"/><line x1="19" y1="10" x2="19" y2="19"/><line x1="3" y1="19" x2="21" y2="19"/></svg>`;
+const ICON_MAP = `<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 20 3 17V4l6 3 6-3 6 3v13l-6-3-6 3Z"/><line x1="9" y1="7" x2="9" y2="20"/><line x1="15" y1="4" x2="15" y2="17"/></svg>`;
+const ICON_DIRECTIONS = `<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>`;
+const ICON_DOWNLOAD = `<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><polyline points="7 10 12 15 17 10"/><path d="M5 19h14"/></svg>`;
+
+/* Ruta de la ruta activa cuyo modal de mapa está abierto, para poder
+   destruir correctamente la instancia de Leaflet al cerrar/sustituir el modal. */
+let activeLeafletMap = null;
+function destroyActiveMap() {
+  if (activeLeafletMap) {
+    try { activeLeafletMap.remove(); } catch (err) { console.warn('Error al destruir el mapa', err); }
+    activeLeafletMap = null;
+  }
+}
+
+function hasValidMap(r) {
+  return !!(r && r.mapa_habilitado === true && r.estado_track === 'VALIDADO');
+}
 
 /* ---------------- render: barra resumen ---------------- */
 function renderSummary() {
@@ -221,6 +238,8 @@ function renderCard(r) {
     ? `<a class="icon-btn" href="${r.wikiloc_url}" target="_blank" rel="noopener" title="Ver en Wikiloc" onclick="event.stopPropagation()">${ICON_WIKILOC}</a>` : '';
   const ytBtn = r.youtube_url
     ? `<a class="icon-btn" href="${r.youtube_url}" target="_blank" rel="noopener" title="Ver vídeo en YouTube" onclick="event.stopPropagation()">${ICON_YOUTUBE}</a>` : '';
+  const mapBtn = hasValidMap(r)
+    ? `<button type="button" class="card-map-btn" data-map-id="${r.id}">${ICON_MAP} Ver mapa y recorrido</button>` : '';
 
   return `
     <div class="card" data-id="${r.id}">
@@ -245,6 +264,7 @@ function renderCard(r) {
         <span class="spacer"></span>
         <span class="detail-link">Ver detalle →</span>
       </div>
+      ${mapBtn}
     </div>
   `;
 }
@@ -265,17 +285,27 @@ function renderRoutes() {
   grid.querySelectorAll('.card').forEach(card => {
     card.addEventListener('click', () => openRouteModal(card.dataset.id));
   });
+  grid.querySelectorAll('.card-map-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      openMapModal(btn.dataset.mapId);
+    });
+  });
 }
 
 /* ---------------- modal: detalle de ruta ---------------- */
 const overlay = document.getElementById('modal-overlay');
 const modalCard = document.getElementById('modal-card');
 
-function closeModal() { overlay.classList.remove('show'); }
+function closeModal() {
+  overlay.classList.remove('show');
+  destroyActiveMap();
+}
 overlay.addEventListener('click', e => { if (e.target === overlay) closeModal(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
 function openModal(html, maxWidth) {
+  destroyActiveMap(); // por si se sustituye un modal de mapa ya abierto
   modalCard.style.maxWidth = maxWidth || '820px';
   modalCard.innerHTML = html;
   modalCard.querySelector('#modal-close').addEventListener('click', closeModal);
@@ -290,6 +320,7 @@ function openRouteModal(id) {
   const origenClass = /^wikiloc/i.test(origen) ? 'origen-wikiloc' : 'origen-oficial';
   const tagsHtml = (r.caracteristicas || []).map(t => `<span class="tag">${t}</span>`).join('') || '<span class="tag">Sin datos</span>';
   const linksHtml = `
+    ${hasValidMap(r) ? `<button type="button" data-map-trigger="1">${ICON_MAP} Ver mapa y recorrido</button>` : ''}
     ${r.wikiloc_url ? `<a href="${r.wikiloc_url}" target="_blank" rel="noopener">${ICON_WIKILOC} Ver en Wikiloc</a>` : ''}
     ${r.youtube_url ? `<a href="${r.youtube_url}" target="_blank" rel="noopener">${ICON_YOUTUBE} Ver vídeo</a>` : ''}
     ${r.fuente_url ? `<a href="${r.fuente_url}" target="_blank" rel="noopener">${ICON_SOURCE} Ver fuente oficial</a>` : ''}
@@ -342,6 +373,127 @@ function openRouteModal(id) {
       </div>
     </div>
   `);
+
+  const mapTrigger = modalCard.querySelector('[data-map-trigger]');
+  if (mapTrigger) mapTrigger.addEventListener('click', () => openMapModal(r.id));
+}
+
+/* ---------------- modal: mapa y recorrido (Leaflet + GeoJSON bajo demanda) ---------------- */
+function openMapModal(id) {
+  const r = ROUTES.find(x => x.id === id);
+  if (!hasValidMap(r)) return;
+
+  const comoLlegarUrl = r.mapa_origen_url ||
+    (r.latitud_origen != null && r.longitud_origen != null
+      ? `https://www.google.com/maps/dir/?api=1&destination=${r.latitud_origen},${r.longitud_origen}`
+      : null);
+
+  const actionsHtml = `
+    ${comoLlegarUrl ? `<a href="${comoLlegarUrl}" target="_blank" rel="noopener">${ICON_DIRECTIONS} Cómo llegar al inicio</a>` : ''}
+    ${r.track_gpx ? `<a href="${r.track_gpx}" download>${ICON_DOWNLOAD} Descargar GPX</a>` : ''}
+    ${r.wikiloc_url ? `<a href="${r.wikiloc_url}" target="_blank" rel="noopener">${ICON_WIKILOC} Abrir en Wikiloc</a>` : ''}
+    ${r.youtube_url ? `<a href="${r.youtube_url}" target="_blank" rel="noopener">${ICON_YOUTUBE} Ver vídeo</a>` : ''}
+  `;
+
+  openModal(`
+    <div class="modal-head">
+      <div>
+        <p class="modal-title">${r.nombre}</p>
+        <p class="modal-sub">${[r.localidad, r.region, r.pais].filter(Boolean).join(' · ')}</p>
+      </div>
+      <button class="modal-close" id="modal-close">✕</button>
+    </div>
+    <div class="modal-body map-modal-body">
+      <div id="map-container" class="map-container"><div class="map-loading">Cargando mapa…</div></div>
+      <div class="map-modal-actions">${actionsHtml.trim() ? actionsHtml : '<span class="tag">Sin acciones disponibles</span>'}</div>
+    </div>
+  `, '1080px');
+
+  // El contenedor ya está en el DOM tras openModal(); esperamos al siguiente
+  // frame para que tenga tamaño real antes de inicializar Leaflet.
+  requestAnimationFrame(() => initLeafletMap(r));
+}
+
+async function initLeafletMap(r) {
+  const container = document.getElementById('map-container');
+  if (!container) return; // el modal se cerró antes de llegar aquí
+
+  if (typeof L === 'undefined') {
+    container.innerHTML = '<div class="map-error">No se ha podido cargar la librería de mapas (sin conexión la primera vez que se usa).</div>';
+    return;
+  }
+  if (!r.track_geojson) {
+    container.innerHTML = '<div class="map-error">Esta ruta no tiene un recorrido disponible todavía.</div>';
+    return;
+  }
+
+  let geojson;
+  try {
+    const res = await fetch(r.track_geojson);
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    geojson = await res.json();
+  } catch (err) {
+    console.error('No se pudo cargar el GeoJSON de la ruta', r.id, err);
+    if (document.body.contains(container)) {
+      container.innerHTML = '<div class="map-error">No se ha podido cargar el recorrido. Comprueba tu conexión e inténtalo de nuevo.</div>';
+    }
+    return;
+  }
+
+  // El modal pudo cerrarse mientras esperábamos la respuesta de fetch().
+  if (!document.body.contains(container)) return;
+
+  container.innerHTML = '';
+  const accent = getComputedStyle(document.documentElement).getPropertyValue('--accent').trim() || '#4fcf9d';
+
+  let map;
+  try {
+    map = L.map(container, { scrollWheelZoom: false });
+    activeLeafletMap = map;
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors',
+    }).addTo(map);
+
+    const trackLayer = L.geoJSON(geojson, {
+      style: { color: accent, weight: 4, opacity: 0.9 },
+    }).addTo(map);
+
+    const bounds = trackLayer.getBounds();
+    if (!bounds.isValid()) throw new Error('El GeoJSON no tiene coordenadas válidas');
+    map.fitBounds(bounds, { padding: [24, 24] });
+
+    if (r.latitud_origen != null && r.longitud_origen != null) {
+      L.circleMarker([r.latitud_origen, r.longitud_origen], {
+        radius: 8, color: '#fff', weight: 2, fillColor: accent, fillOpacity: 1,
+      }).addTo(map).bindTooltip('Inicio');
+
+      if (r.latitud_final != null && r.longitud_final != null) {
+        const separacion = map.distance(
+          [r.latitud_origen, r.longitud_origen],
+          [r.latitud_final, r.longitud_final]
+        );
+        if (separacion > 80) {
+          L.circleMarker([r.latitud_final, r.longitud_final], {
+            radius: 8, color: '#fff', weight: 2, fillColor: '#e2664d', fillOpacity: 1,
+          }).addTo(map).bindTooltip('Final');
+        }
+      }
+    }
+  } catch (err) {
+    console.error('Error dibujando el mapa', r.id, err);
+    if (map) { try { map.remove(); } catch (e2) { /* noop */ } }
+    activeLeafletMap = null;
+    if (document.body.contains(container)) {
+      container.innerHTML = '<div class="map-error">El recorrido de esta ruta no se ha podido representar.</div>';
+    }
+    return;
+  }
+
+  // El modal ya tiene su tamaño final tras la transición CSS (~180ms);
+  // sin esto Leaflet puede quedarse con un tamaño de mapa incorrecto.
+  setTimeout(() => { if (activeLeafletMap === map) map.invalidateSize(); }, 220);
 }
 
 /* ---------------- modal: estadísticas globales ---------------- */

@@ -7,14 +7,18 @@ funcionamiento sin conexión.
 ## Estructura
 
 ```
-index.html            página única de la app
-css/styles.css         estilos (tema oscuro por defecto + tema claro)
-js/app.js               toda la lógica: filtros, tarjetas, modales, tema, PWA
-data/rutas.json         datos de las rutas (NO hay datos hardcodeados en el código)
-scripts/build_data.py   convierte un CSV de rutas al data/rutas.json
-manifest.json           manifiesto de la PWA
-sw.js                    service worker (caché de app shell + datos, offline)
-assets/icons/            logo e iconos de la app
+index.html                       página única de la app
+css/styles.css                    estilos (tema oscuro por defecto + tema claro)
+js/app.js                          toda la lógica: filtros, tarjetas, modales, tema, PWA, mapa
+data/rutas.json                    datos de las rutas (NO hay datos hardcodeados en el código)
+data/gpx/*.gpx                     tracks GPX descargables, uno por ruta validada
+data/tracks/*.geojson              el mismo recorrido en GeoJSON, para dibujar en el mapa
+scripts/build_data.py              convierte un CSV de rutas al data/rutas.json
+scripts/merge_tracks.py            cruza tracks (GPX/GeoJSON) con data/rutas.json por id
+scripts/datos_tracks_para_merge.json  fichero de cruce usado por merge_tracks.py
+manifest.json                      manifiesto de la PWA
+sw.js                               service worker (caché de app shell + datos + tracks, offline)
+assets/icons/                       logo e iconos de la app
 ```
 
 ## Origen de los datos
@@ -48,6 +52,52 @@ python3 scripts/build_data.py ruta_al_csv_actualizado.csv
 
 Esto sobrescribe `data/rutas.json`. Luego solo falta commitear y subir el cambio.
 
+## Mapa y recorrido (GPX/GeoJSON)
+
+Cada ruta puede tener un track real asociado. El botón **«Ver mapa y recorrido»** (en la
+tarjeta y en el modal de detalle) solo aparece cuando, a la vez:
+
+- `mapa_habilitado === true`, y
+- `estado_track === "VALIDADO"`.
+
+El GeoJSON se carga con `fetch()` únicamente cuando se abre ese mapa (nunca se precargan
+los 273 recorridos al iniciar la app). El mapa usa Leaflet 1.9.4 (versión fijada por CDN)
+sobre mosaicos de OpenStreetMap, y la instancia se destruye (`map.remove()`) al cerrar o
+sustituir el modal para no acumular mapas en memoria.
+
+### Cómo se generan `data/gpx/` y `data/tracks/`
+
+Estos archivos **no se generan a mano**: vienen de un proceso externo (extractor local +
+validación) que produce un fichero de cruce (`scripts/datos_tracks_para_merge.json`) con,
+para cada `id` de Wikiloc, el estado del track y las rutas de origen/destino de sus
+archivos GPX/GeoJSON.
+
+1. Copia los archivos validados desde tu biblioteca local al repo (herramienta externa al
+   repo, no incluida aquí), dejándolos en `data/gpx/<archivo>.gpx` y
+   `data/tracks/<archivo>.geojson` exactamente como indica el fichero de cruce.
+2. Ejecuta el merge:
+
+   ```bash
+   python3 scripts/merge_tracks.py \
+     --rutas data/rutas.json \
+     --merge scripts/datos_tracks_para_merge.json \
+     --repo-root .
+   ```
+
+3. El script cruza **exclusivamente por `id`** (texto, sin fuzzy matching), nunca toca los
+   campos existentes de cada ruta (distancia, desnivel, duración, dificultad, exigencia,
+   altitudes, descripción), y **verifica que los dos archivos (`track_gpx_destino` y
+   `track_geojson_destino`) existan de verdad en el repo** antes de fijar
+   `mapa_habilitado: true`. Si el fichero de cruce dice que una ruta está `VALIDADO` pero
+   los archivos aún no están copiados, la deja como `estado_track: "PENDIENTE_ARCHIVOS"`
+   y `mapa_habilitado: false`, sin inventar nada.
+4. Genera `reporte_merge.json` con el detalle completo (cruzados, no encontrados,
+   duplicados, pendientes de archivos, pendientes de revisión de nombre).
+
+Puedes volver a ejecutar `merge_tracks.py` en cualquier momento (p. ej. según vayas
+añadiendo archivos a `data/gpx/`/`data/tracks/`): es idempotente y solo activa el mapa de
+las rutas cuyos dos archivos existan de verdad en ese momento.
+
 ## Desarrollo local
 
 Al ser una PWA con service worker, no se puede abrir el `index.html` directamente con
@@ -65,5 +115,7 @@ Pensado para servirse con GitHub Pages desde la raíz de `main`.
 
 ## Pendiente / roadmap
 
-- Mapa con los puntos de inicio de cada ruta (POIs).
+- Copiar a `data/gpx/` y `data/tracks/` los archivos de las 199 rutas marcadas como
+  `PENDIENTE_ARCHIVOS` y volver a ejecutar `merge_tracks.py` para activar sus mapas.
+- Revisar a mano las 6 rutas `REVISAR_NOMBRE` antes de decidir si se activan.
 - Cuentas de usuario (Google) para guardar favoritos y rutas ya realizadas.
