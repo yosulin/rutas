@@ -15,7 +15,7 @@
      esos tiles en su caché HTTP normal, pero no lo garantizamos aquí.
    ============================================================ */
 
-const CACHE_VERSION = 'v3'; // v3: version.json + carga por lotes de tarjetas (bump para forzar actualización)
+const CACHE_VERSION = 'v4'; // v4: mapa embebido en el detalle + engranaje de ajustes (bump para forzar actualización)
 const SHELL_CACHE = `rutas-shell-${CACHE_VERSION}`;
 const DATA_CACHE = `rutas-data-${CACHE_VERSION}`;
 const RUNTIME_CACHE = `rutas-runtime-${CACHE_VERSION}`;

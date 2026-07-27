@@ -76,16 +76,33 @@ async function loadVersionInfo() {
   }
 }
 
-function renderVersionInfo(info) {
-  const el = document.getElementById('version-info');
-  if (!el) return;
-  if (!info) { el.textContent = ''; return; }
-  const fecha = new Date(info.generado_en);
-  const fechaTxt = isNaN(fecha.getTime())
-    ? (info.generado_en || '—')
-    : fecha.toLocaleString('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' });
-  const build = info.app_build ? ` · ${info.app_build}` : '';
-  el.textContent = `${build} · datos actualizados: ${fechaTxt} · ${info.total_rutas ?? ROUTES.length} rutas`;
+// Se guarda para poder mostrarla en el modal de Ajustes (⚙️ junto al tema),
+// en vez de tener que bajar hasta el pie de página.
+let VERSION_INFO = null;
+
+function openSettingsModal() {
+  const info = VERSION_INFO;
+  const fecha = info ? new Date(info.generado_en) : null;
+  const fechaTxt = (fecha && !isNaN(fecha.getTime()))
+    ? fecha.toLocaleString('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' })
+    : (info?.generado_en || '—');
+
+  openModal(`
+    <div class="modal-head">
+      <div><p class="modal-title">Ajustes</p><p class="modal-sub">Rutas por el Monte</p></div>
+      <button class="modal-close" id="modal-close">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-section">
+        <p class="modal-section-title">Versión</p>
+        <div class="settings-list">
+          <div class="settings-row"><span class="settings-label">Build</span><span class="settings-value">${info?.app_build || '—'}</span></div>
+          <div class="settings-row"><span class="settings-label">Datos actualizados</span><span class="settings-value">${fechaTxt}</span></div>
+          <div class="settings-row"><span class="settings-label">Rutas</span><span class="settings-value">${info?.total_rutas ?? ROUTES.length}</span></div>
+        </div>
+      </div>
+    </div>
+  `, '440px');
 }
 
 function buildFacets() {
@@ -273,8 +290,10 @@ function renderCard(r) {
     ? `<a class="icon-btn" href="${r.wikiloc_url}" target="_blank" rel="noopener" title="Ver en Wikiloc" onclick="event.stopPropagation()">${ICON_WIKILOC}</a>` : '';
   const ytBtn = r.youtube_url
     ? `<a class="icon-btn" href="${r.youtube_url}" target="_blank" rel="noopener" title="Ver vídeo en YouTube" onclick="event.stopPropagation()">${ICON_YOUTUBE}</a>` : '';
-  const mapBtn = hasValidMap(r)
-    ? `<button type="button" class="card-map-btn" data-map-id="${r.id}">${ICON_MAP} Ver mapa y recorrido</button>` : '';
+  // Solo un indicador (no una acción aparte): el mapa vive dentro del
+  // detalle de la ruta, así que aquí basta con avisar de que existe.
+  const mapIcon = hasValidMap(r)
+    ? `<span class="icon-btn" title="Con mapa y recorrido">${ICON_MAP}</span>` : '';
 
   return `
     <div class="card" data-id="${r.id}">
@@ -295,11 +314,10 @@ function renderCard(r) {
         <div class="route-stat"><b>${fmtDur(r)}</b>Duración</div>
       </div>
       <div class="card-footer">
-        ${wikiBtn}${ytBtn}
+        ${wikiBtn}${ytBtn}${mapIcon}
         <span class="spacer"></span>
         <span class="detail-link">Ver detalle →</span>
       </div>
-      ${mapBtn}
     </div>
   `;
 }
@@ -355,12 +373,6 @@ function renderRoutes() {
   grid.querySelectorAll('.card').forEach(card => {
     card.addEventListener('click', () => openRouteModal(card.dataset.id));
   });
-  grid.querySelectorAll('.card-map-btn').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      openMapModal(btn.dataset.mapId);
-    });
-  });
 
   const hayMas = showing.length < filtered.length;
   loadMoreWrap.hidden = !hayMas;
@@ -393,8 +405,20 @@ function openRouteModal(id) {
   const origen = r.origen || 'Wikiloc personal';
   const origenClass = /^wikiloc/i.test(origen) ? 'origen-wikiloc' : 'origen-oficial';
   const tagsHtml = (r.caracteristicas || []).map(t => `<span class="tag">${t}</span>`).join('') || '<span class="tag">Sin datos</span>';
+
+  // El mapa y sus acciones viven dentro del propio detalle (no en un modal
+  // aparte): si la ruta lo tiene, "Cómo llegar"/"Descargar GPX" se añaden
+  // al mismo grupo de enlaces que Wikiloc/YouTube/fuente, justo debajo del mapa.
+  const conMapa = hasValidMap(r);
+  const comoLlegarUrl = conMapa
+    ? (r.mapa_origen_url || (r.latitud_origen != null && r.longitud_origen != null
+        ? `https://www.google.com/maps/dir/?api=1&destination=${r.latitud_origen},${r.longitud_origen}`
+        : null))
+    : null;
+
   const linksHtml = `
-    ${hasValidMap(r) ? `<button type="button" data-map-trigger="1">${ICON_MAP} Ver mapa y recorrido</button>` : ''}
+    ${comoLlegarUrl ? `<a href="${comoLlegarUrl}" target="_blank" rel="noopener">${ICON_DIRECTIONS} Cómo llegar al inicio</a>` : ''}
+    ${conMapa && r.track_gpx ? `<a href="${r.track_gpx}" download>${ICON_DOWNLOAD} Descargar GPX</a>` : ''}
     ${r.wikiloc_url ? `<a href="${r.wikiloc_url}" target="_blank" rel="noopener">${ICON_WIKILOC} Ver en Wikiloc</a>` : ''}
     ${r.youtube_url ? `<a href="${r.youtube_url}" target="_blank" rel="noopener">${ICON_YOUTUBE} Ver vídeo</a>` : ''}
     ${r.fuente_url ? `<a href="${r.fuente_url}" target="_blank" rel="noopener">${ICON_SOURCE} Ver fuente oficial</a>` : ''}
@@ -442,52 +466,25 @@ function openRouteModal(id) {
         <p class="modal-section-title">Descripción</p>
         <div class="insight-note">${r.descripcion}</div>
       </div>` : ''}
+      ${conMapa ? `
       <div class="modal-section">
-        <div class="modal-links">${linksHtml || '<span class="tag">Sin enlaces disponibles</span>'}</div>
+        <p class="modal-section-title">Mapa y recorrido</p>
+        <div id="map-container" class="map-container"><div class="map-loading">Cargando mapa…</div></div>
+      </div>` : ''}
+      <div class="modal-section">
+        <div class="modal-links">${linksHtml.trim() ? linksHtml : '<span class="tag">Sin enlaces disponibles</span>'}</div>
       </div>
     </div>
-  `);
+  `, conMapa ? '1000px' : '820px');
 
-  const mapTrigger = modalCard.querySelector('[data-map-trigger]');
-  if (mapTrigger) mapTrigger.addEventListener('click', () => openMapModal(r.id));
+  if (conMapa) {
+    // El contenedor ya está en el DOM tras openModal(); esperamos al
+    // siguiente frame para que tenga tamaño real antes de inicializar Leaflet.
+    requestAnimationFrame(() => initLeafletMap(r));
+  }
 }
 
-/* ---------------- modal: mapa y recorrido (Leaflet + GeoJSON bajo demanda) ---------------- */
-function openMapModal(id) {
-  const r = ROUTES.find(x => x.id === id);
-  if (!hasValidMap(r)) return;
-
-  const comoLlegarUrl = r.mapa_origen_url ||
-    (r.latitud_origen != null && r.longitud_origen != null
-      ? `https://www.google.com/maps/dir/?api=1&destination=${r.latitud_origen},${r.longitud_origen}`
-      : null);
-
-  const actionsHtml = `
-    ${comoLlegarUrl ? `<a href="${comoLlegarUrl}" target="_blank" rel="noopener">${ICON_DIRECTIONS} Cómo llegar al inicio</a>` : ''}
-    ${r.track_gpx ? `<a href="${r.track_gpx}" download>${ICON_DOWNLOAD} Descargar GPX</a>` : ''}
-    ${r.wikiloc_url ? `<a href="${r.wikiloc_url}" target="_blank" rel="noopener">${ICON_WIKILOC} Abrir en Wikiloc</a>` : ''}
-    ${r.youtube_url ? `<a href="${r.youtube_url}" target="_blank" rel="noopener">${ICON_YOUTUBE} Ver vídeo</a>` : ''}
-  `;
-
-  openModal(`
-    <div class="modal-head">
-      <div>
-        <p class="modal-title">${r.nombre}</p>
-        <p class="modal-sub">${[r.localidad, r.region, r.pais].filter(Boolean).join(' · ')}</p>
-      </div>
-      <button class="modal-close" id="modal-close">✕</button>
-    </div>
-    <div class="modal-body map-modal-body">
-      <div id="map-container" class="map-container"><div class="map-loading">Cargando mapa…</div></div>
-      <div class="map-modal-actions">${actionsHtml.trim() ? actionsHtml : '<span class="tag">Sin acciones disponibles</span>'}</div>
-    </div>
-  `, '1080px');
-
-  // El contenedor ya está en el DOM tras openModal(); esperamos al siguiente
-  // frame para que tenga tamaño real antes de inicializar Leaflet.
-  requestAnimationFrame(() => initLeafletMap(r));
-}
-
+/* ---------------- mapa embebido en el detalle (Leaflet + GeoJSON bajo demanda) ---------------- */
 async function initLeafletMap(r) {
   const container = document.getElementById('map-container');
   if (!container) return; // el modal se cerró antes de llegar aquí
@@ -768,6 +765,7 @@ async function init() {
   initServiceWorker();
 
   document.getElementById('stats-cta').addEventListener('click', openGlobalStatsModal);
+  document.getElementById('settings-btn').addEventListener('click', openSettingsModal);
 
   const filtersToggle = document.getElementById('filters-toggle');
   const filtersPanel = document.getElementById('filters-panel');
@@ -794,7 +792,8 @@ async function init() {
   // La metadata de versión es puramente informativa: si falla, no debe
   // impedir que se muestren las rutas (por eso va en su propio try/catch
   // dentro de loadVersionInfo, y se pide después de tener ya las rutas).
-  renderVersionInfo(await loadVersionInfo());
+  // Se guarda para mostrarla bajo demanda en el modal de Ajustes.
+  VERSION_INFO = await loadVersionInfo();
 
   buildFacets();
   renderSummary();

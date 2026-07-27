@@ -57,12 +57,13 @@ lo actualiza al terminar. Luego solo falta commitear y subir el cambio.
 
 ## Versión de los datos
 
-El pie de página muestra, en pequeño, el build de la app y cuándo se generó
-`data/rutas.json` por última vez (p. ej. "v3 · datos actualizados: 27/07/2026
-19:04 · 273 rutas"), leyendo `data/version.json`. Así siempre se sabe si lo
-que se está viendo es la última versión desplegada, tanto en local como en
-producción. Si ese fichero no existe o falla la petición (por ejemplo, una
-build muy antigua), simplemente no se muestra nada: nunca bloquea la app.
+Junto al selector de tema (arriba a la derecha) hay un botón de engranaje
+**⚙️ Ajustes**. Su modal muestra el build de la app, cuándo se generó
+`data/rutas.json` por última vez y el nº de rutas, leyendo `data/version.json`
+(sin tener que bajar hasta el pie de página). Si ese fichero no existe o
+falla la petición (por ejemplo, una build muy antigua), el modal simplemente
+muestra "—": nunca bloquea la app. Con el tiempo, este modal de Ajustes es
+donde irán añadiéndose más opciones.
 
 ## Carga por lotes de las tarjetas (rendimiento con muchas rutas)
 
@@ -79,13 +80,17 @@ sobre el conjunto completo.
 
 ## Mapa y recorrido (GPX/GeoJSON)
 
-Cada ruta puede tener un track real asociado. El botón **«Ver mapa y recorrido»** (en la
-tarjeta y en el modal de detalle) solo aparece cuando, a la vez:
+Cada ruta puede tener un track real asociado. El mapa está **embebido dentro del propio
+modal de detalle** (no en una ventana ni botón aparte): al abrir "Ver detalle" de una ruta
+que lo tiene, aparece una sección "Mapa y recorrido" con el track dibujado, y junto a los
+enlaces de Wikiloc/YouTube se añaden "Cómo llegar al inicio" y "Descargar GPX". En la
+tarjeta solo se ve un pequeño icono de mapa (igual que los de Wikiloc/YouTube) como aviso
+de que esa ruta lo tiene. Esto ocurre solo cuando, a la vez:
 
 - `mapa_habilitado === true`, y
 - `estado_track === "VALIDADO"`.
 
-El GeoJSON se carga con `fetch()` únicamente cuando se abre ese mapa (nunca se precargan
+El GeoJSON se carga con `fetch()` únicamente cuando se abre ese detalle (nunca se precargan
 los 273 recorridos al iniciar la app). El mapa usa Leaflet 1.9.4 (versión fijada por CDN)
 sobre mosaicos de OpenStreetMap, y la instancia se destruye (`map.remove()`) al cerrar o
 sustituir el modal para no acumular mapas en memoria.
@@ -140,7 +145,9 @@ Pensado para servirse con GitHub Pages desde la raíz de `main`.
 
 ## Pendiente / roadmap
 
-- Copiar a `data/gpx/` y `data/tracks/` los archivos de las 199 rutas marcadas como
-  `PENDIENTE_ARCHIVOS` y volver a ejecutar `merge_tracks.py` para activar sus mapas.
-- Revisar a mano las 6 rutas `REVISAR_NOMBRE` antes de decidir si se activan.
+- 199 rutas ya tienen mapa activo (`VALIDADO` + archivos reales en `data/gpx/`/`data/tracks/`).
+  Revisar a mano las 6 rutas `REVISAR_NOMBRE` (sus archivos ya están copiados, solo falta
+  confirmar el nombre y cambiar su `estado_track` a `VALIDADO` en el fichero de cruce antes
+  de volver a ejecutar `merge_tracks.py`).
+- El modal de Ajustes (⚙️) es el sitio donde añadir más opciones de configuración a futuro.
 - Cuentas de usuario (Google) para guardar favoritos y rutas ya realizadas.
