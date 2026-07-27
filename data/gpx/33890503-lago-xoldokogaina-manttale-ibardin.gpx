@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Wikiloc - https://www.wikiloc.com" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Wikiloc - LAGO DE XOLDOKOGAINA y MANTTALE desde IBARDIN</name>
+    <link href="https://www.wikiloc.com/hiking-trails/lago-de-xoldokogaina-y-manttale-desde-ibardin-33890503">
+      <text>LAGO DE XOLDOKOGAINA y MANTTALE desde IBARDIN on Wikiloc</text>
+    </link>
+    <time>2019-03-08T17:26:44Z</time>
+  </metadata>
+  <wpt lat="43.309830" lon="-1.686601">
+    <ele>372.5</ele>
+    <time>2019-03-08T15:07:14Z</time>
+    <name>Salida desde parking de Ibardin</name>
+    <cmt>Punto de salida desde parking de Ibardin. Tomamos la pista 5.</cmt>
+    <desc>Punto de salida desde parking de Ibardin. Tomamos la pista 5.</desc>
+  </wpt>
+  <wpt lat="43.317055" lon="-1.690138">
+    <ele>353.7</ele>
+    <time>2019-03-08T15:22:30Z</time>
+    <name>Punto con vistas al mar</name>
+    <cmt>Mientras avanzamos por la pista 5 llegaremos a un pequeño claro, despejado, donde se abre un hueco con vistas al mar.</cmt>
+    <desc>Mientras avanzamos por la pista 5 llegaremos a un pequeño claro, despejado, donde se abre un hueco con vistas al mar.</desc>
+  </wpt>
+  <wpt lat="43.323056" lon="-1.705825">
+    <ele>309.5</ele>
+    <time>2019-03-08T15:43:50Z</time>
+    <name>Giro izquierda</name>
+    <cmt>En esta intersección, giramos a la izquierda. Este camino nos lleva hacia el lago de Xoldokogaina.</cmt>
+    <desc>En esta intersección, giramos a la izquierda. Este camino nos lleva hacia el lago de Xoldokogaina.</desc>
+  </wpt>
+  <wpt lat="43.322421" lon="-1.706766">
+    <ele>295.1</ele>
+    <time>2019-03-08T15:46:17Z</time>
+    <name>Lago de Xoldokogaina</name>
+    <cmt>Tras girar a la izquierda y antes de cruzar por la presa, podemos acercarnos a la orilla del lago y disfrutar de la tranquilidad que desprende.</cmt>
+    <desc>Tras girar a la izquierda y antes de cruzar por la presa, podemos acercarnos a la orilla del lago y disfrutar de la tranquilidad que desprende.</desc>
+  </wpt>
+  <wpt lat="43.323283" lon="-1.707104">
+    <ele>300.8</ele>
+    <time>2019-03-08T15:53:33Z</time>
+    <name>Paso sobre presa</name>
+    <cmt>Tras deleitarnos con las vistas del lago, lo cruzamos por encima de la presa. Hay abrir un par de portones, uno a la entrada y otro a la salida, que evitan el paso de animales.</cmt>
+    <desc>Tras deleitarnos con las vistas del lago, lo cruzamos por encima de la presa. Hay abrir un par de portones, uno a la entrada y otro a la salida, que evitan el paso de animales.</desc>
+  </wpt>
+  <wpt lat="43.322750" lon="-1.708628">
+    <ele>298.1</ele>
+    <time>2019-03-08T15:58:27Z</time>
+    <name>Giro hacia la izquierda</name>
+    <cmt>Una vez pasada la presa, vamos por la senda hacia la izquierda y en la bifurcación, volvemos a tomar el camino de la izquierda. Entraremos en una senda muy marcada.</cmt>
+    <desc>Una vez pasada la presa, vamos por la senda hacia la izquierda y en la bifurcación, volvemos a tomar el camino de la izquierda. Entraremos en una senda muy marcada.</desc>
+  </wpt>
+  <wpt lat="43.319531" lon="-1.710914">
+    <ele>309.5</ele>
+    <time>2019-03-08T16:05:09Z</time>
+    <name>Borda</name>
+    <cmt>Siguiendo la senda, llegaremos a una borda. En este punto hay también una pequeña bifurcación. Nosotros iremos por el camino de la izquierda, dejando la borda a nuestra derecha.</cmt>
+    <desc>Siguiendo la senda, llegaremos a una borda. En este punto hay también una pequeña bifurcación. Nosotros iremos por el camino de la izquierda, dejando la borda a nuestra derecha.</desc>
+  </wpt>
+  <wpt lat="43.319163" lon="-1.712455">
+    <ele>301.3</ele>
+    <time>2019-03-08T16:07:36Z</time>
+    <name>Cruce izquierda</name>
+    <cmt>En esta intersección, tomaremos el camino hacia la izquierda. Al poco de pasar este cruce, llegaremos a otro, en el que también seguiremos por el camino principal, que va por la izquierda.</cmt>
+    <desc>En esta intersección, tomaremos el camino hacia la izquierda. Al poco de pasar este cruce, llegaremos a otro, en el que también seguiremos por el camino principal, que va por la izquierda.</desc>
+  </wpt>
+  <wpt lat="43.318504" lon="-1.711022">
+    <ele>306.1</ele>
+    <time>2019-03-08T16:13:44Z</time>
+    <name>Giro derecha 180 grados</name>
+    <cmt>Vemos otra intersección, en la que tomaremos el camino ascendente que gira 180º a nuestra derecha</cmt>
+    <desc>Vemos otra intersección, en la que tomaremos el camino ascendente que gira 180º a nuestra derecha</desc>
+  </wpt>
+  <wpt lat="43.317099" lon="-1.711547">
+    <ele>334.6</ele>
+    <time>2019-03-08T16:17:41Z</time>
+    <name>Seguir por la derecha.</name>
+    <cmt>Tras ascender un poco, llegaremos a un pequeño collado, con un cruce de caminos. Seguiremos por el principal, que va por la derecha. El de la izquierda es un atajo, pero a veces está cerrado por la maleza, por lo que preferimos asegurar.</cmt>
+    <desc>Tras ascender un poco, llegaremos a un pequeño collado, con un cruce de caminos. Seguiremos por el principal, que va por la derecha. El de la izquierda es un atajo, pero a veces está cerrado por la maleza, por lo que preferimos asegurar.</desc>
+  </wpt>
+  <wpt lat="43.317114" lon="-1.716567">
+    <ele>355.3</ele>
+    <time>2019-03-08T16:25:27Z</time>
+    <name>Giro izquierda 180º hacia GR10</name>
+    <cmt>Llegados a este cruce de caminos con un poste indicativo, haremos un giro de 180º hacia el camino ascendente. Este camino está marcado con pintura blanca y roja, ya que es la GR10. Esta senda nos llevará hacia el collado de Joncs y el cordal de Manttale.</cmt>
+    <desc>Llegados a este cruce de caminos con un poste indicativo, haremos un giro de 180º hacia el camino ascendente. Este camino está marcado con pintura blanca y roja, ya que es la GR10. Esta senda nos llevará hacia el collado de Joncs y el cordal de Manttale.</desc>
+  </wpt>
+  <wpt lat="43.311002" lon="-1.712421">
+    <ele>456.0</ele>
+    <time>2019-03-08T16:39:17Z</time>
+    <name>Collado de Joncs</name>
+    <cmt>Tras avanzar un rato por la GR10 llegaremos al collado de Joncs. Las vistas desde aquí no tienen desperdicio. A partir de aquí, seguiremos la senda. A los pocos metros del collado, parece que se bifurca, el camino de la izquierda va hacia la pequeña cima que vemos frente a nosotros y el de la derecha es nuestro camino, que se dirige hacia el cordal de Manttale.</cmt>
+    <desc>Tras avanzar un rato por la GR10 llegaremos al collado de Joncs. Las vistas desde aquí no tienen desperdicio. A partir de aquí, seguiremos la senda. A los pocos metros del collado, parece que se bifurca, el camino de la izquierda va hacia la pequeña cima que vemos frente a nosotros y el de la derecha es nuestro camino, que se dirige hacia el cordal de Manttale.</desc>
+  </wpt>
+  <wpt lat="43.309797" lon="-1.707065">
+    <ele>535.0</ele>
+    <time>2019-03-08T16:47:58Z</time>
+    <name>Giro a la derecha</name>
+    <cmt>Si seguimos por la senda, llegaremos a un punto en el que el camino gira a la derecha. Haremos ese giro, y nos dirigiremos hacia la cresta del cordal de Manttale.</cmt>
+    <desc>Si seguimos por la senda, llegaremos a un punto en el que el camino gira a la derecha. Haremos ese giro, y nos dirigiremos hacia la cresta del cordal de Manttale.</desc>
+  </wpt>
+  <wpt lat="43.305655" lon="-1.708618">
+    <ele>595.4</ele>
+    <time>2019-03-08T16:56:39Z</time>
+    <name>Zigorriaga (549 m)</name>
+    <cmt>Una vez llegados a la cresta, veremos una cima a nuestra derecha. Se trata de Zigorriaga (549 m). Nosotros nos dirigiremos hacia allí para contemplar las vistas que nos ofrece, y luego volveremos sobre nuestros pasos siguiendo la cresta hacia Manttale.</cmt>
+    <desc>Una vez llegados a la cresta, veremos una cima a nuestra derecha. Se trata de Zigorriaga (549 m). Nosotros nos dirigiremos hacia allí para contemplar las vistas que nos ofrece, y luego volveremos sobre nuestros pasos siguiendo la cresta hacia Manttale.</desc>
+  </wpt>
+  <wpt lat="43.309129" lon="-1.703278">
+    <ele>613.2</ele>
+    <time>2019-03-08T17:05:49Z</time>
+    <name>Manttale (573 m)</name>
+    <cmt>Cima de Manttale o Manddale (573 m)</cmt>
+    <desc>Cima de Manttale o Manddale (573 m)</desc>
+  </wpt>
+  <wpt lat="43.311141" lon="-1.697600">
+    <ele>554.5</ele>
+    <time>2019-03-08T17:12:40Z</time>
+    <name>Cromlech de Manttale y senda entre las rocas</name>
+    <cmt>Cromlech de Manttale. Tras visitarlo, seguiremos recto, buscando la pequeña senda que discurre entre las rocas. Esta senda baja directamente hacia Ibardin, en un camino que desciende con una pendiente importante.</cmt>
+    <desc>Cromlech de Manttale. Tras visitarlo, seguiremos recto, buscando la pequeña senda que discurre entre las rocas. Esta senda baja directamente hacia Ibardin, en un camino que desciende con una pendiente importante.</desc>
+  </wpt>
+  <trk>
+    <name>LAGO DE XOLDOKOGAINA y MANTTALE desde IBARDIN</name>
+    <cmt>La ruta de hoy parte desde Ibardin y nos lleva al lago de Xoldokogaina. Desde ahí, subimos hacia Zigorriaga (549 m) y Manttale (573 m) para disfrutar de unas preciosas vistas del mar, Jaizkibel, Peñas de Aya o Larun entre otros. 
+ 
+&lt;iframe height="360" src="https://www.youtube.com/embed/bYtRxKWhVFc"&gt;&lt;/iframe&gt;</cmt>
+    <desc>La ruta de hoy parte desde Ibardin y nos lleva al lago de Xoldokogaina. Desde ahí, subimos hacia Zigorriaga (549 m) y Manttale (573 m) para disfrutar de unas preciosas vistas del mar, Jaizkibel, Peñas de Aya o Larun entre otros. 
+ 
+&lt;iframe height="360" src="https://www.youtube.com/embed/bYtRxKWhVFc"&gt;&lt;/iframe&gt;</desc>
+    <trkseg>
+      <trkpt lat="43.309811" lon="-1.686437">
+        <ele>370.438</ele>
+        <time>2019-03-08T15:07:00Z</time>
+      </trkpt>
+      <trkpt lat="43.310008" lon="-1.687157">
+        <ele>370.470</ele>
+        <time>2019-03-08T15:08:50Z</time>
+      </trkpt>
+      <trkpt lat="43.310561" lon="-1.687463">
+        <ele>369.717</ele>
+        <time>2019-03-08T15:09:36Z</time>
+      </trkpt>
+      <trkpt lat="43.310735" lon="-1.687956">
+        <ele>368.308</ele>
+        <time>2019-03-08T15:10:07Z</time>
+      </trkpt>
+      <trkpt lat="43.310963" lon="-1.688156">
+        <ele>372.926</ele>
+        <time>2019-03-08T15:10:26Z</time>
+      </trkpt>
+      <trkpt lat="43.311202" lon="-1.688967">
+        <ele>378.796</ele>
+        <time>2019-03-08T15:11:11Z</time>
+      </trkpt>
+      <trkpt lat="43.311887" lon="-1.688897">
+        <ele>381.171</ele>
+        <time>2019-03-08T15:12:02Z</time>
+      </trkpt>
+      <trkpt lat="43.312202" lon="-1.688653">
+        <ele>376.492</ele>
+        <time>2019-03-08T15:12:32Z</time>
+      </trkpt>
+      <trkpt lat="43.312459" lon="-1.688724">
+        <ele>371.993</ele>
+        <time>2019-03-08T15:12:49Z</time>
+      </trkpt>
+      <trkpt lat="43.312526" lon="-1.689140">
+        <ele>364.248</ele>
+        <time>2019-03-08T15:13:16Z</time>
+      </trkpt>
+      <trkpt lat="43.312367" lon="-1.690125">
+        <ele>351.493</ele>
+        <time>2019-03-08T15:14:16Z</time>
+      </trkpt>
+      <trkpt lat="43.312502" lon="-1.690360">
+        <ele>361.726</ele>
+        <time>2019-03-08T15:14:27Z</time>
+      </trkpt>
+      <trkpt lat="43.312869" lon="-1.690555">
+        <ele>353.859</ele>
+        <time>2019-03-08T15:14:58Z</time>
+      </trkpt>
+      <trkpt lat="43.312965" lon="-1.691111">
+        <ele>363.203</ele>
+        <time>2019-03-08T15:15:30Z</time>
+      </trkpt>
+      <trkpt lat="43.313925" lon="-1.690528">
+        <ele>359.423</ele>
+        <time>2019-03-08T15:17:36Z</time>
+      </trkpt>
+      <trkpt lat="43.314406" lon="-1.690540">
+        <ele>353.408</ele>
+        <time>2019-03-08T15:18:15Z</time>
+      </trkpt>
+      <trkpt lat="43.314818" lon="-1.690780">
+        <ele>356.198</ele>
+        <time>2019-03-08T15:18:50Z</time>
+      </trkpt>
+      <trkpt lat="43.315447" lon="-1.690270">
+        <ele>358.588</ele>
+        <time>2019-03-08T15:19:51Z</time>
+      </trkpt>
+      <trkpt lat="43.316210" lon="-1.689898">
+        <ele>361.963</ele>
+        <time>2019-03-08T15:21:04Z</time>
+      </trkpt>
+      <trkpt lat="43.316747" lon="-1.689925">
+        <ele>358.484</ele>
+        <time>2019-03-08T15:21:46Z</time>
+      </trkpt>
+      <trkpt lat="43.317098" lon="-1.690191">
+        <ele>354.055</ele>
+        <time>2019-03-08T15:22:34Z</time>
+      </trkpt>
+      <trkpt lat="43.317572" lon="-1.691630">
+        <ele>348.390</ele>
+        <time>2019-03-08T15:24:07Z</time>
+      </trkpt>
+      <trkpt lat="43.318045" lon="-1.691856">
+        <ele>356.575</ele>
+        <time>2019-03-08T15:24:53Z</time>
+      </trkpt>
+      <trkpt lat="43.318639" lon="-1.692661">
+        <ele>353.758</ele>
+        <time>2019-03-08T15:26:14Z</time>
+      </trkpt>
+      <trkpt lat="43.318643" lon="-1.693031">
+        <ele>357.638</ele>
+        <time>2019-03-08T15:26:36Z</time>
+      </trkpt>
+      <trkpt lat="43.318369" lon="-1.693513">
+        <ele>366.170</ele>
+        <time>2019-03-08T15:27:12Z</time>
+      </trkpt>
+      <trkpt lat="43.318998" lon="-1.695375">
+        <ele>354.217</ele>
+        <time>2019-03-08T15:29:10Z</time>
+      </trkpt>
+      <trkpt lat="43.318794" lon="-1.697679">
+        <ele>345.908</ele>
+        <time>2019-03-08T15:31:36Z</time>
+      </trkpt>
+      <trkpt lat="43.319101" lon="-1.698615">
+        <ele>343.966</ele>
+        <time>2019-03-08T15:32:27Z</time>
+      </trkpt>
+      <trkpt lat="43.319554" lon="-1.699203">
+        <ele>337.376</ele>
+        <time>2019-03-08T15:33:43Z</time>
+      </trkpt>
+      <trkpt lat="43.320452" lon="-1.699357">
+        <ele>333.841</ele>
+        <time>2019-03-08T15:34:56Z</time>
+      </trkpt>
+      <trkpt lat="43.320866" lon="-1.699753">
+        <ele>330.682</ele>
+        <time>2019-03-08T15:35:37Z</time>
+      </trkpt>
+      <trkpt lat="43.321191" lon="-1.700889">
+        <ele>326.423</ele>
+        <time>2019-03-08T15:38:13Z</time>
+      </trkpt>
+      <trkpt lat="43.321223" lon="-1.701894">
+        <ele>328.048</ele>
+        <time>2019-03-08T15:39:10Z</time>
+      </trkpt>
+      <trkpt lat="43.321818" lon="-1.704233">
+        <ele>318.463</ele>
+        <time>2019-03-08T15:41:23Z</time>
+      </trkpt>
+      <trkpt lat="43.322505" lon="-1.705527">
+        <ele>314.216</ele>
+        <time>2019-03-08T15:43:03Z</time>
+      </trkpt>
+      <trkpt lat="43.323187" lon="-1.706040">
+        <ele>305.259</ele>
+        <time>2019-03-08T15:44:28Z</time>
+      </trkpt>
+      <trkpt lat="43.323109" lon="-1.706366">
+        <ele>301.503</ele>
+        <time>2019-03-08T15:44:45Z</time>
+      </trkpt>
+      <trkpt lat="43.322120" lon="-1.706963">
+        <ele>296.523</ele>
+        <time>2019-03-08T15:46:43Z</time>
+      </trkpt>
+      <trkpt lat="43.321380" lon="-1.707866">
+        <ele>295.808</ele>
+        <time>2019-03-08T15:48:56Z</time>
+      </trkpt>
+      <trkpt lat="43.321993" lon="-1.707043">
+        <ele>301.148</ele>
+        <time>2019-03-08T15:50:09Z</time>
+      </trkpt>
+      <trkpt lat="43.322932" lon="-1.706449">
+        <ele>310.468</ele>
+        <time>2019-03-08T15:51:46Z</time>
+      </trkpt>
+      <trkpt lat="43.322732" lon="-1.706619">
+        <ele>306.953</ele>
+        <time>2019-03-08T15:52:06Z</time>
+      </trkpt>
+      <trkpt lat="43.323304" lon="-1.707176">
+        <ele>300.154</ele>
+        <time>2019-03-08T15:53:38Z</time>
+      </trkpt>
+      <trkpt lat="43.323151" lon="-1.708075">
+        <ele>299.235</ele>
+        <time>2019-03-08T15:55:21Z</time>
+      </trkpt>
+      <trkpt lat="43.322510" lon="-1.708549">
+        <ele>300.050</ele>
+        <time>2019-03-08T15:57:17Z</time>
+      </trkpt>
+      <trkpt lat="43.322798" lon="-1.708570">
+        <ele>298.735</ele>
+        <time>2019-03-08T15:58:37Z</time>
+      </trkpt>
+      <trkpt lat="43.322381" lon="-1.709139">
+        <ele>307.858</ele>
+        <time>2019-03-08T15:59:43Z</time>
+      </trkpt>
+      <trkpt lat="43.322178" lon="-1.709101">
+        <ele>313.711</ele>
+        <time>2019-03-08T16:00:04Z</time>
+      </trkpt>
+      <trkpt lat="43.321572" lon="-1.709460">
+        <ele>307.221</ele>
+        <time>2019-03-08T16:00:57Z</time>
+      </trkpt>
+      <trkpt lat="43.320442" lon="-1.709210">
+        <ele>299.303</ele>
+        <time>2019-03-08T16:02:25Z</time>
+      </trkpt>
+      <trkpt lat="43.319945" lon="-1.710635">
+        <ele>310.208</ele>
+        <time>2019-03-08T16:04:05Z</time>
+      </trkpt>
+      <trkpt lat="43.319390" lon="-1.711022">
+        <ele>308.184</ele>
+        <time>2019-03-08T16:05:25Z</time>
+      </trkpt>
+      <trkpt lat="43.319117" lon="-1.711485">
+        <ele>298.734</ele>
+        <time>2019-03-08T16:06:13Z</time>
+      </trkpt>
+      <trkpt lat="43.319210" lon="-1.712360">
+        <ele>299.149</ele>
+        <time>2019-03-08T16:07:03Z</time>
+      </trkpt>
+      <trkpt lat="43.319117" lon="-1.712536">
+        <ele>301.520</ele>
+        <time>2019-03-08T16:07:46Z</time>
+      </trkpt>
+      <trkpt lat="43.318089" lon="-1.712495">
+        <ele>304.491</ele>
+        <time>2019-03-08T16:11:57Z</time>
+      </trkpt>
+      <trkpt lat="43.318490" lon="-1.710964">
+        <ele>305.456</ele>
+        <time>2019-03-08T16:14:07Z</time>
+      </trkpt>
+      <trkpt lat="43.317891" lon="-1.711836">
+        <ele>324.561</ele>
+        <time>2019-03-08T16:15:30Z</time>
+      </trkpt>
+      <trkpt lat="43.317103" lon="-1.711556">
+        <ele>334.954</ele>
+        <time>2019-03-08T16:16:49Z</time>
+      </trkpt>
+      <trkpt lat="43.316659" lon="-1.711905">
+        <ele>335.587</ele>
+        <time>2019-03-08T16:19:30Z</time>
+      </trkpt>
+      <trkpt lat="43.316250" lon="-1.712533">
+        <ele>347.142</ele>
+        <time>2019-03-08T16:20:20Z</time>
+      </trkpt>
+      <trkpt lat="43.315959" lon="-1.713331">
+        <ele>347.626</ele>
+        <time>2019-03-08T16:21:15Z</time>
+      </trkpt>
+      <trkpt lat="43.316514" lon="-1.713834">
+        <ele>344.608</ele>
+        <time>2019-03-08T16:22:07Z</time>
+      </trkpt>
+      <trkpt lat="43.316485" lon="-1.714374">
+        <ele>345.851</ele>
+        <time>2019-03-08T16:22:40Z</time>
+      </trkpt>
+      <trkpt lat="43.316809" lon="-1.714894">
+        <ele>350.961</ele>
+        <time>2019-03-08T16:23:20Z</time>
+      </trkpt>
+      <trkpt lat="43.317157" lon="-1.716765">
+        <ele>360.026</ele>
+        <time>2019-03-08T16:26:36Z</time>
+      </trkpt>
+      <trkpt lat="43.315926" lon="-1.714869">
+        <ele>390.817</ele>
+        <time>2019-03-08T16:29:56Z</time>
+      </trkpt>
+      <trkpt lat="43.315141" lon="-1.714389">
+        <ele>407.958</ele>
+        <time>2019-03-08T16:31:14Z</time>
+      </trkpt>
+      <trkpt lat="43.314590" lon="-1.714316">
+        <ele>418.163</ele>
+        <time>2019-03-08T16:32:16Z</time>
+      </trkpt>
+      <trkpt lat="43.314164" lon="-1.713932">
+        <ele>428.428</ele>
+        <time>2019-03-08T16:33:20Z</time>
+      </trkpt>
+      <trkpt lat="43.313475" lon="-1.713627">
+        <ele>435.131</ele>
+        <time>2019-03-08T16:34:22Z</time>
+      </trkpt>
+      <trkpt lat="43.312082" lon="-1.713323">
+        <ele>448.867</ele>
+        <time>2019-03-08T16:36:34Z</time>
+      </trkpt>
+      <trkpt lat="43.311104" lon="-1.712643">
+        <ele>453.781</ele>
+        <time>2019-03-08T16:38:31Z</time>
+      </trkpt>
+      <trkpt lat="43.310629" lon="-1.710844">
+        <ele>478.919</ele>
+        <time>2019-03-08T16:41:47Z</time>
+      </trkpt>
+      <trkpt lat="43.310340" lon="-1.708765">
+        <ele>510.608</ele>
+        <time>2019-03-08T16:44:28Z</time>
+      </trkpt>
+      <trkpt lat="43.309784" lon="-1.707006">
+        <ele>537.319</ele>
+        <time>2019-03-08T16:48:27Z</time>
+      </trkpt>
+      <trkpt lat="43.309401" lon="-1.707294">
+        <ele>547.659</ele>
+        <time>2019-03-08T16:49:12Z</time>
+      </trkpt>
+      <trkpt lat="43.308634" lon="-1.707529">
+        <ele>564.914</ele>
+        <time>2019-03-08T16:50:46Z</time>
+      </trkpt>
+      <trkpt lat="43.307815" lon="-1.707373">
+        <ele>575.415</ele>
+        <time>2019-03-08T16:52:21Z</time>
+      </trkpt>
+      <trkpt lat="43.307247" lon="-1.707014">
+        <ele>580.616</ele>
+        <time>2019-03-08T16:53:30Z</time>
+      </trkpt>
+      <trkpt lat="43.306665" lon="-1.707324">
+        <ele>583.831</ele>
+        <time>2019-03-08T16:54:22Z</time>
+      </trkpt>
+      <trkpt lat="43.305812" lon="-1.708297">
+        <ele>593.286</ele>
+        <time>2019-03-08T16:55:53Z</time>
+      </trkpt>
+      <trkpt lat="43.305666" lon="-1.708694">
+        <ele>597.629</ele>
+        <time>2019-03-08T16:57:39Z</time>
+      </trkpt>
+      <trkpt lat="43.305764" lon="-1.708347">
+        <ele>592.244</ele>
+        <time>2019-03-08T16:58:43Z</time>
+      </trkpt>
+      <trkpt lat="43.307607" lon="-1.706324">
+        <ele>583.305</ele>
+        <time>2019-03-08T17:01:37Z</time>
+      </trkpt>
+      <trkpt lat="43.308072" lon="-1.705180">
+        <ele>592.515</ele>
+        <time>2019-03-08T17:02:57Z</time>
+      </trkpt>
+      <trkpt lat="43.309115" lon="-1.703619">
+        <ele>613.108</ele>
+        <time>2019-03-08T17:05:12Z</time>
+      </trkpt>
+      <trkpt lat="43.309086" lon="-1.701243">
+        <ele>612.097</ele>
+        <time>2019-03-08T17:07:50Z</time>
+      </trkpt>
+      <trkpt lat="43.309240" lon="-1.700213">
+        <ele>616.167</ele>
+        <time>2019-03-08T17:08:50Z</time>
+      </trkpt>
+      <trkpt lat="43.309846" lon="-1.699624">
+        <ele>607.532</ele>
+        <time>2019-03-08T17:09:55Z</time>
+      </trkpt>
+      <trkpt lat="43.311137" lon="-1.697608">
+        <ele>554.683</ele>
+        <time>2019-03-08T17:12:32Z</time>
+      </trkpt>
+      <trkpt lat="43.311325" lon="-1.697558">
+        <ele>552.014</ele>
+        <time>2019-03-08T17:13:16Z</time>
+      </trkpt>
+      <trkpt lat="43.311750" lon="-1.696898">
+        <ele>546.829</ele>
+        <time>2019-03-08T17:14:20Z</time>
+      </trkpt>
+      <trkpt lat="43.311666" lon="-1.696443">
+        <ele>539.684</ele>
+        <time>2019-03-08T17:15:30Z</time>
+      </trkpt>
+      <trkpt lat="43.311928" lon="-1.695994">
+        <ele>528.137</ele>
+        <time>2019-03-08T17:16:04Z</time>
+      </trkpt>
+      <trkpt lat="43.311943" lon="-1.695009">
+        <ele>508.024</ele>
+        <time>2019-03-08T17:17:02Z</time>
+      </trkpt>
+      <trkpt lat="43.311582" lon="-1.693870">
+        <ele>473.304</ele>
+        <time>2019-03-08T17:18:36Z</time>
+      </trkpt>
+      <trkpt lat="43.312046" lon="-1.693113">
+        <ele>457.014</ele>
+        <time>2019-03-08T17:19:38Z</time>
+      </trkpt>
+      <trkpt lat="43.311777" lon="-1.692944">
+        <ele>452.408</ele>
+        <time>2019-03-08T17:20:14Z</time>
+      </trkpt>
+      <trkpt lat="43.311486" lon="-1.692268">
+        <ele>443.945</ele>
+        <time>2019-03-08T17:20:50Z</time>
+      </trkpt>
+      <trkpt lat="43.311316" lon="-1.691369">
+        <ele>433.465</ele>
+        <time>2019-03-08T17:21:41Z</time>
+      </trkpt>
+      <trkpt lat="43.311517" lon="-1.690962">
+        <ele>422.370</ele>
+        <time>2019-03-08T17:22:01Z</time>
+      </trkpt>
+      <trkpt lat="43.311499" lon="-1.690526">
+        <ele>418.791</ele>
+        <time>2019-03-08T17:22:24Z</time>
+      </trkpt>
+      <trkpt lat="43.311183" lon="-1.689671">
+        <ele>407.422</ele>
+        <time>2019-03-08T17:23:15Z</time>
+      </trkpt>
+      <trkpt lat="43.310967" lon="-1.689546">
+        <ele>399.447</ele>
+        <time>2019-03-08T17:23:40Z</time>
+      </trkpt>
+      <trkpt lat="43.310186" lon="-1.688075">
+        <ele>402.812</ele>
+        <time>2019-03-08T17:25:12Z</time>
+      </trkpt>
+      <trkpt lat="43.309716" lon="-1.686977">
+        <ele>390.815</ele>
+        <time>2019-03-08T17:26:19Z</time>
+      </trkpt>
+      <trkpt lat="43.309754" lon="-1.686677">
+        <ele>386.653</ele>
+        <time>2019-03-08T17:26:44Z</time>
+      </trkpt>
+    </trkseg>
+  </trk></gpx>

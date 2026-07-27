@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Wikiloc - https://www.wikiloc.com" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Wikiloc - IBON de PIEDRAFITA y ARCO de PIEDRAFITA ruta circular pasando por BARRANCO DE BOJ y BOSQUE del BETATO</name>
+    <link href="https://www.wikiloc.com/hiking-trails/ibon-de-piedrafita-y-arco-de-piedrafita-ruta-circular-pasando-por-barranco-de-boj-y-bosque-del-beta-39386147">
+      <text>IBON de PIEDRAFITA y ARCO de PIEDRAFITA ruta circular pasando por BARRANCO DE BOJ y BOSQUE del BETATO on Wikiloc</text>
+    </link>
+    <time>2019-08-02T13:03:32Z</time>
+  </metadata>
+  <wpt lat="42.695362" lon="-0.325646">
+    <ele>1285.2</ele>
+    <time>2019-08-02T09:12:29Z</time>
+    <name>Parking</name>
+    <cmt>Aparcamiento en Piedrafita de Jaca.</cmt>
+    <desc>Aparcamiento en Piedrafita de Jaca.</desc>
+  </wpt>
+  <wpt lat="42.695442" lon="-0.325799">
+    <ele>1302.1</ele>
+    <time>2019-08-02T09:13:28Z</time>
+    <name>Derecha</name>
+    <cmt>Comenzamos callejeando, girando a la derecha junto a los carteles.</cmt>
+    <desc>Comenzamos callejeando, girando a la derecha junto a los carteles.</desc>
+  </wpt>
+  <wpt lat="42.695915" lon="-0.325717">
+    <ele>1296.8</ele>
+    <time>2019-08-02T09:14:33Z</time>
+    <name>Izquierda</name>
+    <cmt>Giramos a la izquierda siguiendo la indicación.</cmt>
+    <desc>Giramos a la izquierda siguiendo la indicación.</desc>
+  </wpt>
+  <wpt lat="42.696224" lon="-0.325706">
+    <ele>1306.7</ele>
+    <time>2019-08-02T09:15:36Z</time>
+    <name>Fuente</name>
+    <cmt>En este punto tenemos una fuente donde poder refrescarnos.</cmt>
+    <desc>En este punto tenemos una fuente donde poder refrescarnos.</desc>
+  </wpt>
+  <wpt lat="42.696460" lon="-0.325837">
+    <ele>1305.1</ele>
+    <time>2019-08-02T09:16:27Z</time>
+    <name>Izquierda y pasar bajo puente</name>
+    <cmt>Giramos a la izquierda y pasamos bajo un pequeño y coqueto puente de madera para acceder a la pista.</cmt>
+    <desc>Giramos a la izquierda y pasamos bajo un pequeño y coqueto puente de madera para acceder a la pista.</desc>
+  </wpt>
+  <wpt lat="42.696444" lon="-0.327799">
+    <ele>1326.7</ele>
+    <time>2019-08-02T09:20:09Z</time>
+    <name>Derecha</name>
+    <cmt>Derecha</cmt>
+    <desc>Derecha</desc>
+  </wpt>
+  <wpt lat="42.698655" lon="-0.327039">
+    <ele>1336.2</ele>
+    <time>2019-08-02T09:25:45Z</time>
+    <name>Derecha hacia el Betato</name>
+    <cmt>Giramos a la derecha a la altura del poste indicativo que nos orienta hacia el Bosque del Betato. Comenzaremos una senda bastante bien señalizada. Buscaremos las marcas rosas.</cmt>
+    <desc>Giramos a la derecha a la altura del poste indicativo que nos orienta hacia el Bosque del Betato. Comenzaremos una senda bastante bien señalizada. Buscaremos las marcas rosas.</desc>
+  </wpt>
+  <wpt lat="42.704041" lon="-0.328527">
+    <ele>1327.8</ele>
+    <time>2019-08-02T09:35:25Z</time>
+    <name>Izquierda</name>
+    <cmt>Giro a la izquierda al entrar al bosque</cmt>
+    <desc>Giro a la izquierda al entrar al bosque</desc>
+  </wpt>
+  <wpt lat="42.703980" lon="-0.329330">
+    <ele>1315.5</ele>
+    <time>2019-08-02T09:38:58Z</time>
+    <name>Derecha</name>
+    <cmt>Tras cruzar un pequeño arroyo, giraremos a la derecha hacia unas pequeñas cabañas hechas con ramas de madera. Las marcas rosas nos guían.</cmt>
+    <desc>Tras cruzar un pequeño arroyo, giraremos a la derecha hacia unas pequeñas cabañas hechas con ramas de madera. Las marcas rosas nos guían.</desc>
+  </wpt>
+  <wpt lat="42.704601" lon="-0.329633">
+    <ele>1312.4</ele>
+    <time>2019-08-02T09:40:33Z</time>
+    <name>Derecha</name>
+    <cmt>Tomamos la senda indicada a la derecha</cmt>
+    <desc>Tomamos la senda indicada a la derecha</desc>
+  </wpt>
+  <wpt lat="42.705361" lon="-0.329660">
+    <ele>1321.2</ele>
+    <time>2019-08-02T09:42:02Z</time>
+    <name>Izquierda</name>
+    <cmt>Tomar senda de la izquierda.</cmt>
+    <desc>Tomar senda de la izquierda.</desc>
+  </wpt>
+  <wpt lat="42.706290" lon="-0.330435">
+    <ele>1336.2</ele>
+    <time>2019-08-02T09:44:55Z</time>
+    <name>Izquierda</name>
+    <cmt>Girar a la izquierda hacia el Ibón por el camino ascendente. Las marcas rosas nos guían.</cmt>
+    <desc>Girar a la izquierda hacia el Ibón por el camino ascendente. Las marcas rosas nos guían.</desc>
+  </wpt>
+  <wpt lat="42.703420" lon="-0.336528">
+    <ele>1452.6</ele>
+    <time>2019-08-02T09:57:37Z</time>
+    <name>Derecha</name>
+    <cmt>Derecha en poste indicativo hacia Ibon de Piedrafita</cmt>
+    <desc>Derecha en poste indicativo hacia Ibon de Piedrafita</desc>
+  </wpt>
+  <wpt lat="42.703585" lon="-0.338141">
+    <ele>1470.4</ele>
+    <time>2019-08-02T10:01:34Z</time>
+    <name>Derecha</name>
+    <cmt>Derecha siguiendo la marca rosa</cmt>
+    <desc>Derecha siguiendo la marca rosa</desc>
+  </wpt>
+  <wpt lat="42.703225" lon="-0.338904">
+    <ele>1487.7</ele>
+    <time>2019-08-02T10:03:37Z</time>
+    <name>Recto</name>
+    <cmt>Recto cruzar pista y tomar senda.</cmt>
+    <desc>Recto cruzar pista y tomar senda.</desc>
+  </wpt>
+  <wpt lat="42.702535" lon="-0.340593">
+    <ele>1508.0</ele>
+    <time>2019-08-02T10:06:38Z</time>
+    <name>Recto</name>
+    <cmt>Cruzar pista tomando senda en recto</cmt>
+    <desc>Cruzar pista tomando senda en recto</desc>
+  </wpt>
+  <wpt lat="42.701918" lon="-0.342652">
+    <ele>1533.3</ele>
+    <time>2019-08-02T10:11:35Z</time>
+    <name>Izquierda pista</name>
+    <cmt>Dejamos la senda y giramos a la izquierda siguiendo la pista.</cmt>
+    <desc>Dejamos la senda y giramos a la izquierda siguiendo la pista.</desc>
+  </wpt>
+  <wpt lat="42.700567" lon="-0.349445">
+    <ele>1595.8</ele>
+    <time>2019-08-02T10:23:08Z</time>
+    <name>Izquierda y subir por Barranco de Boj</name>
+    <cmt>Izquierda y subir por Barranco de Boj</cmt>
+    <desc>Izquierda y subir por Barranco de Boj</desc>
+  </wpt>
+  <wpt lat="42.697272" lon="-0.353962">
+    <ele>1640.9</ele>
+    <time>2019-08-02T10:36:11Z</time>
+    <name>Izquierda</name>
+    <cmt>Tras atravesar el Barranco de Boj llegaremos a un poste indicativo. Giraremos a la izquierda hacia el Ibón de Piedrafita.</cmt>
+    <desc>Tras atravesar el Barranco de Boj llegaremos a un poste indicativo. Giraremos a la izquierda hacia el Ibón de Piedrafita.</desc>
+  </wpt>
+  <wpt lat="42.695725" lon="-0.353511">
+    <ele>1649.6</ele>
+    <time>2019-08-02T10:39:01Z</time>
+    <name>Ibón de Piedrafita</name>
+    <cmt>Precioso Ibón a los pies de Peña Telera</cmt>
+    <desc>Precioso Ibón a los pies de Peña Telera</desc>
+  </wpt>
+  <wpt lat="42.693760" lon="-0.353911">
+    <ele>1668.5</ele>
+    <time>2019-08-02T10:55:27Z</time>
+    <name>Pista después de rodear el Ibón</name>
+    <cmt>Tras rodear el Ibón volvemos a la pista girando a la derecha. Esta pista rápidamente se convierte en sendero.</cmt>
+    <desc>Tras rodear el Ibón volvemos a la pista girando a la derecha. Esta pista rápidamente se convierte en sendero.</desc>
+  </wpt>
+  <wpt lat="42.691111" lon="-0.350153">
+    <ele>1697.2</ele>
+    <time>2019-08-02T11:01:46Z</time>
+    <name>Indicaciones Arco de Piedrafita</name>
+    <cmt>Indicaciones Arco de Piedrafita</cmt>
+    <desc>Indicaciones Arco de Piedrafita</desc>
+  </wpt>
+  <wpt lat="42.683811" lon="-0.347111">
+    <ele>1725.4</ele>
+    <time>2019-08-02T11:19:18Z</time>
+    <name>Recto siguiendo señal hacia el Arco de Piedrafita</name>
+    <cmt>Seguimos recto siguiendo la senda señalizada por el poste indicador hacia el Arco de Piedrafita. El inicio de la senda es de tierra, pero poco a poco la pendiente aumenta considerablemente y se torna rocoso.</cmt>
+    <desc>Seguimos recto siguiendo la senda señalizada por el poste indicador hacia el Arco de Piedrafita. El inicio de la senda es de tierra, pero poco a poco la pendiente aumenta considerablemente y se torna rocoso.</desc>
+  </wpt>
+  <wpt lat="42.682639" lon="-0.350800">
+    <ele>1783.6</ele>
+    <time>2019-08-02T11:28:06Z</time>
+    <name>Derecha</name>
+    <cmt>Tras varios metros de fuerte ascenso, llegamos a un pequeño cruce de sendas en que giraremos a la derecha. La pendiente se suaviza ligeramente, pero sigue en ascenso.</cmt>
+    <desc>Tras varios metros de fuerte ascenso, llegamos a un pequeño cruce de sendas en que giraremos a la derecha. La pendiente se suaviza ligeramente, pero sigue en ascenso.</desc>
+  </wpt>
+  <wpt lat="42.684068" lon="-0.350768">
+    <ele>1871.5</ele>
+    <time>2019-08-02T11:35:07Z</time>
+    <name>Arco Geotectónico de Piedrafita</name>
+    <cmt>Tras un último tramo de ascenso por piedra suelta, finalmente llegamos al precioso Arco de Piedrafita. Desde aquí tendremos una preciosa vista del embalse de Búbal.</cmt>
+    <desc>Tras un último tramo de ascenso por piedra suelta, finalmente llegamos al precioso Arco de Piedrafita. Desde aquí tendremos una preciosa vista del embalse de Búbal.</desc>
+  </wpt>
+  <wpt lat="42.683715" lon="-0.347110">
+    <ele>1737.6</ele>
+    <time>2019-08-02T12:00:01Z</time>
+    <name>Derecha a la vuelta</name>
+    <cmt>Tras descender del Arco por donde hemos subido, llegaremos al cruce de caminos señalizado. Aquí giraremos a la derecha hacia Piedrafita de Jaca.</cmt>
+    <desc>Tras descender del Arco por donde hemos subido, llegaremos al cruce de caminos señalizado. Aquí giraremos a la derecha hacia Piedrafita de Jaca.</desc>
+  </wpt>
+  <wpt lat="42.682232" lon="-0.346285">
+    <ele>1715.5</ele>
+    <time>2019-08-02T12:03:08Z</time>
+    <name>Senda</name>
+    <cmt>Senda</cmt>
+    <desc>Senda</desc>
+  </wpt>
+  <wpt lat="42.679373" lon="-0.344413">
+    <ele>1691.3</ele>
+    <time>2019-08-02T12:08:19Z</time>
+    <name>Izquierda</name>
+    <cmt>Tomar la senda por la izquierda</cmt>
+    <desc>Tomar la senda por la izquierda</desc>
+  </wpt>
+  <wpt lat="42.676851" lon="-0.339969">
+    <ele>1609.3</ele>
+    <time>2019-08-02T12:14:16Z</time>
+    <name>Cruzar Puerta</name>
+    <cmt>Cruzamos la puerta.</cmt>
+    <desc>Cruzamos la puerta.</desc>
+  </wpt>
+  <wpt lat="42.674354" lon="-0.330789">
+    <ele>1464.2</ele>
+    <time>2019-08-02T12:25:10Z</time>
+    <name>Recto</name>
+    <cmt>Seguimos recto hacia Piedrafita de Jaca, tal como indica el poste indicativo.</cmt>
+    <desc>Seguimos recto hacia Piedrafita de Jaca, tal como indica el poste indicativo.</desc>
+  </wpt>
+  <wpt lat="42.694069" lon="-0.332560">
+    <ele>1406.3</ele>
+    <time>2019-08-02T12:50:19Z</time>
+    <name>Recto</name>
+    <cmt>Seguir recto paralelos a la nave industrial.</cmt>
+    <desc>Seguir recto paralelos a la nave industrial.</desc>
+  </wpt>
+  <wpt lat="42.696111" lon="-0.332417">
+    <ele>1398.8</ele>
+    <time>2019-08-02T12:52:22Z</time>
+    <name>Derecha asfalto</name>
+    <cmt>Girar a la derecha al llegar al asfalto. Es un lugar habitual de aparcamiento de coches.</cmt>
+    <desc>Girar a la derecha al llegar al asfalto. Es un lugar habitual de aparcamiento de coches.</desc>
+  </wpt>
+  <wpt lat="42.695639" lon="-0.331505">
+    <ele>1392.8</ele>
+    <time>2019-08-02T12:53:41Z</time>
+    <name>Izquierda senda</name>
+    <cmt>Dejamos el asfalto y tomamos la senda de la izquierda señalizada hacia Piedrafita de Jaca.</cmt>
+    <desc>Dejamos el asfalto y tomamos la senda de la izquierda señalizada hacia Piedrafita de Jaca.</desc>
+  </wpt>
+  <wpt lat="42.695053" lon="-0.328756">
+    <ele>1331.5</ele>
+    <time>2019-08-02T12:59:48Z</time>
+    <name>Fuente</name>
+    <cmt>Fuente</cmt>
+    <desc>Fuente</desc>
+  </wpt>
+  <wpt lat="42.695148" lon="-0.327835">
+    <ele>1317.9</ele>
+    <time>2019-08-02T13:01:15Z</time>
+    <name>Derecha hacia Piedrafita de Jaca</name>
+    <cmt>Giro Derecha hacia Piedrafita de Jaca</cmt>
+    <desc>Giro Derecha hacia Piedrafita de Jaca</desc>
+  </wpt>
+  <trk>
+    <name>IBON de PIEDRAFITA y ARCO de PIEDRAFITA ruta circular pasando por BARRANCO DE BOJ y BOSQUE del BETATO</name>
+    <cmt>Espectacular ruta partiendo de Piedrafita de Jaca. Visitaremos el Ibón de Piedrafita subiendo por el Bosque de Betato y el Barranco de Boj para después acercarnos al estupendo Arco Geotectónico de Piedrafita y volver al pueblo. 
+ 
+&lt;iframe height="360" src="https://www.youtube.com/embed/pf4j8x5hU80"&gt;&lt;/iframe&gt;</cmt>
+    <desc>Espectacular ruta partiendo de Piedrafita de Jaca. Visitaremos el Ibón de Piedrafita subiendo por el Bosque de Betato y el Barranco de Boj para después acercarnos al estupendo Arco Geotectónico de Piedrafita y volver al pueblo. 
+ 
+&lt;iframe height="360" src="https://www.youtube.com/embed/pf4j8x5hU80"&gt;&lt;/iframe&gt;</desc>
+    <trkseg>
+      <trkpt lat="42.695362" lon="-0.325646">
+        <ele>1297.383</ele>
+        <time>2019-08-02T09:12:08Z</time>
+      </trkpt>
+      <trkpt lat="42.695489" lon="-0.325811">
+        <ele>1297.325</ele>
+        <time>2019-08-02T09:13:38Z</time>
+      </trkpt>
+      <trkpt lat="42.696047" lon="-0.325788">
+        <ele>1303.017</ele>
+        <time>2019-08-02T09:14:53Z</time>
+      </trkpt>
+      <trkpt lat="42.696266" lon="-0.325645">
+        <ele>1307.408</ele>
+        <time>2019-08-02T09:15:38Z</time>
+      </trkpt>
+      <trkpt lat="42.696459" lon="-0.325837">
+        <ele>1305.311</ele>
+        <time>2019-08-02T09:16:14Z</time>
+      </trkpt>
+      <trkpt lat="42.696256" lon="-0.326974">
+        <ele>1310.537</ele>
+        <time>2019-08-02T09:18:16Z</time>
+      </trkpt>
+      <trkpt lat="42.696443" lon="-0.327798">
+        <ele>1326.851</ele>
+        <time>2019-08-02T09:19:58Z</time>
+      </trkpt>
+      <trkpt lat="42.697125" lon="-0.328635">
+        <ele>1332.926</ele>
+        <time>2019-08-02T09:21:26Z</time>
+      </trkpt>
+      <trkpt lat="42.697662" lon="-0.328737">
+        <ele>1341.754</ele>
+        <time>2019-08-02T09:22:13Z</time>
+      </trkpt>
+      <trkpt lat="42.697855" lon="-0.328648">
+        <ele>1341.339</ele>
+        <time>2019-08-02T09:22:30Z</time>
+      </trkpt>
+      <trkpt lat="42.698104" lon="-0.327625">
+        <ele>1345.922</ele>
+        <time>2019-08-02T09:24:36Z</time>
+      </trkpt>
+      <trkpt lat="42.698400" lon="-0.327143">
+        <ele>1343.485</ele>
+        <time>2019-08-02T09:25:07Z</time>
+      </trkpt>
+      <trkpt lat="42.698695" lon="-0.327003">
+        <ele>1340.232</ele>
+        <time>2019-08-02T09:26:10Z</time>
+      </trkpt>
+      <trkpt lat="42.699094" lon="-0.326132">
+        <ele>1348.192</ele>
+        <time>2019-08-02T09:27:13Z</time>
+      </trkpt>
+      <trkpt lat="42.699627" lon="-0.325919">
+        <ele>1350.411</ele>
+        <time>2019-08-02T09:27:58Z</time>
+      </trkpt>
+      <trkpt lat="42.700551" lon="-0.326003">
+        <ele>1352.508</ele>
+        <time>2019-08-02T09:29:00Z</time>
+      </trkpt>
+      <trkpt lat="42.701128" lon="-0.326793">
+        <ele>1346.566</ele>
+        <time>2019-08-02T09:30:15Z</time>
+      </trkpt>
+      <trkpt lat="42.702031" lon="-0.327187">
+        <ele>1329.542</ele>
+        <time>2019-08-02T09:31:18Z</time>
+      </trkpt>
+      <trkpt lat="42.702479" lon="-0.327559">
+        <ele>1322.886</ele>
+        <time>2019-08-02T09:32:03Z</time>
+      </trkpt>
+      <trkpt lat="42.702947" lon="-0.327678">
+        <ele>1322.551</ele>
+        <time>2019-08-02T09:32:57Z</time>
+      </trkpt>
+      <trkpt lat="42.703222" lon="-0.327966">
+        <ele>1321.469</ele>
+        <time>2019-08-02T09:33:44Z</time>
+      </trkpt>
+      <trkpt lat="42.703671" lon="-0.328049">
+        <ele>1324.864</ele>
+        <time>2019-08-02T09:34:23Z</time>
+      </trkpt>
+      <trkpt lat="42.704000" lon="-0.328336">
+        <ele>1321.477</ele>
+        <time>2019-08-02T09:34:54Z</time>
+      </trkpt>
+      <trkpt lat="42.703968" lon="-0.329459">
+        <ele>1314.640</ele>
+        <time>2019-08-02T09:39:06Z</time>
+      </trkpt>
+      <trkpt lat="42.704661" lon="-0.329649">
+        <ele>1309.858</ele>
+        <time>2019-08-02T09:40:41Z</time>
+      </trkpt>
+      <trkpt lat="42.704794" lon="-0.329457">
+        <ele>1307.452</ele>
+        <time>2019-08-02T09:40:59Z</time>
+      </trkpt>
+      <trkpt lat="42.705192" lon="-0.329411">
+        <ele>1313.917</ele>
+        <time>2019-08-02T09:41:30Z</time>
+      </trkpt>
+      <trkpt lat="42.705575" lon="-0.330119">
+        <ele>1326.608</ele>
+        <time>2019-08-02T09:43:09Z</time>
+      </trkpt>
+      <trkpt lat="42.706206" lon="-0.330266">
+        <ele>1332.878</ele>
+        <time>2019-08-02T09:44:20Z</time>
+      </trkpt>
+      <trkpt lat="42.706338" lon="-0.330554">
+        <ele>1341.124</ele>
+        <time>2019-08-02T09:45:41Z</time>
+      </trkpt>
+      <trkpt lat="42.705742" lon="-0.331015">
+        <ele>1345.218</ele>
+        <time>2019-08-02T09:47:01Z</time>
+      </trkpt>
+      <trkpt lat="42.705601" lon="-0.331571">
+        <ele>1366.033</ele>
+        <time>2019-08-02T09:47:50Z</time>
+      </trkpt>
+      <trkpt lat="42.705197" lon="-0.331789">
+        <ele>1386.431</ele>
+        <time>2019-08-02T09:48:35Z</time>
+      </trkpt>
+      <trkpt lat="42.705454" lon="-0.333737">
+        <ele>1394.776</ele>
+        <time>2019-08-02T09:51:14Z</time>
+      </trkpt>
+      <trkpt lat="42.705391" lon="-0.334059">
+        <ele>1395.029</ele>
+        <time>2019-08-02T09:52:01Z</time>
+      </trkpt>
+      <trkpt lat="42.704616" lon="-0.334348">
+        <ele>1431.672</ele>
+        <time>2019-08-02T09:53:44Z</time>
+      </trkpt>
+      <trkpt lat="42.704526" lon="-0.334586">
+        <ele>1432.922</ele>
+        <time>2019-08-02T09:54:03Z</time>
+      </trkpt>
+      <trkpt lat="42.704668" lon="-0.335351">
+        <ele>1436.962</ele>
+        <time>2019-08-02T09:55:01Z</time>
+      </trkpt>
+      <trkpt lat="42.703421" lon="-0.336523">
+        <ele>1451.708</ele>
+        <time>2019-08-02T09:57:27Z</time>
+      </trkpt>
+      <trkpt lat="42.703657" lon="-0.337401">
+        <ele>1458.408</ele>
+        <time>2019-08-02T09:59:55Z</time>
+      </trkpt>
+      <trkpt lat="42.703587" lon="-0.338134">
+        <ele>1469.555</ele>
+        <time>2019-08-02T10:01:33Z</time>
+      </trkpt>
+      <trkpt lat="42.703305" lon="-0.338578">
+        <ele>1481.891</ele>
+        <time>2019-08-02T10:02:38Z</time>
+      </trkpt>
+      <trkpt lat="42.702816" lon="-0.340200">
+        <ele>1503.725</ele>
+        <time>2019-08-02T10:05:45Z</time>
+      </trkpt>
+      <trkpt lat="42.702441" lon="-0.340747">
+        <ele>1511.890</ele>
+        <time>2019-08-02T10:07:14Z</time>
+      </trkpt>
+      <trkpt lat="42.702098" lon="-0.340781">
+        <ele>1512.368</ele>
+        <time>2019-08-02T10:07:39Z</time>
+      </trkpt>
+      <trkpt lat="42.701612" lon="-0.341188">
+        <ele>1515.783</ele>
+        <time>2019-08-02T10:09:12Z</time>
+      </trkpt>
+      <trkpt lat="42.701634" lon="-0.341701">
+        <ele>1525.296</ele>
+        <time>2019-08-02T10:10:02Z</time>
+      </trkpt>
+      <trkpt lat="42.701827" lon="-0.341767">
+        <ele>1528.449</ele>
+        <time>2019-08-02T10:10:21Z</time>
+      </trkpt>
+      <trkpt lat="42.701925" lon="-0.342707">
+        <ele>1532.045</ele>
+        <time>2019-08-02T10:11:37Z</time>
+      </trkpt>
+      <trkpt lat="42.701093" lon="-0.342574">
+        <ele>1546.647</ele>
+        <time>2019-08-02T10:12:54Z</time>
+      </trkpt>
+      <trkpt lat="42.700620" lon="-0.342074">
+        <ele>1551.311</ele>
+        <time>2019-08-02T10:13:44Z</time>
+      </trkpt>
+      <trkpt lat="42.700210" lon="-0.341973">
+        <ele>1556.108</ele>
+        <time>2019-08-02T10:14:21Z</time>
+      </trkpt>
+      <trkpt lat="42.699775" lon="-0.342344">
+        <ele>1558.157</ele>
+        <time>2019-08-02T10:15:00Z</time>
+      </trkpt>
+      <trkpt lat="42.700047" lon="-0.343036">
+        <ele>1556.273</ele>
+        <time>2019-08-02T10:15:48Z</time>
+      </trkpt>
+      <trkpt lat="42.699995" lon="-0.344693">
+        <ele>1568.567</ele>
+        <time>2019-08-02T10:17:28Z</time>
+      </trkpt>
+      <trkpt lat="42.700640" lon="-0.346969">
+        <ele>1583.672</ele>
+        <time>2019-08-02T10:20:14Z</time>
+      </trkpt>
+      <trkpt lat="42.700563" lon="-0.349621">
+        <ele>1595.670</ele>
+        <time>2019-08-02T10:24:35Z</time>
+      </trkpt>
+      <trkpt lat="42.699400" lon="-0.350731">
+        <ele>1617.845</ele>
+        <time>2019-08-02T10:29:46Z</time>
+      </trkpt>
+      <trkpt lat="42.699068" lon="-0.351257">
+        <ele>1618.628</ele>
+        <time>2019-08-02T10:30:46Z</time>
+      </trkpt>
+      <trkpt lat="42.698987" lon="-0.351917">
+        <ele>1625.511</ele>
+        <time>2019-08-02T10:31:44Z</time>
+      </trkpt>
+      <trkpt lat="42.697754" lon="-0.353199">
+        <ele>1634.484</ele>
+        <time>2019-08-02T10:34:42Z</time>
+      </trkpt>
+      <trkpt lat="42.697450" lon="-0.353963">
+        <ele>1637.607</ele>
+        <time>2019-08-02T10:35:45Z</time>
+      </trkpt>
+      <trkpt lat="42.697236" lon="-0.353975">
+        <ele>1639.817</ele>
+        <time>2019-08-02T10:36:30Z</time>
+      </trkpt>
+      <trkpt lat="42.696193" lon="-0.353443">
+        <ele>1639.808</ele>
+        <time>2019-08-02T10:38:08Z</time>
+      </trkpt>
+      <trkpt lat="42.695752" lon="-0.353428">
+        <ele>1646.431</ele>
+        <time>2019-08-02T10:38:48Z</time>
+      </trkpt>
+      <trkpt lat="42.695633" lon="-0.353810">
+        <ele>1652.077</ele>
+        <time>2019-08-02T10:39:59Z</time>
+      </trkpt>
+      <trkpt lat="42.695886" lon="-0.354142">
+        <ele>1652.591</ele>
+        <time>2019-08-02T10:41:14Z</time>
+      </trkpt>
+      <trkpt lat="42.696232" lon="-0.355430">
+        <ele>1645.866</ele>
+        <time>2019-08-02T10:44:30Z</time>
+      </trkpt>
+      <trkpt lat="42.696090" lon="-0.356426">
+        <ele>1653.764</ele>
+        <time>2019-08-02T10:45:51Z</time>
+      </trkpt>
+      <trkpt lat="42.695650" lon="-0.356866">
+        <ele>1650.019</ele>
+        <time>2019-08-02T10:46:42Z</time>
+      </trkpt>
+      <trkpt lat="42.695260" lon="-0.356672">
+        <ele>1653.892</ele>
+        <time>2019-08-02T10:47:19Z</time>
+      </trkpt>
+      <trkpt lat="42.694298" lon="-0.356880">
+        <ele>1658.045</ele>
+        <time>2019-08-02T10:49:04Z</time>
+      </trkpt>
+      <trkpt lat="42.693968" lon="-0.355767">
+        <ele>1653.843</ele>
+        <time>2019-08-02T10:52:25Z</time>
+      </trkpt>
+      <trkpt lat="42.693991" lon="-0.354735">
+        <ele>1649.564</ele>
+        <time>2019-08-02T10:53:34Z</time>
+      </trkpt>
+      <trkpt lat="42.694187" lon="-0.354109">
+        <ele>1654.510</ele>
+        <time>2019-08-02T10:54:38Z</time>
+      </trkpt>
+      <trkpt lat="42.693758" lon="-0.353888">
+        <ele>1667.208</ele>
+        <time>2019-08-02T10:55:21Z</time>
+      </trkpt>
+      <trkpt lat="42.692831" lon="-0.353874">
+        <ele>1663.297</ele>
+        <time>2019-08-02T10:56:55Z</time>
+      </trkpt>
+      <trkpt lat="42.692488" lon="-0.353468">
+        <ele>1673.033</ele>
+        <time>2019-08-02T10:57:36Z</time>
+      </trkpt>
+      <trkpt lat="42.692305" lon="-0.352699">
+        <ele>1673.577</ele>
+        <time>2019-08-02T10:58:30Z</time>
+      </trkpt>
+      <trkpt lat="42.691713" lon="-0.351708">
+        <ele>1690.652</ele>
+        <time>2019-08-02T10:59:52Z</time>
+      </trkpt>
+      <trkpt lat="42.691485" lon="-0.350709">
+        <ele>1693.730</ele>
+        <time>2019-08-02T11:00:51Z</time>
+      </trkpt>
+      <trkpt lat="42.690882" lon="-0.349894">
+        <ele>1696.115</ele>
+        <time>2019-08-02T11:02:31Z</time>
+      </trkpt>
+      <trkpt lat="42.690610" lon="-0.349167">
+        <ele>1696.978</ele>
+        <time>2019-08-02T11:03:22Z</time>
+      </trkpt>
+      <trkpt lat="42.690500" lon="-0.348269">
+        <ele>1687.011</ele>
+        <time>2019-08-02T11:05:22Z</time>
+      </trkpt>
+      <trkpt lat="42.690036" lon="-0.348017">
+        <ele>1686.884</ele>
+        <time>2019-08-02T11:06:32Z</time>
+      </trkpt>
+      <trkpt lat="42.689710" lon="-0.348305">
+        <ele>1680.807</ele>
+        <time>2019-08-02T11:07:48Z</time>
+      </trkpt>
+      <trkpt lat="42.689416" lon="-0.348250">
+        <ele>1665.717</ele>
+        <time>2019-08-02T11:08:33Z</time>
+      </trkpt>
+      <trkpt lat="42.688658" lon="-0.347844">
+        <ele>1675.108</ele>
+        <time>2019-08-02T11:09:48Z</time>
+      </trkpt>
+      <trkpt lat="42.688271" lon="-0.347330">
+        <ele>1668.441</ele>
+        <time>2019-08-02T11:10:35Z</time>
+      </trkpt>
+      <trkpt lat="42.687901" lon="-0.347430">
+        <ele>1671.037</ele>
+        <time>2019-08-02T11:11:18Z</time>
+      </trkpt>
+      <trkpt lat="42.687507" lon="-0.347229">
+        <ele>1676.191</ele>
+        <time>2019-08-02T11:11:53Z</time>
+      </trkpt>
+      <trkpt lat="42.687231" lon="-0.346527">
+        <ele>1679.256</ele>
+        <time>2019-08-02T11:12:47Z</time>
+      </trkpt>
+      <trkpt lat="42.686896" lon="-0.346322">
+        <ele>1683.434</ele>
+        <time>2019-08-02T11:13:09Z</time>
+      </trkpt>
+      <trkpt lat="42.686471" lon="-0.345659">
+        <ele>1683.779</ele>
+        <time>2019-08-02T11:13:54Z</time>
+      </trkpt>
+      <trkpt lat="42.685339" lon="-0.345241">
+        <ele>1693.782</ele>
+        <time>2019-08-02T11:15:24Z</time>
+      </trkpt>
+      <trkpt lat="42.684854" lon="-0.345442">
+        <ele>1697.265</ele>
+        <time>2019-08-02T11:16:10Z</time>
+      </trkpt>
+      <trkpt lat="42.684380" lon="-0.345932">
+        <ele>1711.441</ele>
+        <time>2019-08-02T11:17:09Z</time>
+      </trkpt>
+      <trkpt lat="42.683747" lon="-0.347192">
+        <ele>1721.881</ele>
+        <time>2019-08-02T11:19:45Z</time>
+      </trkpt>
+      <trkpt lat="42.683370" lon="-0.348939">
+        <ele>1751.509</ele>
+        <time>2019-08-02T11:22:45Z</time>
+      </trkpt>
+      <trkpt lat="42.683006" lon="-0.349352">
+        <ele>1748.708</ele>
+        <time>2019-08-02T11:23:53Z</time>
+      </trkpt>
+      <trkpt lat="42.682628" lon="-0.350710">
+        <ele>1778.367</ele>
+        <time>2019-08-02T11:27:29Z</time>
+      </trkpt>
+      <trkpt lat="42.683254" lon="-0.350791">
+        <ele>1830.143</ele>
+        <time>2019-08-02T11:30:29Z</time>
+      </trkpt>
+      <trkpt lat="42.683962" lon="-0.350491">
+        <ele>1856.277</ele>
+        <time>2019-08-02T11:33:29Z</time>
+      </trkpt>
+      <trkpt lat="42.684199" lon="-0.350978">
+        <ele>1873.992</ele>
+        <time>2019-08-02T11:36:00Z</time>
+      </trkpt>
+      <trkpt lat="42.683773" lon="-0.351386">
+        <ele>1918.530</ele>
+        <time>2019-08-02T11:41:20Z</time>
+      </trkpt>
+      <trkpt lat="42.684152" lon="-0.351166">
+        <ele>1900.315</ele>
+        <time>2019-08-02T11:49:02Z</time>
+      </trkpt>
+      <trkpt lat="42.684168" lon="-0.350636">
+        <ele>1885.678</ele>
+        <time>2019-08-02T11:50:55Z</time>
+      </trkpt>
+      <trkpt lat="42.683924" lon="-0.350454">
+        <ele>1865.641</ele>
+        <time>2019-08-02T11:51:28Z</time>
+      </trkpt>
+      <trkpt lat="42.682614" lon="-0.350812">
+        <ele>1821.521</ele>
+        <time>2019-08-02T11:54:28Z</time>
+      </trkpt>
+      <trkpt lat="42.682628" lon="-0.350481">
+        <ele>1814.041</ele>
+        <time>2019-08-02T11:55:08Z</time>
+      </trkpt>
+      <trkpt lat="42.682838" lon="-0.350358">
+        <ele>1801.905</ele>
+        <time>2019-08-02T11:55:52Z</time>
+      </trkpt>
+      <trkpt lat="42.682842" lon="-0.349667">
+        <ele>1789.708</ele>
+        <time>2019-08-02T11:56:52Z</time>
+      </trkpt>
+      <trkpt lat="42.683315" lon="-0.349005">
+        <ele>1745.295</ele>
+        <time>2019-08-02T11:58:26Z</time>
+      </trkpt>
+      <trkpt lat="42.683711" lon="-0.347081">
+        <ele>1736.621</ele>
+        <time>2019-08-02T11:59:57Z</time>
+      </trkpt>
+      <trkpt lat="42.682736" lon="-0.346334">
+        <ele>1712.365</ele>
+        <time>2019-08-02T12:01:55Z</time>
+      </trkpt>
+      <trkpt lat="42.682229" lon="-0.346258">
+        <ele>1714.340</ele>
+        <time>2019-08-02T12:03:05Z</time>
+      </trkpt>
+      <trkpt lat="42.682053" lon="-0.345596">
+        <ele>1701.958</ele>
+        <time>2019-08-02T12:03:46Z</time>
+      </trkpt>
+      <trkpt lat="42.681830" lon="-0.345294">
+        <ele>1696.483</ele>
+        <time>2019-08-02T12:04:09Z</time>
+      </trkpt>
+      <trkpt lat="42.681541" lon="-0.345260">
+        <ele>1683.586</ele>
+        <time>2019-08-02T12:04:42Z</time>
+      </trkpt>
+      <trkpt lat="42.681103" lon="-0.344836">
+        <ele>1677.969</ele>
+        <time>2019-08-02T12:05:01Z</time>
+      </trkpt>
+      <trkpt lat="42.680560" lon="-0.344582">
+        <ele>1676.132</ele>
+        <time>2019-08-02T12:05:44Z</time>
+      </trkpt>
+      <trkpt lat="42.680273" lon="-0.344611">
+        <ele>1680.092</ele>
+        <time>2019-08-02T12:06:27Z</time>
+      </trkpt>
+      <trkpt lat="42.679911" lon="-0.344370">
+        <ele>1683.611</ele>
+        <time>2019-08-02T12:07:10Z</time>
+      </trkpt>
+      <trkpt lat="42.679612" lon="-0.344531">
+        <ele>1686.708</ele>
+        <time>2019-08-02T12:07:36Z</time>
+      </trkpt>
+      <trkpt lat="42.679374" lon="-0.344384">
+        <ele>1690.276</ele>
+        <time>2019-08-02T12:07:59Z</time>
+      </trkpt>
+      <trkpt lat="42.678728" lon="-0.344834">
+        <ele>1676.252</ele>
+        <time>2019-08-02T12:09:27Z</time>
+      </trkpt>
+      <trkpt lat="42.678252" lon="-0.344884">
+        <ele>1681.266</ele>
+        <time>2019-08-02T12:10:03Z</time>
+      </trkpt>
+      <trkpt lat="42.677863" lon="-0.344674">
+        <ele>1678.621</ele>
+        <time>2019-08-02T12:10:26Z</time>
+      </trkpt>
+      <trkpt lat="42.677401" lon="-0.343091">
+        <ele>1665.679</ele>
+        <time>2019-08-02T12:11:17Z</time>
+      </trkpt>
+      <trkpt lat="42.677344" lon="-0.342312">
+        <ele>1646.854</ele>
+        <time>2019-08-02T12:12:05Z</time>
+      </trkpt>
+      <trkpt lat="42.677133" lon="-0.342156">
+        <ele>1641.837</ele>
+        <time>2019-08-02T12:12:14Z</time>
+      </trkpt>
+      <trkpt lat="42.676531" lon="-0.340940">
+        <ele>1621.010</ele>
+        <time>2019-08-02T12:13:11Z</time>
+      </trkpt>
+      <trkpt lat="42.676521" lon="-0.340563">
+        <ele>1612.924</ele>
+        <time>2019-08-02T12:13:30Z</time>
+      </trkpt>
+      <trkpt lat="42.676825" lon="-0.340213">
+        <ele>1610.604</ele>
+        <time>2019-08-02T12:13:52Z</time>
+      </trkpt>
+      <trkpt lat="42.676824" lon="-0.339666">
+        <ele>1606.914</ele>
+        <time>2019-08-02T12:14:54Z</time>
+      </trkpt>
+      <trkpt lat="42.676172" lon="-0.338784">
+        <ele>1599.808</ele>
+        <time>2019-08-02T12:15:46Z</time>
+      </trkpt>
+      <trkpt lat="42.675992" lon="-0.338265">
+        <ele>1591.765</ele>
+        <time>2019-08-02T12:16:08Z</time>
+      </trkpt>
+      <trkpt lat="42.675947" lon="-0.336724">
+        <ele>1583.651</ele>
+        <time>2019-08-02T12:17:06Z</time>
+      </trkpt>
+      <trkpt lat="42.675614" lon="-0.336813">
+        <ele>1576.625</ele>
+        <time>2019-08-02T12:17:38Z</time>
+      </trkpt>
+      <trkpt lat="42.675479" lon="-0.335197">
+        <ele>1544.810</ele>
+        <time>2019-08-02T12:19:15Z</time>
+      </trkpt>
+      <trkpt lat="42.674571" lon="-0.333424">
+        <ele>1526.038</ele>
+        <time>2019-08-02T12:20:52Z</time>
+      </trkpt>
+      <trkpt lat="42.674990" lon="-0.333118">
+        <ele>1511.793</ele>
+        <time>2019-08-02T12:21:31Z</time>
+      </trkpt>
+      <trkpt lat="42.674318" lon="-0.332284">
+        <ele>1491.146</ele>
+        <time>2019-08-02T12:22:37Z</time>
+      </trkpt>
+      <trkpt lat="42.674120" lon="-0.330968">
+        <ele>1459.589</ele>
+        <time>2019-08-02T12:24:26Z</time>
+      </trkpt>
+      <trkpt lat="42.674157" lon="-0.330704">
+        <ele>1462.284</ele>
+        <time>2019-08-02T12:24:42Z</time>
+      </trkpt>
+      <trkpt lat="42.674506" lon="-0.330823">
+        <ele>1460.207</ele>
+        <time>2019-08-02T12:25:27Z</time>
+      </trkpt>
+      <trkpt lat="42.674979" lon="-0.331669">
+        <ele>1466.517</ele>
+        <time>2019-08-02T12:25:59Z</time>
+      </trkpt>
+      <trkpt lat="42.675439" lon="-0.331979">
+        <ele>1466.908</ele>
+        <time>2019-08-02T12:26:26Z</time>
+      </trkpt>
+      <trkpt lat="42.676284" lon="-0.332174">
+        <ele>1450.211</ele>
+        <time>2019-08-02T12:27:08Z</time>
+      </trkpt>
+      <trkpt lat="42.676584" lon="-0.332754">
+        <ele>1465.027</ele>
+        <time>2019-08-02T12:27:53Z</time>
+      </trkpt>
+      <trkpt lat="42.677057" lon="-0.332760">
+        <ele>1464.191</ele>
+        <time>2019-08-02T12:28:15Z</time>
+      </trkpt>
+      <trkpt lat="42.677655" lon="-0.333346">
+        <ele>1447.656</ele>
+        <time>2019-08-02T12:28:54Z</time>
+      </trkpt>
+      <trkpt lat="42.677807" lon="-0.333927">
+        <ele>1463.944</ele>
+        <time>2019-08-02T12:29:26Z</time>
+      </trkpt>
+      <trkpt lat="42.678416" lon="-0.334405">
+        <ele>1451.319</ele>
+        <time>2019-08-02T12:30:23Z</time>
+      </trkpt>
+      <trkpt lat="42.678975" lon="-0.334635">
+        <ele>1449.432</ele>
+        <time>2019-08-02T12:31:05Z</time>
+      </trkpt>
+      <trkpt lat="42.679480" lon="-0.333466">
+        <ele>1446.965</ele>
+        <time>2019-08-02T12:32:32Z</time>
+      </trkpt>
+      <trkpt lat="42.679645" lon="-0.333348">
+        <ele>1446.812</ele>
+        <time>2019-08-02T12:32:55Z</time>
+      </trkpt>
+      <trkpt lat="42.680505" lon="-0.334091">
+        <ele>1450.932</ele>
+        <time>2019-08-02T12:34:04Z</time>
+      </trkpt>
+      <trkpt lat="42.680752" lon="-0.334546">
+        <ele>1450.105</ele>
+        <time>2019-08-02T12:34:43Z</time>
+      </trkpt>
+      <trkpt lat="42.681126" lon="-0.334485">
+        <ele>1457.108</ele>
+        <time>2019-08-02T12:35:17Z</time>
+      </trkpt>
+      <trkpt lat="42.681805" lon="-0.334772">
+        <ele>1449.394</ele>
+        <time>2019-08-02T12:36:12Z</time>
+      </trkpt>
+      <trkpt lat="42.682427" lon="-0.334628">
+        <ele>1440.750</ele>
+        <time>2019-08-02T12:36:58Z</time>
+      </trkpt>
+      <trkpt lat="42.682735" lon="-0.334404">
+        <ele>1445.014</ele>
+        <time>2019-08-02T12:37:23Z</time>
+      </trkpt>
+      <trkpt lat="42.683551" lon="-0.335039">
+        <ele>1427.639</ele>
+        <time>2019-08-02T12:38:28Z</time>
+      </trkpt>
+      <trkpt lat="42.684227" lon="-0.334908">
+        <ele>1438.717</ele>
+        <time>2019-08-02T12:39:33Z</time>
+      </trkpt>
+      <trkpt lat="42.684672" lon="-0.334994">
+        <ele>1444.362</ele>
+        <time>2019-08-02T12:39:49Z</time>
+      </trkpt>
+      <trkpt lat="42.686434" lon="-0.335933">
+        <ele>1426.165</ele>
+        <time>2019-08-02T12:41:28Z</time>
+      </trkpt>
+      <trkpt lat="42.686975" lon="-0.335742">
+        <ele>1421.368</ele>
+        <time>2019-08-02T12:41:58Z</time>
+      </trkpt>
+      <trkpt lat="42.687442" lon="-0.336082">
+        <ele>1414.714</ele>
+        <time>2019-08-02T12:42:32Z</time>
+      </trkpt>
+      <trkpt lat="42.688662" lon="-0.335679">
+        <ele>1428.254</ele>
+        <time>2019-08-02T12:43:43Z</time>
+      </trkpt>
+      <trkpt lat="42.689229" lon="-0.335896">
+        <ele>1425.509</ele>
+        <time>2019-08-02T12:44:26Z</time>
+      </trkpt>
+      <trkpt lat="42.690192" lon="-0.335704">
+        <ele>1423.208</ele>
+        <time>2019-08-02T12:45:34Z</time>
+      </trkpt>
+      <trkpt lat="42.691085" lon="-0.334679">
+        <ele>1422.144</ele>
+        <time>2019-08-02T12:46:27Z</time>
+      </trkpt>
+      <trkpt lat="42.691430" lon="-0.334035">
+        <ele>1421.450</ele>
+        <time>2019-08-02T12:47:12Z</time>
+      </trkpt>
+      <trkpt lat="42.692762" lon="-0.332872">
+        <ele>1400.654</ele>
+        <time>2019-08-02T12:48:45Z</time>
+      </trkpt>
+      <trkpt lat="42.693421" lon="-0.332788">
+        <ele>1404.089</ele>
+        <time>2019-08-02T12:49:20Z</time>
+      </trkpt>
+      <trkpt lat="42.693862" lon="-0.332514">
+        <ele>1405.627</ele>
+        <time>2019-08-02T12:49:53Z</time>
+      </trkpt>
+      <trkpt lat="42.694275" lon="-0.332581">
+        <ele>1405.592</ele>
+        <time>2019-08-02T12:50:34Z</time>
+      </trkpt>
+      <trkpt lat="42.695322" lon="-0.332345">
+        <ele>1404.385</ele>
+        <time>2019-08-02T12:51:14Z</time>
+      </trkpt>
+      <trkpt lat="42.696111" lon="-0.332379">
+        <ele>1398.268</ele>
+        <time>2019-08-02T12:52:16Z</time>
+      </trkpt>
+      <trkpt lat="42.696092" lon="-0.331798">
+        <ele>1395.454</ele>
+        <time>2019-08-02T12:52:51Z</time>
+      </trkpt>
+      <trkpt lat="42.695786" lon="-0.331441">
+        <ele>1392.656</ele>
+        <time>2019-08-02T12:53:15Z</time>
+      </trkpt>
+      <trkpt lat="42.694173" lon="-0.331674">
+        <ele>1371.611</ele>
+        <time>2019-08-02T12:55:24Z</time>
+      </trkpt>
+      <trkpt lat="42.694117" lon="-0.331571">
+        <ele>1370.008</ele>
+        <time>2019-08-02T12:55:32Z</time>
+      </trkpt>
+      <trkpt lat="42.694572" lon="-0.331160">
+        <ele>1365.218</ele>
+        <time>2019-08-02T12:56:04Z</time>
+      </trkpt>
+      <trkpt lat="42.695216" lon="-0.330849">
+        <ele>1343.134</ele>
+        <time>2019-08-02T12:56:49Z</time>
+      </trkpt>
+      <trkpt lat="42.695398" lon="-0.330504">
+        <ele>1342.698</ele>
+        <time>2019-08-02T12:57:09Z</time>
+      </trkpt>
+      <trkpt lat="42.695391" lon="-0.330246">
+        <ele>1343.383</ele>
+        <time>2019-08-02T12:57:26Z</time>
+      </trkpt>
+      <trkpt lat="42.695032" lon="-0.330085">
+        <ele>1339.821</ele>
+        <time>2019-08-02T12:58:01Z</time>
+      </trkpt>
+      <trkpt lat="42.695001" lon="-0.329678">
+        <ele>1339.736</ele>
+        <time>2019-08-02T12:58:28Z</time>
+      </trkpt>
+      <trkpt lat="42.695125" lon="-0.327333">
+        <ele>1306.139</ele>
+        <time>2019-08-02T13:01:41Z</time>
+      </trkpt>
+      <trkpt lat="42.695453" lon="-0.326791">
+        <ele>1313.282</ele>
+        <time>2019-08-02T13:02:23Z</time>
+      </trkpt>
+      <trkpt lat="42.695267" lon="-0.326380">
+        <ele>1305.196</ele>
+        <time>2019-08-02T13:02:51Z</time>
+      </trkpt>
+      <trkpt lat="42.695370" lon="-0.325566">
+        <ele>1293.131</ele>
+        <time>2019-08-02T13:03:32Z</time>
+      </trkpt>
+    </trkseg>
+  </trk></gpx>

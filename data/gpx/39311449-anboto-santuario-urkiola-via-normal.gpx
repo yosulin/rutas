@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Wikiloc - https://www.wikiloc.com" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Wikiloc - ANBOTO desde SANTUARIO de URKIOLA por la vía normal</name>
+    <link href="https://www.wikiloc.com/hiking-trails/anboto-desde-santuario-de-urkiola-por-la-via-normal-39311449">
+      <text>ANBOTO desde SANTUARIO de URKIOLA por la vía normal on Wikiloc</text>
+    </link>
+    <time>2019-07-31T13:36:55Z</time>
+  </metadata>
+  <wpt lat="43.099820" lon="-2.643394">
+    <ele>782.4</ele>
+    <time>2019-07-31T10:26:00Z</time>
+    <name>Santuario</name>
+    <cmt>Santuario</cmt>
+    <desc>Santuario</desc>
+  </wpt>
+  <wpt lat="43.099524" lon="-2.642520">
+    <ele>787.6</ele>
+    <time>2019-07-31T10:27:14Z</time>
+    <name>Senda</name>
+    <cmt>Senda</cmt>
+    <desc>Senda</desc>
+  </wpt>
+  <wpt lat="43.095274" lon="-2.631126">
+    <ele>967.3</ele>
+    <time>2019-07-31T10:43:36Z</time>
+    <name>Recto</name>
+    <cmt>Recto</cmt>
+    <desc>Recto</desc>
+  </wpt>
+  <wpt lat="43.092018" lon="-2.626788">
+    <ele>1056.0</ele>
+    <time>2019-07-31T10:51:26Z</time>
+    <name>Urkiolagirre</name>
+    <cmt>Urkiolagirre</cmt>
+    <desc>Urkiolagirre</desc>
+  </wpt>
+  <wpt lat="43.091904" lon="-2.622663">
+    <ele>1001.5</ele>
+    <time>2019-07-31T10:57:29Z</time>
+    <name>Recto</name>
+    <cmt>Recto</cmt>
+    <desc>Recto</desc>
+  </wpt>
+  <wpt lat="43.092535" lon="-2.616169">
+    <ele>930.7</ele>
+    <time>2019-07-31T11:04:02Z</time>
+    <name>Cruzar valla a la derecha</name>
+    <cmt>Cruzar valla a la derecha</cmt>
+    <desc>Cruzar valla a la derecha</desc>
+  </wpt>
+  <wpt lat="43.092689" lon="-2.615732">
+    <ele>928.0</ele>
+    <time>2019-07-31T11:04:52Z</time>
+    <name>Collado de Asuntze</name>
+    <cmt>Collado de Asuntze</cmt>
+    <desc>Collado de Asuntze</desc>
+  </wpt>
+  <wpt lat="43.093261" lon="-2.615103">
+    <ele>933.9</ele>
+    <time>2019-07-31T11:06:15Z</time>
+    <name>Derecha</name>
+    <cmt>Girar a la derecha siguiendo la pista</cmt>
+    <desc>Girar a la derecha siguiendo la pista</desc>
+  </wpt>
+  <wpt lat="43.090199" lon="-2.611000">
+    <ele>973.1</ele>
+    <time>2019-07-31T11:12:28Z</time>
+    <name>Refugio</name>
+    <cmt>Pequeño refugio a los pies de Anboto.</cmt>
+    <desc>Pequeño refugio a los pies de Anboto.</desc>
+  </wpt>
+  <wpt lat="43.087577" lon="-2.608094">
+    <ele>1008.0</ele>
+    <time>2019-07-31T11:18:20Z</time>
+    <name>Recto</name>
+    <cmt>En este punto, junto al poste indicativo deberemos seguir recto hacia el collado de Pagozelai.</cmt>
+    <desc>En este punto, junto al poste indicativo deberemos seguir recto hacia el collado de Pagozelai.</desc>
+  </wpt>
+  <wpt lat="43.086882" lon="-2.605132">
+    <ele>1035.2</ele>
+    <time>2019-07-31T11:22:55Z</time>
+    <name>Collado de Pagozelai</name>
+    <cmt>Collado de Pagozelai</cmt>
+    <desc>Collado de Pagozelai</desc>
+  </wpt>
+  <wpt lat="43.086642" lon="-2.604589">
+    <ele>1043.2</ele>
+    <time>2019-07-31T11:24:20Z</time>
+    <name>Izquierda</name>
+    <cmt>Giramos a la izquierda en el cartel de Anboto a 0.9 km.</cmt>
+    <desc>Giramos a la izquierda en el cartel de Anboto a 0.9 km.</desc>
+  </wpt>
+  <wpt lat="43.087644" lon="-2.604426">
+    <ele>1052.6</ele>
+    <time>2019-07-31T11:27:08Z</time>
+    <name>Derecha</name>
+    <cmt>Derecha</cmt>
+    <desc>Derecha</desc>
+  </wpt>
+  <wpt lat="43.087911" lon="-2.603016">
+    <ele>1131.3</ele>
+    <time>2019-07-31T11:32:41Z</time>
+    <name>Tramo rocoso</name>
+    <cmt>La cantidad de rocas en el camino va aumentando con el avance de los metros.</cmt>
+    <desc>La cantidad de rocas en el camino va aumentando con el avance de los metros.</desc>
+  </wpt>
+  <wpt lat="43.088381" lon="-2.598665">
+    <ele>1327.1</ele>
+    <time>2019-07-31T11:57:00Z</time>
+    <name>Brecha de Agindi</name>
+    <cmt>Brecha de Agindi</cmt>
+    <desc>Brecha de Agindi</desc>
+  </wpt>
+  <wpt lat="43.087993" lon="-2.596815">
+    <ele>1380.7</ele>
+    <time>2019-07-31T12:05:49Z</time>
+    <name>Anboto</name>
+    <cmt>Anboto</cmt>
+    <desc>Anboto</desc>
+  </wpt>
+  <wpt lat="43.091847" lon="-2.614730">
+    <ele>924.9</ele>
+    <time>2019-07-31T13:01:43Z</time>
+    <name>Fuente de Pol pol</name>
+    <cmt>Fuente de Pol pol</cmt>
+    <desc>Fuente de Pol pol</desc>
+  </wpt>
+  <trk>
+    <name>ANBOTO desde SANTUARIO de URKIOLA por la vía normal</name>
+    <cmt>Ruta de ida y vuelta con ascenso a la cima más emblemática de Bizkaia, el Anboto. Subiremos siguiendo la ruta más típica pasando por la cima de Urkiolagirre, que ofrece una panorámica preciosa partiendo junto al Santuario. 
+ 
+&lt;iframe height="360" src="https://www.youtube.com/embed/BKVo_o0BgM0"&gt;&lt;/iframe&gt;</cmt>
+    <desc>Ruta de ida y vuelta con ascenso a la cima más emblemática de Bizkaia, el Anboto. Subiremos siguiendo la ruta más típica pasando por la cima de Urkiolagirre, que ofrece una panorámica preciosa partiendo junto al Santuario. 
+ 
+&lt;iframe height="360" src="https://www.youtube.com/embed/BKVo_o0BgM0"&gt;&lt;/iframe&gt;</desc>
+    <trkseg>
+      <trkpt lat="43.099879" lon="-2.643427">
+        <ele>788.175</ele>
+        <time>2019-07-31T10:25:35Z</time>
+      </trkpt>
+      <trkpt lat="43.099722" lon="-2.642851">
+        <ele>788.128</ele>
+        <time>2019-07-31T10:26:36Z</time>
+      </trkpt>
+      <trkpt lat="43.099454" lon="-2.642474">
+        <ele>788.320</ele>
+        <time>2019-07-31T10:27:15Z</time>
+      </trkpt>
+      <trkpt lat="43.099508" lon="-2.641802">
+        <ele>791.208</ele>
+        <time>2019-07-31T10:28:13Z</time>
+      </trkpt>
+      <trkpt lat="43.099362" lon="-2.641028">
+        <ele>808.120</ele>
+        <time>2019-07-31T10:29:13Z</time>
+      </trkpt>
+      <trkpt lat="43.098395" lon="-2.638326">
+        <ele>848.656</ele>
+        <time>2019-07-31T10:33:16Z</time>
+      </trkpt>
+      <trkpt lat="43.097753" lon="-2.635989">
+        <ele>883.690</ele>
+        <time>2019-07-31T10:36:28Z</time>
+      </trkpt>
+      <trkpt lat="43.097689" lon="-2.635309">
+        <ele>899.058</ele>
+        <time>2019-07-31T10:37:14Z</time>
+      </trkpt>
+      <trkpt lat="43.097282" lon="-2.633945">
+        <ele>913.368</ele>
+        <time>2019-07-31T10:38:50Z</time>
+      </trkpt>
+      <trkpt lat="43.096676" lon="-2.632577">
+        <ele>944.961</ele>
+        <time>2019-07-31T10:40:44Z</time>
+      </trkpt>
+      <trkpt lat="43.095681" lon="-2.631637">
+        <ele>954.751</ele>
+        <time>2019-07-31T10:42:34Z</time>
+      </trkpt>
+      <trkpt lat="43.093723" lon="-2.629158">
+        <ele>1016.386</ele>
+        <time>2019-07-31T10:47:15Z</time>
+      </trkpt>
+      <trkpt lat="43.093157" lon="-2.628712">
+        <ele>1024.466</ele>
+        <time>2019-07-31T10:48:18Z</time>
+      </trkpt>
+      <trkpt lat="43.092105" lon="-2.627182">
+        <ele>1050.929</ele>
+        <time>2019-07-31T10:50:53Z</time>
+      </trkpt>
+      <trkpt lat="43.092002" lon="-2.626663">
+        <ele>1058.821</ele>
+        <time>2019-07-31T10:51:40Z</time>
+      </trkpt>
+      <trkpt lat="43.091766" lon="-2.626749">
+        <ele>1054.808</ele>
+        <time>2019-07-31T10:52:57Z</time>
+      </trkpt>
+      <trkpt lat="43.091685" lon="-2.624348">
+        <ele>1021.659</ele>
+        <time>2019-07-31T10:55:57Z</time>
+      </trkpt>
+      <trkpt lat="43.092182" lon="-2.618651">
+        <ele>979.085</ele>
+        <time>2019-07-31T11:01:05Z</time>
+      </trkpt>
+      <trkpt lat="43.092435" lon="-2.617948">
+        <ele>969.499</ele>
+        <time>2019-07-31T11:01:47Z</time>
+      </trkpt>
+      <trkpt lat="43.092172" lon="-2.617057">
+        <ele>943.817</ele>
+        <time>2019-07-31T11:02:57Z</time>
+      </trkpt>
+      <trkpt lat="43.092737" lon="-2.615525">
+        <ele>927.117</ele>
+        <time>2019-07-31T11:05:06Z</time>
+      </trkpt>
+      <trkpt lat="43.093323" lon="-2.614914">
+        <ele>933.890</ele>
+        <time>2019-07-31T11:06:27Z</time>
+      </trkpt>
+      <trkpt lat="43.092754" lon="-2.613989">
+        <ele>944.730</ele>
+        <time>2019-07-31T11:07:46Z</time>
+      </trkpt>
+      <trkpt lat="43.091536" lon="-2.612754">
+        <ele>950.545</ele>
+        <time>2019-07-31T11:09:46Z</time>
+      </trkpt>
+      <trkpt lat="43.089498" lon="-2.610079">
+        <ele>988.479</ele>
+        <time>2019-07-31T11:14:04Z</time>
+      </trkpt>
+      <trkpt lat="43.088663" lon="-2.609511">
+        <ele>1006.005</ele>
+        <time>2019-07-31T11:15:41Z</time>
+      </trkpt>
+      <trkpt lat="43.087597" lon="-2.608165">
+        <ele>1006.425</ele>
+        <time>2019-07-31T11:18:10Z</time>
+      </trkpt>
+      <trkpt lat="43.087407" lon="-2.606025">
+        <ele>1012.608</ele>
+        <time>2019-07-31T11:21:25Z</time>
+      </trkpt>
+      <trkpt lat="43.087056" lon="-2.605274">
+        <ele>1031.040</ele>
+        <time>2019-07-31T11:22:31Z</time>
+      </trkpt>
+      <trkpt lat="43.086685" lon="-2.604925">
+        <ele>1042.566</ele>
+        <time>2019-07-31T11:23:46Z</time>
+      </trkpt>
+      <trkpt lat="43.086609" lon="-2.604540">
+        <ele>1045.310</ele>
+        <time>2019-07-31T11:24:31Z</time>
+      </trkpt>
+      <trkpt lat="43.087017" lon="-2.604382">
+        <ele>1054.788</ele>
+        <time>2019-07-31T11:25:34Z</time>
+      </trkpt>
+      <trkpt lat="43.087822" lon="-2.604488">
+        <ele>1067.978</ele>
+        <time>2019-07-31T11:27:31Z</time>
+      </trkpt>
+      <trkpt lat="43.088053" lon="-2.604001">
+        <ele>1098.521</ele>
+        <time>2019-07-31T11:29:00Z</time>
+      </trkpt>
+      <trkpt lat="43.087888" lon="-2.602961">
+        <ele>1132.371</ele>
+        <time>2019-07-31T11:32:56Z</time>
+      </trkpt>
+      <trkpt lat="43.088152" lon="-2.602709">
+        <ele>1144.396</ele>
+        <time>2019-07-31T11:34:45Z</time>
+      </trkpt>
+      <trkpt lat="43.088086" lon="-2.601945">
+        <ele>1181.472</ele>
+        <time>2019-07-31T11:37:53Z</time>
+      </trkpt>
+      <trkpt lat="43.088320" lon="-2.601683">
+        <ele>1198.613</ele>
+        <time>2019-07-31T11:40:01Z</time>
+      </trkpt>
+      <trkpt lat="43.088269" lon="-2.601454">
+        <ele>1213.614</ele>
+        <time>2019-07-31T11:40:50Z</time>
+      </trkpt>
+      <trkpt lat="43.088437" lon="-2.601092">
+        <ele>1224.608</ele>
+        <time>2019-07-31T11:43:14Z</time>
+      </trkpt>
+      <trkpt lat="43.088529" lon="-2.599561">
+        <ele>1298.650</ele>
+        <time>2019-07-31T11:53:17Z</time>
+      </trkpt>
+      <trkpt lat="43.087967" lon="-2.596992">
+        <ele>1378.276</ele>
+        <time>2019-07-31T12:05:09Z</time>
+      </trkpt>
+      <trkpt lat="43.087993" lon="-2.596514">
+        <ele>1381.120</ele>
+        <time>2019-07-31T12:08:07Z</time>
+      </trkpt>
+      <trkpt lat="43.087928" lon="-2.596990">
+        <ele>1380.858</ele>
+        <time>2019-07-31T12:10:41Z</time>
+      </trkpt>
+      <trkpt lat="43.088001" lon="-2.596920">
+        <ele>1379.988</ele>
+        <time>2019-07-31T12:15:06Z</time>
+      </trkpt>
+      <trkpt lat="43.088128" lon="-2.597922">
+        <ele>1359.171</ele>
+        <time>2019-07-31T12:19:34Z</time>
+      </trkpt>
+      <trkpt lat="43.088418" lon="-2.598819">
+        <ele>1328.641</ele>
+        <time>2019-07-31T12:27:08Z</time>
+      </trkpt>
+      <trkpt lat="43.088288" lon="-2.599887">
+        <ele>1292.116</ele>
+        <time>2019-07-31T12:30:32Z</time>
+      </trkpt>
+      <trkpt lat="43.088372" lon="-2.601285">
+        <ele>1221.772</ele>
+        <time>2019-07-31T12:37:32Z</time>
+      </trkpt>
+      <trkpt lat="43.088113" lon="-2.602533">
+        <ele>1167.413</ele>
+        <time>2019-07-31T12:42:35Z</time>
+      </trkpt>
+      <trkpt lat="43.088351" lon="-2.603401">
+        <ele>1126.914</ele>
+        <time>2019-07-31T12:44:53Z</time>
+      </trkpt>
+      <trkpt lat="43.088316" lon="-2.603589">
+        <ele>1122.308</ele>
+        <time>2019-07-31T12:45:25Z</time>
+      </trkpt>
+      <trkpt lat="43.087996" lon="-2.603784">
+        <ele>1103.250</ele>
+        <time>2019-07-31T12:47:17Z</time>
+      </trkpt>
+      <trkpt lat="43.088060" lon="-2.603965">
+        <ele>1095.746</ele>
+        <time>2019-07-31T12:47:49Z</time>
+      </trkpt>
+      <trkpt lat="43.087863" lon="-2.604456">
+        <ele>1078.970</ele>
+        <time>2019-07-31T12:48:52Z</time>
+      </trkpt>
+      <trkpt lat="43.087461" lon="-2.604560">
+        <ele>1070.638</ele>
+        <time>2019-07-31T12:49:33Z</time>
+      </trkpt>
+      <trkpt lat="43.087335" lon="-2.604444">
+        <ele>1064.798</ele>
+        <time>2019-07-31T12:49:44Z</time>
+      </trkpt>
+      <trkpt lat="43.086786" lon="-2.604483">
+        <ele>1052.621</ele>
+        <time>2019-07-31T12:50:22Z</time>
+      </trkpt>
+      <trkpt lat="43.086658" lon="-2.604681">
+        <ele>1049.281</ele>
+        <time>2019-07-31T12:50:39Z</time>
+      </trkpt>
+      <trkpt lat="43.087347" lon="-2.607197">
+        <ele>1040.976</ele>
+        <time>2019-07-31T12:52:48Z</time>
+      </trkpt>
+      <trkpt lat="43.087935" lon="-2.608776">
+        <ele>1019.946</ele>
+        <time>2019-07-31T12:54:20Z</time>
+      </trkpt>
+      <trkpt lat="43.088300" lon="-2.608939">
+        <ele>1022.388</ele>
+        <time>2019-07-31T12:54:38Z</time>
+      </trkpt>
+      <trkpt lat="43.088648" lon="-2.609403">
+        <ele>1018.216</ele>
+        <time>2019-07-31T12:55:16Z</time>
+      </trkpt>
+      <trkpt lat="43.089273" lon="-2.609835">
+        <ele>1008.408</ele>
+        <time>2019-07-31T12:55:59Z</time>
+      </trkpt>
+      <trkpt lat="43.092108" lon="-2.613433">
+        <ele>956.997</ele>
+        <time>2019-07-31T13:00:19Z</time>
+      </trkpt>
+      <trkpt lat="43.092020" lon="-2.614382">
+        <ele>936.163</ele>
+        <time>2019-07-31T13:01:04Z</time>
+      </trkpt>
+      <trkpt lat="43.091850" lon="-2.614730">
+        <ele>925.057</ele>
+        <time>2019-07-31T13:01:31Z</time>
+      </trkpt>
+      <trkpt lat="43.091721" lon="-2.614670">
+        <ele>931.225</ele>
+        <time>2019-07-31T13:01:59Z</time>
+      </trkpt>
+      <trkpt lat="43.092058" lon="-2.615090">
+        <ele>922.385</ele>
+        <time>2019-07-31T13:03:13Z</time>
+      </trkpt>
+      <trkpt lat="43.092183" lon="-2.615692">
+        <ele>917.288</ele>
+        <time>2019-07-31T13:03:55Z</time>
+      </trkpt>
+      <trkpt lat="43.092569" lon="-2.615968">
+        <ele>928.958</ele>
+        <time>2019-07-31T13:04:46Z</time>
+      </trkpt>
+      <trkpt lat="43.092167" lon="-2.617224">
+        <ele>945.293</ele>
+        <time>2019-07-31T13:06:39Z</time>
+      </trkpt>
+      <trkpt lat="43.092247" lon="-2.617805">
+        <ele>955.731</ele>
+        <time>2019-07-31T13:07:32Z</time>
+      </trkpt>
+      <trkpt lat="43.092059" lon="-2.621209">
+        <ele>1005.761</ele>
+        <time>2019-07-31T13:12:02Z</time>
+      </trkpt>
+      <trkpt lat="43.091514" lon="-2.625951">
+        <ele>1046.407</ele>
+        <time>2019-07-31T13:17:49Z</time>
+      </trkpt>
+      <trkpt lat="43.093151" lon="-2.628685">
+        <ele>1023.508</ele>
+        <time>2019-07-31T13:21:09Z</time>
+      </trkpt>
+      <trkpt lat="43.094037" lon="-2.629273">
+        <ele>1008.596</ele>
+        <time>2019-07-31T13:22:07Z</time>
+      </trkpt>
+      <trkpt lat="43.095185" lon="-2.631108">
+        <ele>973.222</ele>
+        <time>2019-07-31T13:24:04Z</time>
+      </trkpt>
+      <trkpt lat="43.096352" lon="-2.632105">
+        <ele>951.786</ele>
+        <time>2019-07-31T13:25:30Z</time>
+      </trkpt>
+      <trkpt lat="43.097014" lon="-2.633163">
+        <ele>937.274</ele>
+        <time>2019-07-31T13:26:44Z</time>
+      </trkpt>
+      <trkpt lat="43.097563" lon="-2.634865">
+        <ele>902.054</ele>
+        <time>2019-07-31T13:28:40Z</time>
+      </trkpt>
+      <trkpt lat="43.098062" lon="-2.637359">
+        <ele>873.437</ele>
+        <time>2019-07-31T13:30:55Z</time>
+      </trkpt>
+      <trkpt lat="43.098448" lon="-2.638092">
+        <ele>857.367</ele>
+        <time>2019-07-31T13:31:41Z</time>
+      </trkpt>
+      <trkpt lat="43.099356" lon="-2.641078">
+        <ele>814.282</ele>
+        <time>2019-07-31T13:34:28Z</time>
+      </trkpt>
+      <trkpt lat="43.099527" lon="-2.641818">
+        <ele>801.198</ele>
+        <time>2019-07-31T13:35:07Z</time>
+      </trkpt>
+      <trkpt lat="43.099477" lon="-2.642363">
+        <ele>796.915</ele>
+        <time>2019-07-31T13:35:45Z</time>
+      </trkpt>
+      <trkpt lat="43.099940" lon="-2.643426">
+        <ele>793.626</ele>
+        <time>2019-07-31T13:36:55Z</time>
+      </trkpt>
+    </trkseg>
+  </trk></gpx>

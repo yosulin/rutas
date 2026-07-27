@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Wikiloc - https://www.wikiloc.com" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Wikiloc - ARATZ desde Beunda pasando por el TÚNEL DE SAN ADRIÁN</name>
+    <link href="https://www.wikiloc.com/hiking-trails/aratz-desde-beunda-pasando-por-el-tunel-de-san-adrian-38884439">
+      <text>ARATZ desde Beunda pasando por el TÚNEL DE SAN ADRIÁN on Wikiloc</text>
+    </link>
+    <time>2019-07-20T13:17:11Z</time>
+  </metadata>
+  <wpt lat="42.930746" lon="-2.272893">
+    <ele>882.6</ele>
+    <time>2019-07-20T09:39:25Z</time>
+    <name>Inicio en Beunda Txabola</name>
+    <cmt>Dejamos el coche en Beunda Txabola, lugar al que accedemos por la pista cementada junto a la Benta de Otzaurte. Junto al parking, varias mesas de picnic y preciosas vistas de Aratz. Comenzamos la ruta descendiendo por la pista cementada por la que llegamos en coche.</cmt>
+    <desc>Dejamos el coche en Beunda Txabola, lugar al que accedemos por la pista cementada junto a la Benta de Otzaurte. Junto al parking, varias mesas de picnic y preciosas vistas de Aratz. Comenzamos la ruta descendiendo por la pista cementada por la que llegamos en coche.</desc>
+  </wpt>
+  <wpt lat="42.931219" lon="-2.275689">
+    <ele>867.2</ele>
+    <time>2019-07-20T09:44:59Z</time>
+    <name>Derecha por senda con pintura blanca y roja</name>
+    <cmt>Abandonamos la pista cementada para tomar la senda con marcas blancas y rojas junto al poste indicador a la derecha del camino. Seguiremos las marcas hacia Sandratiko koba.</cmt>
+    <desc>Abandonamos la pista cementada para tomar la senda con marcas blancas y rojas junto al poste indicador a la derecha del camino. Seguiremos las marcas hacia Sandratiko koba.</desc>
+  </wpt>
+  <wpt lat="42.930432" lon="-2.277128">
+    <ele>896.1</ele>
+    <time>2019-07-20T09:48:57Z</time>
+    <name>Derecha</name>
+    <cmt>Curva cerrada a derechas siguiendo las marcas blancas y rojas.</cmt>
+    <desc>Curva cerrada a derechas siguiendo las marcas blancas y rojas.</desc>
+  </wpt>
+  <wpt lat="42.933601" lon="-2.282093">
+    <ele>960.4</ele>
+    <time>2019-07-20T09:57:09Z</time>
+    <name>Izquierda</name>
+    <cmt>Giro a la izquierda siguiendo las marcas blancas y rojas.</cmt>
+    <desc>Giro a la izquierda siguiendo las marcas blancas y rojas.</desc>
+  </wpt>
+  <wpt lat="42.934168" lon="-2.283349">
+    <ele>970.2</ele>
+    <time>2019-07-20T09:59:59Z</time>
+    <name>Izquierda</name>
+    <cmt>En la bifurcación tomamos la senda de la izquierda. Las marcas blancas y rojas siguen guiándonos.</cmt>
+    <desc>En la bifurcación tomamos la senda de la izquierda. Las marcas blancas y rojas siguen guiándonos.</desc>
+  </wpt>
+  <wpt lat="42.936175" lon="-2.294173">
+    <ele>934.6</ele>
+    <time>2019-07-20T10:09:21Z</time>
+    <name>Fuente</name>
+    <cmt>Fuente en el camino.</cmt>
+    <desc>Fuente en el camino.</desc>
+  </wpt>
+  <wpt lat="42.935706" lon="-2.298680">
+    <ele>897.2</ele>
+    <time>2019-07-20T10:12:09Z</time>
+    <name>Recto</name>
+    <cmt>Continuar recto tomando la senda.</cmt>
+    <desc>Continuar recto tomando la senda.</desc>
+  </wpt>
+  <wpt lat="42.935909" lon="-2.300985">
+    <ele>889.8</ele>
+    <time>2019-07-20T10:14:00Z</time>
+    <name>Izquierda</name>
+    <cmt>Giro a la izquierda siguendo las marcas blancas y rojas.</cmt>
+    <desc>Giro a la izquierda siguendo las marcas blancas y rojas.</desc>
+  </wpt>
+  <wpt lat="42.935676" lon="-2.301144">
+    <ele>885.3</ele>
+    <time>2019-07-20T10:14:41Z</time>
+    <name>Derecha</name>
+    <cmt>Giro a la derecha siguendo las marcas blancas y rojas y abandonando el camino principal para dirigirnos a Aldaola.</cmt>
+    <desc>Giro a la derecha siguendo las marcas blancas y rojas y abandonando el camino principal para dirigirnos a Aldaola.</desc>
+  </wpt>
+  <wpt lat="42.935294" lon="-2.302780">
+    <ele>889.2</ele>
+    <time>2019-07-20T10:16:59Z</time>
+    <name>Parking de Aldaola</name>
+    <cmt>Llegamos al parking de Aldaola y tomamos la senda junto al panel informativo en dirección San Adrián.</cmt>
+    <desc>Llegamos al parking de Aldaola y tomamos la senda junto al panel informativo en dirección San Adrián.</desc>
+  </wpt>
+  <wpt lat="42.934771" lon="-2.304272">
+    <ele>894.1</ele>
+    <time>2019-07-20T10:20:10Z</time>
+    <name>Puente</name>
+    <cmt>Pequeño puente de madera</cmt>
+    <desc>Pequeño puente de madera</desc>
+  </wpt>
+  <wpt lat="42.935188" lon="-2.304723">
+    <ele>892.6</ele>
+    <time>2019-07-20T10:21:06Z</time>
+    <name>Segundo puente de madera</name>
+    <cmt>Segundo puente de madera</cmt>
+    <desc>Segundo puente de madera</desc>
+  </wpt>
+  <wpt lat="42.936950" lon="-2.306911">
+    <ele>923.0</ele>
+    <time>2019-07-20T10:26:34Z</time>
+    <name>Mikeletes</name>
+    <cmt>Antiguo cuartel de Mikeletes, al llegar al poste indicativo giraremos a la izquierda siguiendo las marcas blancas y rojas hacia San Adrián por una preciosa senda.</cmt>
+    <desc>Antiguo cuartel de Mikeletes, al llegar al poste indicativo giraremos a la izquierda siguiendo las marcas blancas y rojas hacia San Adrián por una preciosa senda.</desc>
+  </wpt>
+  <wpt lat="42.935714" lon="-2.314814">
+    <ele>1049.0</ele>
+    <time>2019-07-20T10:39:26Z</time>
+    <name>Túnel de San Adrián</name>
+    <cmt>Túnel de San Adrián</cmt>
+    <desc>Túnel de San Adrián</desc>
+  </wpt>
+  <wpt lat="42.936117" lon="-2.317357">
+    <ele>1097.6</ele>
+    <time>2019-07-20T10:45:42Z</time>
+    <name>Izquierda</name>
+    <cmt>Giro a la izquierda en el cruce de caminos tomando la calzada romana. Seguir marcas blancas y rojas.</cmt>
+    <desc>Giro a la izquierda en el cruce de caminos tomando la calzada romana. Seguir marcas blancas y rojas.</desc>
+  </wpt>
+  <wpt lat="42.934778" lon="-2.319001">
+    <ele>1126.1</ele>
+    <time>2019-07-20T10:49:18Z</time>
+    <name>Recto y seguir marcas amarillas</name>
+    <cmt>Abandonar la calzada romana siguiendo recto por las marcas amarillas.</cmt>
+    <desc>Abandonar la calzada romana siguiendo recto por las marcas amarillas.</desc>
+  </wpt>
+  <wpt lat="42.932048" lon="-2.316378">
+    <ele>1200.7</ele>
+    <time>2019-07-20T11:00:09Z</time>
+    <name>Poste Aratz 3km</name>
+    <cmt>Poste indicativo que señala Aratz a 3 km. Seguimos los puntos amarillos.</cmt>
+    <desc>Poste indicativo que señala Aratz a 3 km. Seguimos los puntos amarillos.</desc>
+  </wpt>
+  <wpt lat="42.923066" lon="-2.306869">
+    <ele>1476.1</ele>
+    <time>2019-07-20T11:27:37Z</time>
+    <name>Elurzuloak 1430 m</name>
+    <cmt>Cima de Elurzuloak, de 1430 m de altura. Tras visitarla, crestearemos hasta la cima de Aratz.</cmt>
+    <desc>Cima de Elurzuloak, de 1430 m de altura. Tras visitarla, crestearemos hasta la cima de Aratz.</desc>
+  </wpt>
+  <wpt lat="42.920892" lon="-2.304980">
+    <ele>1494.0</ele>
+    <time>2019-07-20T11:33:11Z</time>
+    <name>Cima de Aratz 1443 m</name>
+    <cmt>Cima de Aratz 1443 m, punto más alto de la jornada.</cmt>
+    <desc>Cima de Aratz 1443 m, punto más alto de la jornada.</desc>
+  </wpt>
+  <wpt lat="42.923408" lon="-2.304764">
+    <ele>1396.2</ele>
+    <time>2019-07-20T11:54:53Z</time>
+    <name>Senda punto amarillo</name>
+    <cmt>Pasamos Aratz y giramos a la izquierda para volver al camino de ida pasando por las campas de Aratz. Para ello buscaremos la senda con las marcas amarillas. Desde aquí tendremos preciosas vistas.</cmt>
+    <desc>Pasamos Aratz y giramos a la izquierda para volver al camino de ida pasando por las campas de Aratz. Para ello buscaremos la senda con las marcas amarillas. Desde aquí tendremos preciosas vistas.</desc>
+  </wpt>
+  <wpt lat="42.926335" lon="-2.309079">
+    <ele>1348.7</ele>
+    <time>2019-07-20T12:06:06Z</time>
+    <name>Conectamos con el camino de ida</name>
+    <cmt>Conectamos con el camino de ida</cmt>
+    <desc>Conectamos con el camino de ida</desc>
+  </wpt>
+  <wpt lat="42.936069" lon="-2.318129">
+    <ele>1093.4</ele>
+    <time>2019-07-20T12:22:59Z</time>
+    <name>Túmulo san Adrián</name>
+    <cmt>Pequeño monumento megalítico.</cmt>
+    <desc>Pequeño monumento megalítico.</desc>
+  </wpt>
+  <wpt lat="42.936013" lon="-2.313624">
+    <ele>1022.0</ele>
+    <time>2019-07-20T12:30:57Z</time>
+    <name>Izquierda por puntos amarillos hacia Ermita de Sancti Spiritu</name>
+    <cmt>Tomar senda de la izquierda con puntos amarillos hacia Ermita de Sancti Spiritu con indicaciones a Zegama / Oazurtza en el poste indicativo.</cmt>
+    <desc>Tomar senda de la izquierda con puntos amarillos hacia Ermita de Sancti Spiritu con indicaciones a Zegama / Oazurtza en el poste indicativo.</desc>
+  </wpt>
+  <wpt lat="42.938905" lon="-2.308830">
+    <ele>1017.6</ele>
+    <time>2019-07-20T12:36:22Z</time>
+    <name>Ermita Sancti Spiritu</name>
+    <cmt>Visitamos la Ermita de Sancti Spiritu y giramos a la derecha antes de cruzar el cercado, para conectar con el camino de ida de marcas blancas y rojas junto a Mikeletes.</cmt>
+    <desc>Visitamos la Ermita de Sancti Spiritu y giramos a la derecha antes de cruzar el cercado, para conectar con el camino de ida de marcas blancas y rojas junto a Mikeletes.</desc>
+  </wpt>
+  <wpt lat="42.935491" lon="-2.301283">
+    <ele>873.3</ele>
+    <time>2019-07-20T12:47:03Z</time>
+    <name>Regreso por pista cementada</name>
+    <cmt>Tras pasar el parking de Aldaola hacemos el regreso siguiendo la pista cementada hasta Beunda. Otra opción sería volver por el camino de ida.</cmt>
+    <desc>Tras pasar el parking de Aldaola hacemos el regreso siguiendo la pista cementada hasta Beunda. Otra opción sería volver por el camino de ida.</desc>
+  </wpt>
+  <trk>
+    <name>ARATZ desde Beunda pasando por el TÚNEL DE SAN ADRIÁN</name>
+    <cmt>Ruta circular al monte Aratz desde la Txabola de Beunda. 
+ 
+&lt;iframe height="360" src="https://www.youtube.com/embed/3yYoR_q_XuY"&gt;&lt;/iframe&gt; 
+Desde Beunda caminaremos hacia el parking de Aldaola, punto desde el que podéis iniciar la ruta si queréis acortarla. 
+ 
+Aquí tomaremos la senda que nos llevará a visitar el antiguo cuartel de Mikeletes, guarda fronteriza en otros tiempos. 
+ 
+Desde el cuartel nos dirigiremos al precioso túnel de San Adrián, para cruzarlo y diriginos a las cimas de Elurzuloak y Aratz. 
+ 
+Tras visitar la cima de Aratz y disfrutar sus vistas, volveremos por la campas de Aratz siguiendo los puntos amarillos hasta volver al camino de ida junto a la cima de Argorri, que hoy no ascenderemos. 
+ 
+Desde aquí volveremos por el camino de ida, primero siguiendo los puntos amarillos para volver a cruzar el túnel de San Adrián. Poco después de cruzarlo, seguiremos por los puntos amarillos para visitar la ermita de Sancti Espiritus. Desde aquí volveremos a Mikeletes y después al parking de Aldaola. 
+ 
+Desde aquí podemos volver siguiendo los pasos de la ida o siguiendo la pista cementada (nuestra opción) hasta Beunda, donde tenemos el coche.</cmt>
+    <desc>Ruta circular al monte Aratz desde la Txabola de Beunda. 
+ 
+&lt;iframe height="360" src="https://www.youtube.com/embed/3yYoR_q_XuY"&gt;&lt;/iframe&gt; 
+Desde Beunda caminaremos hacia el parking de Aldaola, punto desde el que podéis iniciar la ruta si queréis acortarla. 
+ 
+Aquí tomaremos la senda que nos llevará a visitar el antiguo cuartel de Mikeletes, guarda fronteriza en otros tiempos. 
+ 
+Desde el cuartel nos dirigiremos al precioso túnel de San Adrián, para cruzarlo y diriginos a las cimas de Elurzuloak y Aratz. 
+ 
+Tras visitar la cima de Aratz y disfrutar sus vistas, volveremos por la campas de Aratz siguiendo los puntos amarillos hasta volver al camino de ida junto a la cima de Argorri, que hoy no ascenderemos. 
+ 
+Desde aquí volveremos por el camino de ida, primero siguiendo los puntos amarillos para volver a cruzar el túnel de San Adrián. Poco después de cruzarlo, seguiremos por los puntos amarillos para visitar la ermita de Sancti Espiritus. Desde aquí volveremos a Mikeletes y después al parking de Aldaola. 
+ 
+Desde aquí podemos volver siguiendo los pasos de la ida o siguiendo la pista cementada (nuestra opción) hasta Beunda, donde tenemos el coche.</desc>
+    <trkseg>
+      <trkpt lat="42.930611" lon="-2.272831">
+        <ele>886.246</ele>
+        <time>2019-07-20T09:38:59Z</time>
+      </trkpt>
+      <trkpt lat="42.930804" lon="-2.272920">
+        <ele>886.288</ele>
+        <time>2019-07-20T09:39:42Z</time>
+      </trkpt>
+      <trkpt lat="42.930621" lon="-2.272816">
+        <ele>886.216</ele>
+        <time>2019-07-20T09:41:17Z</time>
+      </trkpt>
+      <trkpt lat="42.931109" lon="-2.274446">
+        <ele>872.708</ele>
+        <time>2019-07-20T09:43:35Z</time>
+      </trkpt>
+      <trkpt lat="42.930970" lon="-2.275105">
+        <ele>878.427</ele>
+        <time>2019-07-20T09:44:17Z</time>
+      </trkpt>
+      <trkpt lat="42.931279" lon="-2.275846">
+        <ele>870.282</ele>
+        <time>2019-07-20T09:45:40Z</time>
+      </trkpt>
+      <trkpt lat="42.931379" lon="-2.276560">
+        <ele>861.512</ele>
+        <time>2019-07-20T09:46:30Z</time>
+      </trkpt>
+      <trkpt lat="42.931023" lon="-2.277018">
+        <ele>886.282</ele>
+        <time>2019-07-20T09:47:32Z</time>
+      </trkpt>
+      <trkpt lat="42.930429" lon="-2.277125">
+        <ele>896.058</ele>
+        <time>2019-07-20T09:48:57Z</time>
+      </trkpt>
+      <trkpt lat="42.932109" lon="-2.278719">
+        <ele>914.968</ele>
+        <time>2019-07-20T09:52:51Z</time>
+      </trkpt>
+      <trkpt lat="42.932342" lon="-2.279356">
+        <ele>944.287</ele>
+        <time>2019-07-20T09:53:31Z</time>
+      </trkpt>
+      <trkpt lat="42.933048" lon="-2.280110">
+        <ele>941.723</ele>
+        <time>2019-07-20T09:54:33Z</time>
+      </trkpt>
+      <trkpt lat="42.933597" lon="-2.282015">
+        <ele>959.621</ele>
+        <time>2019-07-20T09:56:53Z</time>
+      </trkpt>
+      <trkpt lat="42.933591" lon="-2.282305">
+        <ele>962.141</ele>
+        <time>2019-07-20T09:57:28Z</time>
+      </trkpt>
+      <trkpt lat="42.933348" lon="-2.282656">
+        <ele>966.005</ele>
+        <time>2019-07-20T09:58:04Z</time>
+      </trkpt>
+      <trkpt lat="42.933661" lon="-2.283076">
+        <ele>978.908</ele>
+        <time>2019-07-20T09:58:42Z</time>
+      </trkpt>
+      <trkpt lat="42.934159" lon="-2.283342">
+        <ele>969.865</ele>
+        <time>2019-07-20T09:59:29Z</time>
+      </trkpt>
+      <trkpt lat="42.934262" lon="-2.284138">
+        <ele>981.340</ele>
+        <time>2019-07-20T10:01:24Z</time>
+      </trkpt>
+      <trkpt lat="42.934940" lon="-2.285536">
+        <ele>980.480</ele>
+        <time>2019-07-20T10:02:50Z</time>
+      </trkpt>
+      <trkpt lat="42.934949" lon="-2.286406">
+        <ele>1000.090</ele>
+        <time>2019-07-20T10:03:51Z</time>
+      </trkpt>
+      <trkpt lat="42.935115" lon="-2.287032">
+        <ele>1000.216</ele>
+        <time>2019-07-20T10:04:24Z</time>
+      </trkpt>
+      <trkpt lat="42.935327" lon="-2.287291">
+        <ele>998.556</ele>
+        <time>2019-07-20T10:04:41Z</time>
+      </trkpt>
+      <trkpt lat="42.935344" lon="-2.287750">
+        <ele>998.125</ele>
+        <time>2019-07-20T10:05:05Z</time>
+      </trkpt>
+      <trkpt lat="42.935781" lon="-2.288504">
+        <ele>989.861</ele>
+        <time>2019-07-20T10:05:59Z</time>
+      </trkpt>
+      <trkpt lat="42.936103" lon="-2.289492">
+        <ele>973.391</ele>
+        <time>2019-07-20T10:06:43Z</time>
+      </trkpt>
+      <trkpt lat="42.936024" lon="-2.290369">
+        <ele>984.881</ele>
+        <time>2019-07-20T10:07:05Z</time>
+      </trkpt>
+      <trkpt lat="42.936319" lon="-2.291896">
+        <ele>958.819</ele>
+        <time>2019-07-20T10:08:12Z</time>
+      </trkpt>
+      <trkpt lat="42.936035" lon="-2.293161">
+        <ele>951.408</ele>
+        <time>2019-07-20T10:08:43Z</time>
+      </trkpt>
+      <trkpt lat="42.936170" lon="-2.295222">
+        <ele>922.952</ele>
+        <time>2019-07-20T10:09:57Z</time>
+      </trkpt>
+      <trkpt lat="42.935980" lon="-2.296324">
+        <ele>915.217</ele>
+        <time>2019-07-20T10:10:23Z</time>
+      </trkpt>
+      <trkpt lat="42.935610" lon="-2.296961">
+        <ele>910.567</ele>
+        <time>2019-07-20T10:10:45Z</time>
+      </trkpt>
+      <trkpt lat="42.935568" lon="-2.297719">
+        <ele>903.887</ele>
+        <time>2019-07-20T10:11:03Z</time>
+      </trkpt>
+      <trkpt lat="42.935671" lon="-2.298930">
+        <ele>893.973</ele>
+        <time>2019-07-20T10:12:24Z</time>
+      </trkpt>
+      <trkpt lat="42.936040" lon="-2.300648">
+        <ele>882.163</ele>
+        <time>2019-07-20T10:13:33Z</time>
+      </trkpt>
+      <trkpt lat="42.935841" lon="-2.301078">
+        <ele>891.692</ele>
+        <time>2019-07-20T10:14:10Z</time>
+      </trkpt>
+      <trkpt lat="42.935480" lon="-2.301206">
+        <ele>876.728</ele>
+        <time>2019-07-20T10:15:12Z</time>
+      </trkpt>
+      <trkpt lat="42.935374" lon="-2.302510">
+        <ele>899.181</ele>
+        <time>2019-07-20T10:16:38Z</time>
+      </trkpt>
+      <trkpt lat="42.934748" lon="-2.304202">
+        <ele>892.761</ele>
+        <time>2019-07-20T10:19:02Z</time>
+      </trkpt>
+      <trkpt lat="42.935037" lon="-2.304601">
+        <ele>889.717</ele>
+        <time>2019-07-20T10:20:39Z</time>
+      </trkpt>
+      <trkpt lat="42.935195" lon="-2.304581">
+        <ele>888.208</ele>
+        <time>2019-07-20T10:20:49Z</time>
+      </trkpt>
+      <trkpt lat="42.935816" lon="-2.305836">
+        <ele>910.891</ele>
+        <time>2019-07-20T10:23:25Z</time>
+      </trkpt>
+      <trkpt lat="42.935930" lon="-2.305612">
+        <ele>919.086</ele>
+        <time>2019-07-20T10:23:44Z</time>
+      </trkpt>
+      <trkpt lat="42.936022" lon="-2.305652">
+        <ele>918.546</ele>
+        <time>2019-07-20T10:23:49Z</time>
+      </trkpt>
+      <trkpt lat="42.936373" lon="-2.306730">
+        <ele>930.696</ele>
+        <time>2019-07-20T10:25:28Z</time>
+      </trkpt>
+      <trkpt lat="42.936534" lon="-2.306897">
+        <ele>937.722</ele>
+        <time>2019-07-20T10:25:44Z</time>
+      </trkpt>
+      <trkpt lat="42.937399" lon="-2.307059">
+        <ele>947.292</ele>
+        <time>2019-07-20T10:27:29Z</time>
+      </trkpt>
+      <trkpt lat="42.937625" lon="-2.309141">
+        <ele>972.361</ele>
+        <time>2019-07-20T10:29:53Z</time>
+      </trkpt>
+      <trkpt lat="42.937513" lon="-2.310984">
+        <ele>989.427</ele>
+        <time>2019-07-20T10:31:46Z</time>
+      </trkpt>
+      <trkpt lat="42.937050" lon="-2.311412">
+        <ele>987.636</ele>
+        <time>2019-07-20T10:32:34Z</time>
+      </trkpt>
+      <trkpt lat="42.936016" lon="-2.313320">
+        <ele>1023.817</ele>
+        <time>2019-07-20T10:35:49Z</time>
+      </trkpt>
+      <trkpt lat="42.935818" lon="-2.314593">
+        <ele>1033.118</ele>
+        <time>2019-07-20T10:38:19Z</time>
+      </trkpt>
+      <trkpt lat="42.935446" lon="-2.315095">
+        <ele>1044.308</ele>
+        <time>2019-07-20T10:40:08Z</time>
+      </trkpt>
+      <trkpt lat="42.935431" lon="-2.315347">
+        <ele>1055.056</ele>
+        <time>2019-07-20T10:40:29Z</time>
+      </trkpt>
+      <trkpt lat="42.935207" lon="-2.315457">
+        <ele>1053.331</ele>
+        <time>2019-07-20T10:41:01Z</time>
+      </trkpt>
+      <trkpt lat="42.935106" lon="-2.316186">
+        <ele>1040.021</ele>
+        <time>2019-07-20T10:43:02Z</time>
+      </trkpt>
+      <trkpt lat="42.936178" lon="-2.317345">
+        <ele>1101.571</ele>
+        <time>2019-07-20T10:45:47Z</time>
+      </trkpt>
+      <trkpt lat="42.936141" lon="-2.317914">
+        <ele>1097.697</ele>
+        <time>2019-07-20T10:46:34Z</time>
+      </trkpt>
+      <trkpt lat="42.935741" lon="-2.318544">
+        <ele>1110.057</ele>
+        <time>2019-07-20T10:47:28Z</time>
+      </trkpt>
+      <trkpt lat="42.935446" lon="-2.318807">
+        <ele>1118.876</ele>
+        <time>2019-07-20T10:47:57Z</time>
+      </trkpt>
+      <trkpt lat="42.935059" lon="-2.318751">
+        <ele>1131.192</ele>
+        <time>2019-07-20T10:48:33Z</time>
+      </trkpt>
+      <trkpt lat="42.934765" lon="-2.318995">
+        <ele>1126.083</ele>
+        <time>2019-07-20T10:49:05Z</time>
+      </trkpt>
+      <trkpt lat="42.934404" lon="-2.318820">
+        <ele>1122.525</ele>
+        <time>2019-07-20T10:50:44Z</time>
+      </trkpt>
+      <trkpt lat="42.934034" lon="-2.318925">
+        <ele>1129.817</ele>
+        <time>2019-07-20T10:51:15Z</time>
+      </trkpt>
+      <trkpt lat="42.933570" lon="-2.318751">
+        <ele>1131.908</ele>
+        <time>2019-07-20T10:52:29Z</time>
+      </trkpt>
+      <trkpt lat="42.933600" lon="-2.318527">
+        <ele>1127.591</ele>
+        <time>2019-07-20T10:53:15Z</time>
+      </trkpt>
+      <trkpt lat="42.933384" lon="-2.318683">
+        <ele>1133.086</ele>
+        <time>2019-07-20T10:53:59Z</time>
+      </trkpt>
+      <trkpt lat="42.933152" lon="-2.318614">
+        <ele>1138.126</ele>
+        <time>2019-07-20T10:54:32Z</time>
+      </trkpt>
+      <trkpt lat="42.932134" lon="-2.318066">
+        <ele>1162.866</ele>
+        <time>2019-07-20T10:56:35Z</time>
+      </trkpt>
+      <trkpt lat="42.931791" lon="-2.317391">
+        <ele>1176.762</ele>
+        <time>2019-07-20T10:57:49Z</time>
+      </trkpt>
+      <trkpt lat="42.932116" lon="-2.316607">
+        <ele>1196.812</ele>
+        <time>2019-07-20T10:59:35Z</time>
+      </trkpt>
+      <trkpt lat="42.931757" lon="-2.315583">
+        <ele>1214.191</ele>
+        <time>2019-07-20T11:01:26Z</time>
+      </trkpt>
+      <trkpt lat="42.931373" lon="-2.314860">
+        <ele>1238.787</ele>
+        <time>2019-07-20T11:03:09Z</time>
+      </trkpt>
+      <trkpt lat="42.930837" lon="-2.314319">
+        <ele>1259.393</ele>
+        <time>2019-07-20T11:04:38Z</time>
+      </trkpt>
+      <trkpt lat="42.930030" lon="-2.312717">
+        <ele>1291.365</ele>
+        <time>2019-07-20T11:07:53Z</time>
+      </trkpt>
+      <trkpt lat="42.928545" lon="-2.311362">
+        <ele>1319.321</ele>
+        <time>2019-07-20T11:11:10Z</time>
+      </trkpt>
+      <trkpt lat="42.926629" lon="-2.310160">
+        <ele>1329.208</ele>
+        <time>2019-07-20T11:14:40Z</time>
+      </trkpt>
+      <trkpt lat="42.926141" lon="-2.309444">
+        <ele>1334.892</ele>
+        <time>2019-07-20T11:16:02Z</time>
+      </trkpt>
+      <trkpt lat="42.924681" lon="-2.308193">
+        <ele>1391.227</ele>
+        <time>2019-07-20T11:20:06Z</time>
+      </trkpt>
+      <trkpt lat="42.924130" lon="-2.307904">
+        <ele>1418.887</ele>
+        <time>2019-07-20T11:22:14Z</time>
+      </trkpt>
+      <trkpt lat="42.923524" lon="-2.307222">
+        <ele>1452.477</ele>
+        <time>2019-07-20T11:25:19Z</time>
+      </trkpt>
+      <trkpt lat="42.923097" lon="-2.307053">
+        <ele>1469.773</ele>
+        <time>2019-07-20T11:26:57Z</time>
+      </trkpt>
+      <trkpt lat="42.923033" lon="-2.306797">
+        <ele>1476.613</ele>
+        <time>2019-07-20T11:28:16Z</time>
+      </trkpt>
+      <trkpt lat="42.922209" lon="-2.306418">
+        <ele>1461.822</ele>
+        <time>2019-07-20T11:29:48Z</time>
+      </trkpt>
+      <trkpt lat="42.921661" lon="-2.305971">
+        <ele>1475.278</ele>
+        <time>2019-07-20T11:31:04Z</time>
+      </trkpt>
+      <trkpt lat="42.921315" lon="-2.305337">
+        <ele>1483.453</ele>
+        <time>2019-07-20T11:31:59Z</time>
+      </trkpt>
+      <trkpt lat="42.920707" lon="-2.304764">
+        <ele>1491.504</ele>
+        <time>2019-07-20T11:47:33Z</time>
+      </trkpt>
+      <trkpt lat="42.920893" lon="-2.304676">
+        <ele>1489.114</ele>
+        <time>2019-07-20T11:48:00Z</time>
+      </trkpt>
+      <trkpt lat="42.920649" lon="-2.304385">
+        <ele>1481.108</ele>
+        <time>2019-07-20T11:49:05Z</time>
+      </trkpt>
+      <trkpt lat="42.920792" lon="-2.304208">
+        <ele>1480.748</ele>
+        <time>2019-07-20T11:49:27Z</time>
+      </trkpt>
+      <trkpt lat="42.921279" lon="-2.304343">
+        <ele>1474.333</ele>
+        <time>2019-07-20T11:50:10Z</time>
+      </trkpt>
+      <trkpt lat="42.921384" lon="-2.304122">
+        <ele>1466.143</ele>
+        <time>2019-07-20T11:50:40Z</time>
+      </trkpt>
+      <trkpt lat="42.921591" lon="-2.304213">
+        <ele>1458.653</ele>
+        <time>2019-07-20T11:51:02Z</time>
+      </trkpt>
+      <trkpt lat="42.922337" lon="-2.303888">
+        <ele>1428.559</ele>
+        <time>2019-07-20T11:52:40Z</time>
+      </trkpt>
+      <trkpt lat="42.923297" lon="-2.304748">
+        <ele>1400.439</ele>
+        <time>2019-07-20T11:54:37Z</time>
+      </trkpt>
+      <trkpt lat="42.924163" lon="-2.304779">
+        <ele>1380.368</ele>
+        <time>2019-07-20T11:55:45Z</time>
+      </trkpt>
+      <trkpt lat="42.924733" lon="-2.305030">
+        <ele>1375.944</ele>
+        <time>2019-07-20T11:56:29Z</time>
+      </trkpt>
+      <trkpt lat="42.925222" lon="-2.305765">
+        <ele>1359.361</ele>
+        <time>2019-07-20T11:57:58Z</time>
+      </trkpt>
+      <trkpt lat="42.926156" lon="-2.306571">
+        <ele>1341.921</ele>
+        <time>2019-07-20T11:59:33Z</time>
+      </trkpt>
+      <trkpt lat="42.926375" lon="-2.306580">
+        <ele>1344.013</ele>
+        <time>2019-07-20T12:01:18Z</time>
+      </trkpt>
+      <trkpt lat="42.926569" lon="-2.306869">
+        <ele>1328.808</ele>
+        <time>2019-07-20T12:02:03Z</time>
+      </trkpt>
+      <trkpt lat="42.926615" lon="-2.307500">
+        <ele>1328.919</ele>
+        <time>2019-07-20T12:02:46Z</time>
+      </trkpt>
+      <trkpt lat="42.926567" lon="-2.307926">
+        <ele>1328.574</ele>
+        <time>2019-07-20T12:03:48Z</time>
+      </trkpt>
+      <trkpt lat="42.926229" lon="-2.308446">
+        <ele>1338.354</ele>
+        <time>2019-07-20T12:05:14Z</time>
+      </trkpt>
+      <trkpt lat="42.926359" lon="-2.308811">
+        <ele>1340.614</ele>
+        <time>2019-07-20T12:05:42Z</time>
+      </trkpt>
+      <trkpt lat="42.926382" lon="-2.309863">
+        <ele>1328.010</ele>
+        <time>2019-07-20T12:07:09Z</time>
+      </trkpt>
+      <trkpt lat="42.926614" lon="-2.310228">
+        <ele>1322.640</ele>
+        <time>2019-07-20T12:07:26Z</time>
+      </trkpt>
+      <trkpt lat="42.926891" lon="-2.310243">
+        <ele>1322.819</ele>
+        <time>2019-07-20T12:07:38Z</time>
+      </trkpt>
+      <trkpt lat="42.927922" lon="-2.310889">
+        <ele>1333.375</ele>
+        <time>2019-07-20T12:08:40Z</time>
+      </trkpt>
+      <trkpt lat="42.930236" lon="-2.312894">
+        <ele>1282.478</ele>
+        <time>2019-07-20T12:11:33Z</time>
+      </trkpt>
+      <trkpt lat="42.930302" lon="-2.313241">
+        <ele>1273.133</ele>
+        <time>2019-07-20T12:11:58Z</time>
+      </trkpt>
+      <trkpt lat="42.930627" lon="-2.313700">
+        <ele>1261.526</ele>
+        <time>2019-07-20T12:12:47Z</time>
+      </trkpt>
+      <trkpt lat="42.930754" lon="-2.314311">
+        <ele>1252.408</ele>
+        <time>2019-07-20T12:13:33Z</time>
+      </trkpt>
+      <trkpt lat="42.931579" lon="-2.315085">
+        <ele>1222.630</ele>
+        <time>2019-07-20T12:14:48Z</time>
+      </trkpt>
+      <trkpt lat="42.931845" lon="-2.315733">
+        <ele>1212.925</ele>
+        <time>2019-07-20T12:15:13Z</time>
+      </trkpt>
+      <trkpt lat="42.932140" lon="-2.316622">
+        <ele>1196.075</ele>
+        <time>2019-07-20T12:16:03Z</time>
+      </trkpt>
+      <trkpt lat="42.931897" lon="-2.316963">
+        <ele>1199.215</ele>
+        <time>2019-07-20T12:16:32Z</time>
+      </trkpt>
+      <trkpt lat="42.931829" lon="-2.317407">
+        <ele>1181.981</ele>
+        <time>2019-07-20T12:17:11Z</time>
+      </trkpt>
+      <trkpt lat="42.932156" lon="-2.318068">
+        <ele>1172.431</ele>
+        <time>2019-07-20T12:17:56Z</time>
+      </trkpt>
+      <trkpt lat="42.932995" lon="-2.318619">
+        <ele>1142.140</ele>
+        <time>2019-07-20T12:18:55Z</time>
+      </trkpt>
+      <trkpt lat="42.934262" lon="-2.318938">
+        <ele>1126.476</ele>
+        <time>2019-07-20T12:20:17Z</time>
+      </trkpt>
+      <trkpt lat="42.934647" lon="-2.318915">
+        <ele>1117.184</ele>
+        <time>2019-07-20T12:20:35Z</time>
+      </trkpt>
+      <trkpt lat="42.934827" lon="-2.319063">
+        <ele>1115.707</ele>
+        <time>2019-07-20T12:20:50Z</time>
+      </trkpt>
+      <trkpt lat="42.935266" lon="-2.318822">
+        <ele>1105.217</ele>
+        <time>2019-07-20T12:21:43Z</time>
+      </trkpt>
+      <trkpt lat="42.935522" lon="-2.318841">
+        <ele>1099.808</ele>
+        <time>2019-07-20T12:22:03Z</time>
+      </trkpt>
+      <trkpt lat="42.936042" lon="-2.318180">
+        <ele>1093.131</ele>
+        <time>2019-07-20T12:22:41Z</time>
+      </trkpt>
+      <trkpt lat="42.936161" lon="-2.317694">
+        <ele>1106.626</ele>
+        <time>2019-07-20T12:23:34Z</time>
+      </trkpt>
+      <trkpt lat="42.936120" lon="-2.317278">
+        <ele>1096.636</ele>
+        <time>2019-07-20T12:24:06Z</time>
+      </trkpt>
+      <trkpt lat="42.935779" lon="-2.316653">
+        <ele>1065.916</ele>
+        <time>2019-07-20T12:25:07Z</time>
+      </trkpt>
+      <trkpt lat="42.935148" lon="-2.316294">
+        <ele>1084.132</ele>
+        <time>2019-07-20T12:25:58Z</time>
+      </trkpt>
+      <trkpt lat="42.935040" lon="-2.316064">
+        <ele>1081.982</ele>
+        <time>2019-07-20T12:26:33Z</time>
+      </trkpt>
+      <trkpt lat="42.934773" lon="-2.316147">
+        <ele>1065.951</ele>
+        <time>2019-07-20T12:27:02Z</time>
+      </trkpt>
+      <trkpt lat="42.934724" lon="-2.315931">
+        <ele>1053.997</ele>
+        <time>2019-07-20T12:27:15Z</time>
+      </trkpt>
+      <trkpt lat="42.934940" lon="-2.316543">
+        <ele>1041.958</ele>
+        <time>2019-07-20T12:27:26Z</time>
+      </trkpt>
+      <trkpt lat="42.935005" lon="-2.315914">
+        <ele>1045.952</ele>
+        <time>2019-07-20T12:28:09Z</time>
+      </trkpt>
+      <trkpt lat="42.935719" lon="-2.314787">
+        <ele>1037.117</ele>
+        <time>2019-07-20T12:29:27Z</time>
+      </trkpt>
+      <trkpt lat="42.936077" lon="-2.313442">
+        <ele>1018.508</ele>
+        <time>2019-07-20T12:31:13Z</time>
+      </trkpt>
+      <trkpt lat="42.936468" lon="-2.312978">
+        <ele>1043.958</ele>
+        <time>2019-07-20T12:31:51Z</time>
+      </trkpt>
+      <trkpt lat="42.937006" lon="-2.311783">
+        <ele>1019.873</ele>
+        <time>2019-07-20T12:32:52Z</time>
+      </trkpt>
+      <trkpt lat="42.938100" lon="-2.310915">
+        <ele>1004.813</ele>
+        <time>2019-07-20T12:34:20Z</time>
+      </trkpt>
+      <trkpt lat="42.938278" lon="-2.309783">
+        <ele>1011.033</ele>
+        <time>2019-07-20T12:35:12Z</time>
+      </trkpt>
+      <trkpt lat="42.938903" lon="-2.308828">
+        <ele>1016.899</ele>
+        <time>2019-07-20T12:36:21Z</time>
+      </trkpt>
+      <trkpt lat="42.938324" lon="-2.307603">
+        <ele>978.719</ele>
+        <time>2019-07-20T12:39:38Z</time>
+      </trkpt>
+      <trkpt lat="42.938050" lon="-2.307322">
+        <ele>968.458</ele>
+        <time>2019-07-20T12:40:03Z</time>
+      </trkpt>
+      <trkpt lat="42.937478" lon="-2.307223">
+        <ele>953.134</ele>
+        <time>2019-07-20T12:40:55Z</time>
+      </trkpt>
+      <trkpt lat="42.936993" lon="-2.306869">
+        <ele>945.925</ele>
+        <time>2019-07-20T12:41:33Z</time>
+      </trkpt>
+      <trkpt lat="42.936391" lon="-2.306783">
+        <ele>936.726</ele>
+        <time>2019-07-20T12:41:53Z</time>
+      </trkpt>
+      <trkpt lat="42.936058" lon="-2.305662">
+        <ele>916.508</ele>
+        <time>2019-07-20T12:42:54Z</time>
+      </trkpt>
+      <trkpt lat="42.935896" lon="-2.305826">
+        <ele>913.408</ele>
+        <time>2019-07-20T12:43:14Z</time>
+      </trkpt>
+      <trkpt lat="42.934972" lon="-2.304444">
+        <ele>876.925</ele>
+        <time>2019-07-20T12:44:25Z</time>
+      </trkpt>
+      <trkpt lat="42.935255" lon="-2.303501">
+        <ele>880.140</ele>
+        <time>2019-07-20T12:45:03Z</time>
+      </trkpt>
+      <trkpt lat="42.935157" lon="-2.303224">
+        <ele>874.950</ele>
+        <time>2019-07-20T12:45:34Z</time>
+      </trkpt>
+      <trkpt lat="42.935523" lon="-2.301538">
+        <ele>875.320</ele>
+        <time>2019-07-20T12:46:36Z</time>
+      </trkpt>
+      <trkpt lat="42.935494" lon="-2.301202">
+        <ele>873.016</ele>
+        <time>2019-07-20T12:47:04Z</time>
+      </trkpt>
+      <trkpt lat="42.935081" lon="-2.300473">
+        <ele>859.836</ele>
+        <time>2019-07-20T12:47:51Z</time>
+      </trkpt>
+      <trkpt lat="42.935289" lon="-2.299720">
+        <ele>854.515</ele>
+        <time>2019-07-20T12:48:12Z</time>
+      </trkpt>
+      <trkpt lat="42.935056" lon="-2.297229">
+        <ele>867.361</ele>
+        <time>2019-07-20T12:49:58Z</time>
+      </trkpt>
+      <trkpt lat="42.935279" lon="-2.296238">
+        <ele>855.335</ele>
+        <time>2019-07-20T12:50:32Z</time>
+      </trkpt>
+      <trkpt lat="42.935245" lon="-2.295374">
+        <ele>855.486</ele>
+        <time>2019-07-20T12:50:55Z</time>
+      </trkpt>
+      <trkpt lat="42.934761" lon="-2.294229">
+        <ele>848.714</ele>
+        <time>2019-07-20T12:51:34Z</time>
+      </trkpt>
+      <trkpt lat="42.934313" lon="-2.293829">
+        <ele>849.908</ele>
+        <time>2019-07-20T12:52:04Z</time>
+      </trkpt>
+      <trkpt lat="42.934257" lon="-2.293559">
+        <ele>847.966</ele>
+        <time>2019-07-20T12:52:18Z</time>
+      </trkpt>
+      <trkpt lat="42.933662" lon="-2.292795">
+        <ele>838.761</ele>
+        <time>2019-07-20T12:53:10Z</time>
+      </trkpt>
+      <trkpt lat="42.933488" lon="-2.292264">
+        <ele>839.361</ele>
+        <time>2019-07-20T12:53:36Z</time>
+      </trkpt>
+      <trkpt lat="42.932526" lon="-2.290834">
+        <ele>842.141</ele>
+        <time>2019-07-20T12:54:50Z</time>
+      </trkpt>
+      <trkpt lat="42.932616" lon="-2.289184">
+        <ele>848.087</ele>
+        <time>2019-07-20T12:56:23Z</time>
+      </trkpt>
+      <trkpt lat="42.931888" lon="-2.288418">
+        <ele>850.377</ele>
+        <time>2019-07-20T12:57:30Z</time>
+      </trkpt>
+      <trkpt lat="42.931635" lon="-2.287751">
+        <ele>848.816</ele>
+        <time>2019-07-20T12:58:18Z</time>
+      </trkpt>
+      <trkpt lat="42.931716" lon="-2.286237">
+        <ele>841.942</ele>
+        <time>2019-07-20T12:59:24Z</time>
+      </trkpt>
+      <trkpt lat="42.930510" lon="-2.283526">
+        <ele>812.459</ele>
+        <time>2019-07-20T13:01:19Z</time>
+      </trkpt>
+      <trkpt lat="42.930135" lon="-2.282123">
+        <ele>823.803</ele>
+        <time>2019-07-20T13:02:46Z</time>
+      </trkpt>
+      <trkpt lat="42.930234" lon="-2.281655">
+        <ele>826.623</ele>
+        <time>2019-07-20T13:03:14Z</time>
+      </trkpt>
+      <trkpt lat="42.930124" lon="-2.281206">
+        <ele>831.908</ele>
+        <time>2019-07-20T13:03:38Z</time>
+      </trkpt>
+      <trkpt lat="42.929720" lon="-2.280954">
+        <ele>836.038</ele>
+        <time>2019-07-20T13:04:13Z</time>
+      </trkpt>
+      <trkpt lat="42.929546" lon="-2.280504">
+        <ele>840.863</ele>
+        <time>2019-07-20T13:04:43Z</time>
+      </trkpt>
+      <trkpt lat="42.929553" lon="-2.277862">
+        <ele>852.833</ele>
+        <time>2019-07-20T13:07:11Z</time>
+      </trkpt>
+      <trkpt lat="42.929234" lon="-2.277105">
+        <ele>855.563</ele>
+        <time>2019-07-20T13:08:03Z</time>
+      </trkpt>
+      <trkpt lat="42.928435" lon="-2.276175">
+        <ele>859.269</ele>
+        <time>2019-07-20T13:09:23Z</time>
+      </trkpt>
+      <trkpt lat="42.928599" lon="-2.275825">
+        <ele>862.169</ele>
+        <time>2019-07-20T13:09:54Z</time>
+      </trkpt>
+      <trkpt lat="42.929040" lon="-2.275486">
+        <ele>859.558</ele>
+        <time>2019-07-20T13:10:41Z</time>
+      </trkpt>
+      <trkpt lat="42.930459" lon="-2.276261">
+        <ele>852.064</ele>
+        <time>2019-07-20T13:12:24Z</time>
+      </trkpt>
+      <trkpt lat="42.931066" lon="-2.276186">
+        <ele>835.469</ele>
+        <time>2019-07-20T13:13:05Z</time>
+      </trkpt>
+      <trkpt lat="42.931204" lon="-2.275678">
+        <ele>853.304</ele>
+        <time>2019-07-20T13:13:44Z</time>
+      </trkpt>
+      <trkpt lat="42.931046" lon="-2.275156">
+        <ele>862.424</ele>
+        <time>2019-07-20T13:14:17Z</time>
+      </trkpt>
+      <trkpt lat="42.931097" lon="-2.274473">
+        <ele>869.008</ele>
+        <time>2019-07-20T13:14:58Z</time>
+      </trkpt>
+      <trkpt lat="42.930634" lon="-2.272744">
+        <ele>877.069</ele>
+        <time>2019-07-20T13:17:11Z</time>
+      </trkpt>
+    </trkseg>
+  </trk></gpx>

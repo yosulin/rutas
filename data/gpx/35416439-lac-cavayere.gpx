@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Wikiloc - https://www.wikiloc.com" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Wikiloc - LAC de la CAVAYERE ruta circular</name>
+    <link href="https://www.wikiloc.com/hiking-trails/lac-de-la-cavayere-ruta-circular-35416439">
+      <text>LAC de la CAVAYERE ruta circular on Wikiloc</text>
+    </link>
+    <time>2019-04-19T17:13:21Z</time>
+  </metadata>
+  <wpt lat="43.182398" lon="2.416540">
+    <ele>182.5</ele>
+    <time>2019-04-19T15:19:38Z</time>
+    <name>Playa de Carcasona</name>
+    <cmt>Pequeña playa junto al lago.</cmt>
+    <desc>Pequeña playa junto al lago.</desc>
+  </wpt>
+  <wpt lat="43.185518" lon="2.415408">
+    <ele>196.0</ele>
+    <time>2019-04-19T15:28:19Z</time>
+    <name>Giro derecha</name>
+    <cmt>Girar a la derecha en este punto</cmt>
+    <desc>Girar a la derecha en este punto</desc>
+  </wpt>
+  <wpt lat="43.182869" lon="2.414561">
+    <ele>204.5</ele>
+    <time>2019-04-19T17:13:27Z</time>
+    <name>Parking</name>
+    <cmt>Inicio y fin de la ruta en este amplio parking donde poder dejar nuestro vehículo.</cmt>
+    <desc>Inicio y fin de la ruta en este amplio parking donde poder dejar nuestro vehículo.</desc>
+  </wpt>
+  <trk>
+    <name>LAC de la CAVAYERE ruta circular</name>
+    <cmt>Ruta circular que rodea el Lac de la Cavayere, cerca de Carcasona. Es un lago con multitud de facetas diferentes, da la opción de realizar actividades con tirolina, toboganes hacia el agua, bancos para sentarse y disfrutar de las vista e incluso una pequeña playa para tomar el sol.</cmt>
+    <desc>Ruta circular que rodea el Lac de la Cavayere, cerca de Carcasona. Es un lago con multitud de facetas diferentes, da la opción de realizar actividades con tirolina, toboganes hacia el agua, bancos para sentarse y disfrutar de las vista e incluso una pequeña playa para tomar el sol.</desc>
+    <trkseg>
+      <trkpt lat="43.183226" lon="2.415186">
+        <ele>198.731</ele>
+        <time>2019-04-19T15:16:19Z</time>
+      </trkpt>
+      <trkpt lat="43.182780" lon="2.414646">
+        <ele>198.761</ele>
+        <time>2019-04-19T15:17:14Z</time>
+      </trkpt>
+      <trkpt lat="43.182297" lon="2.415423">
+        <ele>197.207</ele>
+        <time>2019-04-19T15:18:16Z</time>
+      </trkpt>
+      <trkpt lat="43.182313" lon="2.416470">
+        <ele>181.608</ele>
+        <time>2019-04-19T15:19:20Z</time>
+      </trkpt>
+      <trkpt lat="43.182659" lon="2.416864">
+        <ele>183.356</ele>
+        <time>2019-04-19T15:20:11Z</time>
+      </trkpt>
+      <trkpt lat="43.182904" lon="2.417800">
+        <ele>188.728</ele>
+        <time>2019-04-19T15:21:04Z</time>
+      </trkpt>
+      <trkpt lat="43.183073" lon="2.417932">
+        <ele>186.297</ele>
+        <time>2019-04-19T15:21:27Z</time>
+      </trkpt>
+      <trkpt lat="43.183450" lon="2.417854">
+        <ele>181.434</ele>
+        <time>2019-04-19T15:22:35Z</time>
+      </trkpt>
+      <trkpt lat="43.183760" lon="2.417355">
+        <ele>175.349</ele>
+        <time>2019-04-19T15:23:32Z</time>
+      </trkpt>
+      <trkpt lat="43.184168" lon="2.417162">
+        <ele>180.357</ele>
+        <time>2019-04-19T15:24:12Z</time>
+      </trkpt>
+      <trkpt lat="43.185178" lon="2.417525">
+        <ele>183.296</ele>
+        <time>2019-04-19T15:25:43Z</time>
+      </trkpt>
+      <trkpt lat="43.185616" lon="2.415707">
+        <ele>181.512</ele>
+        <time>2019-04-19T15:27:55Z</time>
+      </trkpt>
+      <trkpt lat="43.185534" lon="2.415347">
+        <ele>193.085</ele>
+        <time>2019-04-19T15:28:28Z</time>
+      </trkpt>
+      <trkpt lat="43.186031" lon="2.414946">
+        <ele>189.789</ele>
+        <time>2019-04-19T15:29:24Z</time>
+      </trkpt>
+      <trkpt lat="43.186410" lon="2.415120">
+        <ele>192.417</ele>
+        <time>2019-04-19T15:29:54Z</time>
+      </trkpt>
+      <trkpt lat="43.186296" lon="2.415499">
+        <ele>188.508</ele>
+        <time>2019-04-19T15:30:21Z</time>
+      </trkpt>
+      <trkpt lat="43.186273" lon="2.417969">
+        <ele>188.921</ele>
+        <time>2019-04-19T15:34:44Z</time>
+      </trkpt>
+      <trkpt lat="43.186869" lon="2.418202">
+        <ele>179.443</ele>
+        <time>2019-04-19T15:35:41Z</time>
+      </trkpt>
+      <trkpt lat="43.187217" lon="2.420961">
+        <ele>192.032</ele>
+        <time>2019-04-19T15:40:42Z</time>
+      </trkpt>
+      <trkpt lat="43.185532" lon="2.422018">
+        <ele>190.689</ele>
+        <time>2019-04-19T15:43:18Z</time>
+      </trkpt>
+      <trkpt lat="43.185239" lon="2.421880">
+        <ele>186.484</ele>
+        <time>2019-04-19T15:43:46Z</time>
+      </trkpt>
+      <trkpt lat="43.185051" lon="2.421388">
+        <ele>190.832</ele>
+        <time>2019-04-19T15:44:25Z</time>
+      </trkpt>
+      <trkpt lat="43.184713" lon="2.421650">
+        <ele>196.521</ele>
+        <time>2019-04-19T15:45:03Z</time>
+      </trkpt>
+      <trkpt lat="43.183995" lon="2.421574">
+        <ele>194.537</ele>
+        <time>2019-04-19T15:46:48Z</time>
+      </trkpt>
+      <trkpt lat="43.183745" lon="2.421709">
+        <ele>190.396</ele>
+        <time>2019-04-19T15:47:12Z</time>
+      </trkpt>
+      <trkpt lat="43.183297" lon="2.422211">
+        <ele>190.031</ele>
+        <time>2019-04-19T15:48:02Z</time>
+      </trkpt>
+      <trkpt lat="43.183059" lon="2.422884">
+        <ele>189.824</ele>
+        <time>2019-04-19T15:48:48Z</time>
+      </trkpt>
+      <trkpt lat="43.182522" lon="2.423703">
+        <ele>188.108</ele>
+        <time>2019-04-19T15:49:53Z</time>
+      </trkpt>
+      <trkpt lat="43.181546" lon="2.424254">
+        <ele>185.472</ele>
+        <time>2019-04-19T15:51:01Z</time>
+      </trkpt>
+      <trkpt lat="43.181305" lon="2.423798">
+        <ele>182.854</ele>
+        <time>2019-04-19T15:51:29Z</time>
+      </trkpt>
+      <trkpt lat="43.181721" lon="2.423163">
+        <ele>176.853</ele>
+        <time>2019-04-19T15:52:15Z</time>
+      </trkpt>
+      <trkpt lat="43.181977" lon="2.422442">
+        <ele>181.210</ele>
+        <time>2019-04-19T15:52:58Z</time>
+      </trkpt>
+      <trkpt lat="43.182290" lon="2.422179">
+        <ele>185.955</ele>
+        <time>2019-04-19T15:53:21Z</time>
+      </trkpt>
+      <trkpt lat="43.182003" lon="2.421672">
+        <ele>187.013</ele>
+        <time>2019-04-19T15:54:06Z</time>
+      </trkpt>
+      <trkpt lat="43.182196" lon="2.421208">
+        <ele>184.242</ele>
+        <time>2019-04-19T15:54:28Z</time>
+      </trkpt>
+      <trkpt lat="43.182581" lon="2.421170">
+        <ele>183.838</ele>
+        <time>2019-04-19T15:54:53Z</time>
+      </trkpt>
+      <trkpt lat="43.184100" lon="2.420254">
+        <ele>184.475</ele>
+        <time>2019-04-19T15:57:05Z</time>
+      </trkpt>
+      <trkpt lat="43.184135" lon="2.419558">
+        <ele>184.828</ele>
+        <time>2019-04-19T15:57:42Z</time>
+      </trkpt>
+      <trkpt lat="43.183299" lon="2.419722">
+        <ele>193.320</ele>
+        <time>2019-04-19T15:58:40Z</time>
+      </trkpt>
+      <trkpt lat="43.182315" lon="2.419278">
+        <ele>189.508</ele>
+        <time>2019-04-19T16:00:06Z</time>
+      </trkpt>
+      <trkpt lat="43.182211" lon="2.419404">
+        <ele>189.830</ele>
+        <time>2019-04-19T16:00:16Z</time>
+      </trkpt>
+      <trkpt lat="43.182306" lon="2.420019">
+        <ele>177.942</ele>
+        <time>2019-04-19T16:00:55Z</time>
+      </trkpt>
+      <trkpt lat="43.182044" lon="2.420576">
+        <ele>176.561</ele>
+        <time>2019-04-19T16:01:31Z</time>
+      </trkpt>
+      <trkpt lat="43.181623" lon="2.420982">
+        <ele>190.338</ele>
+        <time>2019-04-19T16:02:18Z</time>
+      </trkpt>
+      <trkpt lat="43.181416" lon="2.420932">
+        <ele>188.163</ele>
+        <time>2019-04-19T16:02:52Z</time>
+      </trkpt>
+      <trkpt lat="43.181286" lon="2.420073">
+        <ele>189.411</ele>
+        <time>2019-04-19T16:54:48Z</time>
+      </trkpt>
+      <trkpt lat="43.181600" lon="2.418522">
+        <ele>187.970</ele>
+        <time>2019-04-19T16:57:12Z</time>
+      </trkpt>
+      <trkpt lat="43.181334" lon="2.417949">
+        <ele>189.166</ele>
+        <time>2019-04-19T16:57:56Z</time>
+      </trkpt>
+      <trkpt lat="43.180859" lon="2.417433">
+        <ele>188.225</ele>
+        <time>2019-04-19T16:58:50Z</time>
+      </trkpt>
+      <trkpt lat="43.180469" lon="2.417422">
+        <ele>191.126</ele>
+        <time>2019-04-19T16:59:24Z</time>
+      </trkpt>
+      <trkpt lat="43.179773" lon="2.418243">
+        <ele>187.008</ele>
+        <time>2019-04-19T17:00:45Z</time>
+      </trkpt>
+      <trkpt lat="43.179056" lon="2.418699">
+        <ele>187.908</ele>
+        <time>2019-04-19T17:01:51Z</time>
+      </trkpt>
+      <trkpt lat="43.178561" lon="2.418569">
+        <ele>181.625</ele>
+        <time>2019-04-19T17:02:37Z</time>
+      </trkpt>
+      <trkpt lat="43.178162" lon="2.417820">
+        <ele>185.177</ele>
+        <time>2019-04-19T17:03:29Z</time>
+      </trkpt>
+      <trkpt lat="43.178319" lon="2.417680">
+        <ele>188.486</ele>
+        <time>2019-04-19T17:03:44Z</time>
+      </trkpt>
+      <trkpt lat="43.179129" lon="2.417732">
+        <ele>194.473</ele>
+        <time>2019-04-19T17:04:58Z</time>
+      </trkpt>
+      <trkpt lat="43.179435" lon="2.417607">
+        <ele>188.778</ele>
+        <time>2019-04-19T17:05:24Z</time>
+      </trkpt>
+      <trkpt lat="43.180116" lon="2.416406">
+        <ele>184.766</ele>
+        <time>2019-04-19T17:07:02Z</time>
+      </trkpt>
+      <trkpt lat="43.180922" lon="2.415928">
+        <ele>200.085</ele>
+        <time>2019-04-19T17:08:10Z</time>
+      </trkpt>
+      <trkpt lat="43.181418" lon="2.415426">
+        <ele>190.121</ele>
+        <time>2019-04-19T17:08:57Z</time>
+      </trkpt>
+      <trkpt lat="43.181618" lon="2.415444">
+        <ele>189.959</ele>
+        <time>2019-04-19T17:09:13Z</time>
+      </trkpt>
+      <trkpt lat="43.182067" lon="2.416291">
+        <ele>197.303</ele>
+        <time>2019-04-19T17:10:18Z</time>
+      </trkpt>
+      <trkpt lat="43.182304" lon="2.416334">
+        <ele>197.823</ele>
+        <time>2019-04-19T17:10:39Z</time>
+      </trkpt>
+      <trkpt lat="43.182341" lon="2.415245">
+        <ele>201.308</ele>
+        <time>2019-04-19T17:11:56Z</time>
+      </trkpt>
+      <trkpt lat="43.182870" lon="2.414561">
+        <ele>203.758</ele>
+        <time>2019-04-19T17:13:21Z</time>
+      </trkpt>
+    </trkseg>
+  </trk></gpx>

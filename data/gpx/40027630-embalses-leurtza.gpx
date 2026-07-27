@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Wikiloc - https://www.wikiloc.com" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Wikiloc - EMBALSES de LEURTZA ruta circular</name>
+    <link href="https://www.wikiloc.com/hiking-trails/embalses-de-leurtza-ruta-circular-40027630">
+      <text>EMBALSES de LEURTZA ruta circular on Wikiloc</text>
+    </link>
+    <time>2019-08-16T12:14:43Z</time>
+  </metadata>
+  <wpt lat="43.071858" lon="-1.715497">
+    <ele>738.5</ele>
+    <time>2019-08-16T10:58:33Z</time>
+    <name>Parking de los embalses de Leurtza</name>
+    <cmt>Dejamos el coche en el parking de los embalses de Leurtza, junto al puesto de información. Es amplio y en buen estado y tiene un coste de 3€ que se destinan al mantenimiento del área. Todo el trayecto está en muy buen estado, por lo que parece que invierten bien este dinero.</cmt>
+    <desc>Dejamos el coche en el parking de los embalses de Leurtza, junto al puesto de información. Es amplio y en buen estado y tiene un coste de 3€ que se destinan al mantenimiento del área. Todo el trayecto está en muy buen estado, por lo que parece que invierten bien este dinero.</desc>
+  </wpt>
+  <wpt lat="43.071192" lon="-1.716219">
+    <ele>738.5</ele>
+    <time>2019-08-16T11:00:33Z</time>
+    <name>Picnic</name>
+    <cmt>Avanzamos por el asfalto en dirección ascendente y vemos las primeras marcas que guían nuestro camino, de color blanco, verde y amarillo. Seguimos recto mientras a nuestra izquierda vemos una amplia zona de picnic con abundantes mesas y barbacoas.</cmt>
+    <desc>Avanzamos por el asfalto en dirección ascendente y vemos las primeras marcas que guían nuestro camino, de color blanco, verde y amarillo. Seguimos recto mientras a nuestra izquierda vemos una amplia zona de picnic con abundantes mesas y barbacoas.</desc>
+  </wpt>
+  <wpt lat="43.070708" lon="-1.717059">
+    <ele>738.5</ele>
+    <time>2019-08-16T11:01:33Z</time>
+    <name>Fuente</name>
+    <cmt>Pasamos junto a una fuente. Justo al lado se encuentran los aseos.</cmt>
+    <desc>Pasamos junto a una fuente. Justo al lado se encuentran los aseos.</desc>
+  </wpt>
+  <wpt lat="43.069722" lon="-1.717883">
+    <ele>744.6</ele>
+    <time>2019-08-16T11:04:08Z</time>
+    <name>Derecha Cruce PR y SL</name>
+    <cmt>Llegamos a un cruce de caminos con señales a la PR por la izquierda (marcas blancas y amarillas) y SL a la dercha (marcas blancas y verdes). Nosotros seguimos por la derecha hacia Leurtza, si bien se puede ir por la izquierda y acortar la ruta pasando primero por la presa. Lo dejamos a vuestra elección. Las marcas verdes y blancas nos guían.</cmt>
+    <desc>Llegamos a un cruce de caminos con señales a la PR por la izquierda (marcas blancas y amarillas) y SL a la dercha (marcas blancas y verdes). Nosotros seguimos por la derecha hacia Leurtza, si bien se puede ir por la izquierda y acortar la ruta pasando primero por la presa. Lo dejamos a vuestra elección. Las marcas verdes y blancas nos guían.</desc>
+  </wpt>
+  <wpt lat="43.067368" lon="-1.719892">
+    <ele>729.2</ele>
+    <time>2019-08-16T11:11:45Z</time>
+    <name>Rincón con césped cerca del agua.</name>
+    <cmt>Rincón ideal para tirarse en el césped y disfrutar del agua.</cmt>
+    <desc>Rincón ideal para tirarse en el césped y disfrutar del agua.</desc>
+  </wpt>
+  <wpt lat="43.064324" lon="-1.721003">
+    <ele>743.9</ele>
+    <time>2019-08-16T11:17:59Z</time>
+    <name>Izquierda</name>
+    <cmt>Izquierda en la bifurcación tomando el camino descendente marcado con blanco y verde.</cmt>
+    <desc>Izquierda en la bifurcación tomando el camino descendente marcado con blanco y verde.</desc>
+  </wpt>
+  <wpt lat="43.063440" lon="-1.721545">
+    <ele>770.6</ele>
+    <time>2019-08-16T11:19:43Z</time>
+    <name>Izquierda cruzar puente</name>
+    <cmt>Izquierda cruzar puente</cmt>
+    <desc>Izquierda cruzar puente</desc>
+  </wpt>
+  <wpt lat="43.064209" lon="-1.720009">
+    <ele>754.8</ele>
+    <time>2019-08-16T11:22:49Z</time>
+    <name>Izquierda</name>
+    <cmt>Tomar el sendero de la izquierda en la bifurcación siguiendo las marcas blancas y verdes.</cmt>
+    <desc>Tomar el sendero de la izquierda en la bifurcación siguiendo las marcas blancas y verdes.</desc>
+  </wpt>
+  <wpt lat="43.066552" lon="-1.718066">
+    <ele>743.1</ele>
+    <time>2019-08-16T11:27:50Z</time>
+    <name>Cruce izquierda</name>
+    <cmt>En el cruce tomamos el camino de la izquierda. Por la derecha se sigue la PR, ruta que no es la nuestra.</cmt>
+    <desc>En el cruce tomamos el camino de la izquierda. Por la derecha se sigue la PR, ruta que no es la nuestra.</desc>
+  </wpt>
+  <wpt lat="43.065202" lon="-1.717501">
+    <ele>729.1</ele>
+    <time>2019-08-16T11:30:58Z</time>
+    <name>Puente</name>
+    <cmt>Cruzamos el puente y pasamos sobre un precioso arroyo.</cmt>
+    <desc>Cruzamos el puente y pasamos sobre un precioso arroyo.</desc>
+  </wpt>
+  <wpt lat="43.067482" lon="-1.715962">
+    <ele>772.9</ele>
+    <time>2019-08-16T11:37:15Z</time>
+    <name>Presa y seguir recto (opcional para acortar la ruta)</name>
+    <cmt>Cruzamos la presa que divide el embalse superior del inferior, las vistas desde aquí son preciosas. Si seguimos recto conectaremos con el camino de ida. Esto es opcional ya que podemos ir por ahí y volver al coche si queremos o deshacer los pasos que demos por la presa y volver al camino para ir a la segunda presa. Te dejamos las dos opciones en el track.</cmt>
+    <desc>Cruzamos la presa que divide el embalse superior del inferior, las vistas desde aquí son preciosas. Si seguimos recto conectaremos con el camino de ida. Esto es opcional ya que podemos ir por ahí y volver al coche si queremos o deshacer los pasos que demos por la presa y volver al camino para ir a la segunda presa. Te dejamos las dos opciones en el track.</desc>
+  </wpt>
+  <wpt lat="43.068120" lon="-1.713506">
+    <ele>758.1</ele>
+    <time>2019-08-16T11:55:25Z</time>
+    <name>Recto</name>
+    <cmt>Continuamos recto siguiendo el camino con el bordillo de madera.</cmt>
+    <desc>Continuamos recto siguiendo el camino con el bordillo de madera.</desc>
+  </wpt>
+  <wpt lat="43.071478" lon="-1.711181">
+    <ele>745.9</ele>
+    <time>2019-08-16T12:01:31Z</time>
+    <name>Izquierda camino adaptado</name>
+    <cmt>Tomar el camino de hormigón de la izquierda. Desde él preciosas vistas de la presa a la que nos acercamos.</cmt>
+    <desc>Tomar el camino de hormigón de la izquierda. Desde él preciosas vistas de la presa a la que nos acercamos.</desc>
+  </wpt>
+  <wpt lat="43.072499" lon="-1.711521">
+    <ele>715.5</ele>
+    <time>2019-08-16T12:04:24Z</time>
+    <name>Presa</name>
+    <cmt>Segunda presa de la jornada que ofrece preciosas vistas del emblase superior.</cmt>
+    <desc>Segunda presa de la jornada que ofrece preciosas vistas del emblase superior.</desc>
+  </wpt>
+  <wpt lat="43.072757" lon="-1.713002">
+    <ele>718.8</ele>
+    <time>2019-08-16T12:11:06Z</time>
+    <name>Izquierda por carretera</name>
+    <cmt>Llegamos a la carretera y seguimos por ella hacia la izquierda en dirección al parking.</cmt>
+    <desc>Llegamos a la carretera y seguimos por ella hacia la izquierda en dirección al parking.</desc>
+  </wpt>
+  <trk>
+    <name>EMBALSES de LEURTZA ruta circular</name>
+    <cmt>Precioso paseo rodeando los embalses de Leurtza y recorriendo las dos presas. Ideal para el verano debido a que los tramos sombreados imperan durante el recorrido. El chapuzón en el embalse es casi obligado ;). 
+ 
+&lt;iframe height="360" src="https://www.youtube.com/embed/WOYR9t8040k"&gt;&lt;/iframe&gt; 
+ 
+Más información próximamente en &lt;p&gt;&lt;a href="https://www.rutasporelmonte.com" rel="nofollow" target="_blank"&gt;https://www.rutasporelmonte.com&lt;/a&gt;&lt;/p&gt;</cmt>
+    <desc>Precioso paseo rodeando los embalses de Leurtza y recorriendo las dos presas. Ideal para el verano debido a que los tramos sombreados imperan durante el recorrido. El chapuzón en el embalse es casi obligado ;). 
+ 
+&lt;iframe height="360" src="https://www.youtube.com/embed/WOYR9t8040k"&gt;&lt;/iframe&gt; 
+ 
+Más información próximamente en &lt;p&gt;&lt;a href="https://www.rutasporelmonte.com" rel="nofollow" target="_blank"&gt;https://www.rutasporelmonte.com&lt;/a&gt;&lt;/p&gt;</desc>
+    <trkseg>
+      <trkpt lat="43.071797" lon="-1.715517">
+        <ele>740.561</ele>
+        <time>2019-08-16T10:57:12Z</time>
+      </trkpt>
+      <trkpt lat="43.071921" lon="-1.715337">
+        <ele>740.521</ele>
+        <time>2019-08-16T10:58:15Z</time>
+      </trkpt>
+      <trkpt lat="43.070984" lon="-1.716423">
+        <ele>741.013</ele>
+        <time>2019-08-16T11:01:06Z</time>
+      </trkpt>
+      <trkpt lat="43.070760" lon="-1.717024">
+        <ele>740.808</ele>
+        <time>2019-08-16T11:01:39Z</time>
+      </trkpt>
+      <trkpt lat="43.068602" lon="-1.718769">
+        <ele>727.850</ele>
+        <time>2019-08-16T11:07:13Z</time>
+      </trkpt>
+      <trkpt lat="43.068735" lon="-1.718884">
+        <ele>728.166</ele>
+        <time>2019-08-16T11:07:32Z</time>
+      </trkpt>
+      <trkpt lat="43.068504" lon="-1.719371">
+        <ele>726.256</ele>
+        <time>2019-08-16T11:08:11Z</time>
+      </trkpt>
+      <trkpt lat="43.067918" lon="-1.719954">
+        <ele>735.158</ele>
+        <time>2019-08-16T11:09:27Z</time>
+      </trkpt>
+      <trkpt lat="43.067579" lon="-1.720109">
+        <ele>736.253</ele>
+        <time>2019-08-16T11:09:58Z</time>
+      </trkpt>
+      <trkpt lat="43.067367" lon="-1.719891">
+        <ele>729.362</ele>
+        <time>2019-08-16T11:11:36Z</time>
+      </trkpt>
+      <trkpt lat="43.067433" lon="-1.720164">
+        <ele>734.589</ele>
+        <time>2019-08-16T11:12:32Z</time>
+      </trkpt>
+      <trkpt lat="43.066449" lon="-1.720819">
+        <ele>743.086</ele>
+        <time>2019-08-16T11:13:57Z</time>
+      </trkpt>
+      <trkpt lat="43.066125" lon="-1.720621">
+        <ele>732.393</ele>
+        <time>2019-08-16T11:14:35Z</time>
+      </trkpt>
+      <trkpt lat="43.065996" lon="-1.720347">
+        <ele>719.565</ele>
+        <time>2019-08-16T11:15:19Z</time>
+      </trkpt>
+      <trkpt lat="43.065367" lon="-1.720383">
+        <ele>731.221</ele>
+        <time>2019-08-16T11:16:17Z</time>
+      </trkpt>
+      <trkpt lat="43.063703" lon="-1.721492">
+        <ele>767.908</ele>
+        <time>2019-08-16T11:19:15Z</time>
+      </trkpt>
+      <trkpt lat="43.063349" lon="-1.721585">
+        <ele>767.693</ele>
+        <time>2019-08-16T11:19:58Z</time>
+      </trkpt>
+      <trkpt lat="43.063718" lon="-1.721099">
+        <ele>747.639</ele>
+        <time>2019-08-16T11:21:21Z</time>
+      </trkpt>
+      <trkpt lat="43.064259" lon="-1.719859">
+        <ele>754.269</ele>
+        <time>2019-08-16T11:23:15Z</time>
+      </trkpt>
+      <trkpt lat="43.065835" lon="-1.719163">
+        <ele>747.431</ele>
+        <time>2019-08-16T11:25:47Z</time>
+      </trkpt>
+      <trkpt lat="43.066503" lon="-1.718549">
+        <ele>747.376</ele>
+        <time>2019-08-16T11:26:54Z</time>
+      </trkpt>
+      <trkpt lat="43.066555" lon="-1.718070">
+        <ele>743.445</ele>
+        <time>2019-08-16T11:27:29Z</time>
+      </trkpt>
+      <trkpt lat="43.066380" lon="-1.717824">
+        <ele>741.062</ele>
+        <time>2019-08-16T11:28:50Z</time>
+      </trkpt>
+      <trkpt lat="43.065111" lon="-1.717469">
+        <ele>732.679</ele>
+        <time>2019-08-16T11:31:52Z</time>
+      </trkpt>
+      <trkpt lat="43.065401" lon="-1.717093">
+        <ele>744.284</ele>
+        <time>2019-08-16T11:32:37Z</time>
+      </trkpt>
+      <trkpt lat="43.066149" lon="-1.716628">
+        <ele>738.507</ele>
+        <time>2019-08-16T11:34:45Z</time>
+      </trkpt>
+      <trkpt lat="43.066371" lon="-1.716278">
+        <ele>728.117</ele>
+        <time>2019-08-16T11:35:09Z</time>
+      </trkpt>
+      <trkpt lat="43.066737" lon="-1.716102">
+        <ele>734.208</ele>
+        <time>2019-08-16T11:35:48Z</time>
+      </trkpt>
+      <trkpt lat="43.067249" lon="-1.716138">
+        <ele>764.532</ele>
+        <time>2019-08-16T11:36:45Z</time>
+      </trkpt>
+      <trkpt lat="43.067643" lon="-1.715891">
+        <ele>758.898</ele>
+        <time>2019-08-16T11:38:12Z</time>
+      </trkpt>
+      <trkpt lat="43.067880" lon="-1.716455">
+        <ele>732.848</ele>
+        <time>2019-08-16T11:40:36Z</time>
+      </trkpt>
+      <trkpt lat="43.068484" lon="-1.716945">
+        <ele>722.910</ele>
+        <time>2019-08-16T11:42:32Z</time>
+      </trkpt>
+      <trkpt lat="43.068928" lon="-1.717971">
+        <ele>729.695</ele>
+        <time>2019-08-16T11:43:42Z</time>
+      </trkpt>
+      <trkpt lat="43.069578" lon="-1.717950">
+        <ele>729.274</ele>
+        <time>2019-08-16T11:44:39Z</time>
+      </trkpt>
+      <trkpt lat="43.068915" lon="-1.718019">
+        <ele>725.621</ele>
+        <time>2019-08-16T11:45:34Z</time>
+      </trkpt>
+      <trkpt lat="43.068497" lon="-1.716957">
+        <ele>731.398</ele>
+        <time>2019-08-16T11:47:25Z</time>
+      </trkpt>
+      <trkpt lat="43.067810" lon="-1.716322">
+        <ele>735.783</ele>
+        <time>2019-08-16T11:49:39Z</time>
+      </trkpt>
+      <trkpt lat="43.067677" lon="-1.715892">
+        <ele>729.025</ele>
+        <time>2019-08-16T11:50:03Z</time>
+      </trkpt>
+      <trkpt lat="43.067917" lon="-1.715566">
+        <ele>732.217</ele>
+        <time>2019-08-16T11:51:22Z</time>
+      </trkpt>
+      <trkpt lat="43.067858" lon="-1.715671">
+        <ele>729.708</ele>
+        <time>2019-08-16T11:52:02Z</time>
+      </trkpt>
+      <trkpt lat="43.067923" lon="-1.715000">
+        <ele>746.292</ele>
+        <time>2019-08-16T11:52:42Z</time>
+      </trkpt>
+      <trkpt lat="43.067290" lon="-1.714006">
+        <ele>748.298</ele>
+        <time>2019-08-16T11:54:08Z</time>
+      </trkpt>
+      <trkpt lat="43.069028" lon="-1.712882">
+        <ele>750.368</ele>
+        <time>2019-08-16T11:57:09Z</time>
+      </trkpt>
+      <trkpt lat="43.069910" lon="-1.711954">
+        <ele>748.970</ele>
+        <time>2019-08-16T11:58:42Z</time>
+      </trkpt>
+      <trkpt lat="43.070177" lon="-1.712131">
+        <ele>751.275</ele>
+        <time>2019-08-16T11:59:18Z</time>
+      </trkpt>
+      <trkpt lat="43.070695" lon="-1.711986">
+        <ele>749.794</ele>
+        <time>2019-08-16T11:59:58Z</time>
+      </trkpt>
+      <trkpt lat="43.071026" lon="-1.711801">
+        <ele>748.061</ele>
+        <time>2019-08-16T12:00:25Z</time>
+      </trkpt>
+      <trkpt lat="43.071427" lon="-1.711195">
+        <ele>749.978</ele>
+        <time>2019-08-16T12:01:14Z</time>
+      </trkpt>
+      <trkpt lat="43.072053" lon="-1.710996">
+        <ele>746.479</ele>
+        <time>2019-08-16T12:02:52Z</time>
+      </trkpt>
+      <trkpt lat="43.072504" lon="-1.711028">
+        <ele>742.805</ele>
+        <time>2019-08-16T12:03:20Z</time>
+      </trkpt>
+      <trkpt lat="43.072411" lon="-1.711055">
+        <ele>737.825</ele>
+        <time>2019-08-16T12:03:38Z</time>
+      </trkpt>
+      <trkpt lat="43.072551" lon="-1.711762">
+        <ele>718.508</ele>
+        <time>2019-08-16T12:07:56Z</time>
+      </trkpt>
+      <trkpt lat="43.073122" lon="-1.712395">
+        <ele>707.371</ele>
+        <time>2019-08-16T12:09:40Z</time>
+      </trkpt>
+      <trkpt lat="43.072289" lon="-1.713835">
+        <ele>724.167</ele>
+        <time>2019-08-16T12:12:17Z</time>
+      </trkpt>
+      <trkpt lat="43.072121" lon="-1.714981">
+        <ele>715.977</ele>
+        <time>2019-08-16T12:13:59Z</time>
+      </trkpt>
+      <trkpt lat="43.071858" lon="-1.715497">
+        <ele>715.559</ele>
+        <time>2019-08-16T12:14:43Z</time>
+      </trkpt>
+    </trkseg>
+  </trk></gpx>
