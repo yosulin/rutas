@@ -22,6 +22,8 @@ import json
 import sys
 from pathlib import Path
 
+from version_utils import write_version
+
 NO_SOBRESCRIBIR = {
     "distancia_km", "desnivel_positivo_m", "desnivel_negativo_m",
     "duracion_texto", "duracion_min", "dificultad", "exigencia",
@@ -159,6 +161,7 @@ def main():
     }
     Path("reporte_merge.json").write_text(json.dumps(reporte, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps(reporte, ensure_ascii=False, indent=2))
+    write_version(args.out.resolve().parent, len(rutas))
 
 
 if __name__ == "__main__":

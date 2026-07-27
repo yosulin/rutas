@@ -65,13 +65,18 @@
   <div class="grid" id="grid"></div>
   <div id="empty">No se han encontrado rutas con ese criterio.</div>
 
+  <div class="load-more-wrap" id="load-more-wrap" hidden>
+    <button class="btn" id="load-more-btn">Cargar más rutas</button>
+    <div id="load-more-sentinel"></div>
+  </div>
+
   <div class="offline-pill" id="offline-pill">📡 Sin conexión — mostrando datos guardados</div>
 
   <div class="modal-overlay" id="modal-overlay">
     <div class="modal-card" id="modal-card"></div>
   </div>
 
-  <footer class="appfoot">Rutas por el Monte · datos propios de Wikiloc</footer>
+  <footer class="appfoot">Rutas por el Monte · datos propios de Wikiloc<span id="version-info" class="version-info"></span></footer>
 
 <!-- Leaflet 1.9.4 (versión fijada) -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>

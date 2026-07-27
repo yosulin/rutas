@@ -10,6 +10,9 @@ import csv
 import json
 import sys
 import os
+from pathlib import Path
+
+from version_utils import write_version
 
 def to_float(v):
     v = (v or "").strip()
@@ -91,6 +94,7 @@ def main():
         json.dump(rutas, f, ensure_ascii=False, indent=2)
 
     print(f"OK: {len(rutas)} rutas escritas en {out_path}")
+    write_version(Path(out_path).resolve().parent, len(rutas))
 
 if __name__ == "__main__":
     main()

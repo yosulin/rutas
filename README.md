@@ -11,6 +11,7 @@ index.html                       página única de la app
 css/styles.css                    estilos (tema oscuro por defecto + tema claro)
 js/app.js                          toda la lógica: filtros, tarjetas, modales, tema, PWA, mapa
 data/rutas.json                    datos de las rutas (NO hay datos hardcodeados en el código)
+data/version.json                  metadata del despliegue: fecha de generación, nº de rutas, build
 data/gpx/*.gpx                     tracks GPX descargables, uno por ruta validada
 data/tracks/*.geojson              el mismo recorrido en GeoJSON, para dibujar en el mapa
 scripts/build_data.py              convierte un CSV de rutas al data/rutas.json
@@ -50,7 +51,31 @@ youtube_disponible`), más dos columnas opcionales `origen` y `fuente_url` (si s
 python3 scripts/build_data.py ruta_al_csv_actualizado.csv
 ```
 
-Esto sobrescribe `data/rutas.json`. Luego solo falta commitear y subir el cambio.
+Esto sobrescribe `data/rutas.json` y actualiza `data/version.json` (fecha de
+generación y nº de rutas) automáticamente. `scripts/merge_tracks.py` también
+lo actualiza al terminar. Luego solo falta commitear y subir el cambio.
+
+## Versión de los datos
+
+El pie de página muestra, en pequeño, el build de la app y cuándo se generó
+`data/rutas.json` por última vez (p. ej. "v3 · datos actualizados: 27/07/2026
+19:04 · 273 rutas"), leyendo `data/version.json`. Así siempre se sabe si lo
+que se está viendo es la última versión desplegada, tanto en local como en
+producción. Si ese fichero no existe o falla la petición (por ejemplo, una
+build muy antigua), simplemente no se muestra nada: nunca bloquea la app.
+
+## Carga por lotes de las tarjetas (rendimiento con muchas rutas)
+
+`data/rutas.json` se descarga entero siempre (hace falta para poder buscar y
+filtrar sin conexión sobre las 273 rutas, y las que se añadan después), pero
+`js/app.js` solo **pinta** un lote de `BATCH_SIZE` tarjetas (30) a la vez.
+El resto se van añadiendo automáticamente al hacer scroll cerca del final de
+la lista (`IntersectionObserver` sobre un sentinela invisible bajo la
+cuadrícula), con un botón "Cargar más rutas" como alternativa manual/
+accesible. Cambiar cualquier filtro, la búsqueda o el orden reinicia el lote
+visible al primero. Esto evita que el primer render se ralentice al crecer
+la colección (por ejemplo a ~500 rutas) sin renunciar a la búsqueda offline
+sobre el conjunto completo.
 
 ## Mapa y recorrido (GPX/GeoJSON)
 

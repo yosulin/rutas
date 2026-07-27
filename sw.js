@@ -1,9 +1,9 @@
 /* ============================================================
    Service worker — Rutas por el Monte
    - App shell: cache-first (rápido, funciona offline)
-   - data/rutas.json: network-first con fallback a caché
-     (así se actualiza solo cuando hay conexión, y sigue
-     disponible offline con la última versión conocida)
+   - data/rutas.json y data/version.json: network-first con fallback a
+     caché (así se actualizan solos cuando hay conexión, y siguen
+     disponibles offline con la última versión conocida)
    - data/gpx/*.gpx y data/tracks/*.geojson (mismo origen): cache-first,
      se guardan en la runtime cache SOLO cuando el usuario abre el mapa
      de una ruta (fetch bajo demanda desde app.js), nunca precargados.
@@ -15,7 +15,7 @@
      esos tiles en su caché HTTP normal, pero no lo garantizamos aquí.
    ============================================================ */
 
-const CACHE_VERSION = 'v2'; // v2: añade soporte de mapa/GPX (bump para forzar actualización)
+const CACHE_VERSION = 'v3'; // v3: version.json + carga por lotes de tarjetas (bump para forzar actualización)
 const SHELL_CACHE = `rutas-shell-${CACHE_VERSION}`;
 const DATA_CACHE = `rutas-data-${CACHE_VERSION}`;
 const RUNTIME_CACHE = `rutas-runtime-${CACHE_VERSION}`;
@@ -33,7 +33,7 @@ const SHELL_ASSETS = [
   './assets/icons/favicon.svg',
 ];
 
-const DATA_URL_PATTERN = /\/data\/rutas\.json$/;
+const DATA_URL_PATTERN = /\/data\/(rutas|version)\.json$/;
 const TRACK_ASSET_PATTERN = /\/data\/(gpx|tracks)\//;
 
 self.addEventListener('install', (event) => {

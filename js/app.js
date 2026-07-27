@@ -5,6 +5,15 @@
    ============================================================ */
 
 const DATA_URL = 'data/rutas.json';
+const VERSION_URL = 'data/version.json';
+
+// El dataset completo se descarga y se guarda entero (necesario para poder
+// buscar/filtrar sin conexión sobre todas las rutas), pero solo se pintan
+// BATCH_SIZE tarjetas de golpe: el resto se van añadiendo al hacer scroll
+// (o con el botón "Cargar más"), para no penalizar el primer render cuando
+// la colección crezca (hoy 273, pronto ~500).
+const BATCH_SIZE = 30;
+let visibleCount = BATCH_SIZE;
 
 const DIFICULTAD_ORDER = ['Fácil', 'Moderado', 'Difícil', 'Muy difícil'];
 const EXIGENCIA_ORDER = ['Baja', 'Media', 'Alta', 'Muy alta'];
@@ -51,6 +60,32 @@ async function loadRoutes() {
   const res = await fetch(DATA_URL, { cache: 'no-cache' });
   if (!res.ok) throw new Error('No se pudo cargar ' + DATA_URL);
   return res.json();
+}
+
+// Metadata del despliegue (cuándo se generaron los datos, cuántas rutas,
+// qué build de la app). Si falla (offline la primera vez, fichero ausente
+// en una versión antigua...) simplemente no se muestra: nunca bloquea la
+// carga de las rutas.
+async function loadVersionInfo() {
+  try {
+    const res = await fetch(VERSION_URL, { cache: 'no-cache' });
+    if (!res.ok) return null;
+    return await res.json();
+  } catch (err) {
+    return null;
+  }
+}
+
+function renderVersionInfo(info) {
+  const el = document.getElementById('version-info');
+  if (!el) return;
+  if (!info) { el.textContent = ''; return; }
+  const fecha = new Date(info.generado_en);
+  const fechaTxt = isNaN(fecha.getTime())
+    ? (info.generado_en || '—')
+    : fecha.toLocaleString('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' });
+  const build = info.app_build ? ` · ${info.app_build}` : '';
+  el.textContent = `${build} · datos actualizados: ${fechaTxt} · ${info.total_rutas ?? ROUTES.length} rutas`;
 }
 
 function buildFacets() {
@@ -203,7 +238,7 @@ function renderFilters() {
       if (state[group].has(value)) state[group].delete(value);
       else state[group].add(value);
       renderFilters();
-      renderRoutes();
+      applyFilters();
     });
   });
 
@@ -211,23 +246,23 @@ function renderFilters() {
   document.getElementById('dist-max').value = state.distMax ?? '';
   document.getElementById('dist-min').addEventListener('input', e => {
     state.distMin = e.target.value === '' ? null : Number(e.target.value);
-    renderRoutes();
+    applyFilters();
   });
   document.getElementById('dist-max').addEventListener('input', e => {
     state.distMax = e.target.value === '' ? null : Number(e.target.value);
-    renderRoutes();
+    applyFilters();
   });
 
   const sortSelect = document.getElementById('sort-select');
   sortSelect.value = state.sort;
-  sortSelect.addEventListener('change', e => { state.sort = e.target.value; renderRoutes(); });
+  sortSelect.addEventListener('change', e => { state.sort = e.target.value; applyFilters(); });
 
   document.getElementById('clear-filters').addEventListener('click', () => {
     state.dificultad.clear(); state.exigencia.clear(); state.tipo_ruta.clear();
     state.pais.clear(); state.caracteristicas.clear();
     state.distMin = null; state.distMax = null; state.sort = 'nombre';
     renderFilters();
-    renderRoutes();
+    applyFilters();
   });
 }
 
@@ -269,19 +304,54 @@ function renderCard(r) {
   `;
 }
 
+// Se llama cuando cambia algún filtro/búsqueda/orden: siempre se vuelve a
+// empezar desde el primer lote de resultados (si no, al filtrar podríamos
+// quedarnos con "visibleCount" alto pero muy pocos resultados nuevos).
+function applyFilters() {
+  visibleCount = BATCH_SIZE;
+  renderRoutes();
+}
+
+function loadMore() {
+  visibleCount += BATCH_SIZE;
+  renderRoutes();
+}
+
+let loadMoreObserver = null;
+function ensureLoadMoreObserver() {
+  if (loadMoreObserver || !('IntersectionObserver' in window)) return;
+  const sentinel = document.getElementById('load-more-sentinel');
+  if (!sentinel) return;
+  loadMoreObserver = new IntersectionObserver((entries) => {
+    if (entries.some(e => e.isIntersecting)) loadMore();
+  }, { rootMargin: '600px 0px' });
+  loadMoreObserver.observe(sentinel);
+}
+
 function renderRoutes() {
   const filtered = getFiltered();
-  document.getElementById('result-count').textContent =
-    `${filtered.length} ruta${filtered.length === 1 ? '' : 's'} de ${ROUTES.length}`;
+  const showing = filtered.slice(0, visibleCount);
+  const countEl = document.getElementById('result-count');
+  const loadMoreWrap = document.getElementById('load-more-wrap');
+
+  if (!filtered.length) {
+    countEl.textContent = `0 rutas de ${ROUTES.length}`;
+  } else if (showing.length < filtered.length) {
+    countEl.textContent = `Mostrando ${showing.length} de ${filtered.length} ruta${filtered.length === 1 ? '' : 's'} (${ROUTES.length} en total)`;
+  } else {
+    countEl.textContent = `${filtered.length} ruta${filtered.length === 1 ? '' : 's'} de ${ROUTES.length}`;
+  }
+
   const grid = document.getElementById('grid');
   const empty = document.getElementById('empty');
   if (!filtered.length) {
     grid.innerHTML = '';
     empty.style.display = 'block';
+    loadMoreWrap.hidden = true;
     return;
   }
   empty.style.display = 'none';
-  grid.innerHTML = filtered.map(renderCard).join('');
+  grid.innerHTML = showing.map(renderCard).join('');
   grid.querySelectorAll('.card').forEach(card => {
     card.addEventListener('click', () => openRouteModal(card.dataset.id));
   });
@@ -291,6 +361,10 @@ function renderRoutes() {
       openMapModal(btn.dataset.mapId);
     });
   });
+
+  const hayMas = showing.length < filtered.length;
+  loadMoreWrap.hidden = !hayMas;
+  if (hayMas) ensureLoadMoreObserver();
 }
 
 /* ---------------- modal: detalle de ruta ---------------- */
@@ -701,17 +775,26 @@ async function init() {
 
   document.getElementById('search-input').addEventListener('input', e => {
     state.q = e.target.value.trim().toLowerCase();
-    renderRoutes();
+    applyFilters();
   });
 
+  document.getElementById('load-more-btn').addEventListener('click', loadMore);
+
+  let routes;
   try {
-    ROUTES = await loadRoutes();
+    routes = await loadRoutes();
   } catch (err) {
     document.getElementById('grid').innerHTML =
       `<p class="empty" style="display:block">No se han podido cargar las rutas. Comprueba tu conexión.</p>`;
     console.error(err);
     return;
   }
+  ROUTES = routes;
+
+  // La metadata de versión es puramente informativa: si falla, no debe
+  // impedir que se muestren las rutas (por eso va en su propio try/catch
+  // dentro de loadVersionInfo, y se pide después de tener ya las rutas).
+  renderVersionInfo(await loadVersionInfo());
 
   buildFacets();
   renderSummary();
