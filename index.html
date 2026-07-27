@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Rutas por el Monte</title>
+<meta name="description" content="Catálogo personal de rutas de senderismo: filtra por dificultad, distancia, desnivel y características. Funciona sin conexión." />
+<meta name="theme-color" content="#14171c" />
+<link rel="manifest" href="manifest.json" />
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="assets/icons/favicon-32.png" sizes="32x32" type="image/png" />
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <div class="topstrip">
+    <div class="brand">
+      <img src="assets/icons/icon-192.png" alt="Rutas por el Monte" />
+      <div class="brand-text">
+        <span class="brand-title">Rutas por el Monte</span>
+        <span class="brand-sub">Catálogo de senderismo</span>
+      </div>
+    </div>
+    <div class="topstrip-actions">
+      <div class="theme-switch" id="theme-switch" title="Cambiar tema"><span class="knob">🌙</span></div>
+    </div>
+  </div>
+
+  <div class="summary" id="summary"></div>
+
+  <div class="install-banner" id="install-banner" hidden>
+    <span id="install-text">Instala esta app para acceder más rápido y usarla sin conexión.</span>
+    <div style="display:flex; gap:8px; flex-shrink:0;">
+      <button class="btn primary" id="install-btn">Instalar</button>
+      <button class="close-banner" id="close-install-banner" title="Cerrar">✕</button>
+    </div>
+  </div>
+
+  <div class="stats-cta" id="stats-cta">
+    <div class="stats-cta-left">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><polyline points="3 17 9 11 13 15 21 7"/><polyline points="14 7 21 7 21 14"/></svg>
+      <div>
+        <div class="stats-cta-title">Estadísticas generales</div>
+        <div class="stats-cta-sub">Reparto por dificultad, país, características y ranking de popularidad</div>
+      </div>
+    </div>
+    <span class="stats-cta-arrow">Ver todas →</span>
+  </div>
+
+  <div class="filters-bar">
+    <div class="search-wrap">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="search-input" placeholder="Buscar ruta, localidad, región..." />
+    </div>
+    <button class="btn" id="filters-toggle">Filtros ▾</button>
+  </div>
+
+  <div class="filters-panel" id="filters-panel"></div>
+
+  <div class="result-count" id="result-count"></div>
+
+  <div class="grid" id="grid"></div>
+  <div id="empty">No se han encontrado rutas con ese criterio.</div>
+
+  <div class="offline-pill" id="offline-pill">📡 Sin conexión — mostrando datos guardados</div>
+
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal-card" id="modal-card"></div>
+  </div>
+
+  <footer class="appfoot">Rutas por el Monte · datos propios de Wikiloc</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
