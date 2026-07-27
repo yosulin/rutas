@@ -109,6 +109,7 @@ const ICON_SEARCH = `<svg viewBox="0 0 24 24" width="16" height="16" fill="none"
 const ICON_CHART = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><line x1="3" y1="21" x2="21" y2="21"/><rect x="5" y="12" width="3.5" height="8"/><rect x="11" y="6" width="3.5" height="14"/><rect x="17" y="9" width="3.5" height="11"/></svg>`;
 const ICON_WIKILOC = `<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.1-7-11.5A7 7 0 0 1 19 9.5C19 14.9 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.4"/></svg>`;
 const ICON_YOUTUBE = `<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5.5" width="19" height="13" rx="3.5"/><path d="M10.5 9.2 15 12l-4.5 2.8Z" fill="currentColor" stroke="none"/></svg>`;
+const ICON_SOURCE = `<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10 12 4l9 6"/><line x1="5" y1="10" x2="5" y2="19"/><line x1="10" y1="10" x2="10" y2="19"/><line x1="14" y1="10" x2="14" y2="19"/><line x1="19" y1="10" x2="19" y2="19"/><line x1="3" y1="19" x2="21" y2="19"/></svg>`;
 
 /* ---------------- render: barra resumen ---------------- */
 function renderSummary() {
@@ -285,10 +286,13 @@ function openRouteModal(id) {
   const r = ROUTES.find(x => x.id === id);
   if (!r) return;
   const difClass = `dif-${slug(r.dificultad)}`;
+  const origen = r.origen || 'Wikiloc personal';
+  const origenClass = /^wikiloc/i.test(origen) ? 'origen-wikiloc' : 'origen-oficial';
   const tagsHtml = (r.caracteristicas || []).map(t => `<span class="tag">${t}</span>`).join('') || '<span class="tag">Sin datos</span>';
   const linksHtml = `
     ${r.wikiloc_url ? `<a href="${r.wikiloc_url}" target="_blank" rel="noopener">${ICON_WIKILOC} Ver en Wikiloc</a>` : ''}
     ${r.youtube_url ? `<a href="${r.youtube_url}" target="_blank" rel="noopener">${ICON_YOUTUBE} Ver vídeo</a>` : ''}
+    ${r.fuente_url ? `<a href="${r.fuente_url}" target="_blank" rel="noopener">${ICON_SOURCE} Ver fuente oficial</a>` : ''}
   `;
 
   openModal(`
@@ -306,6 +310,7 @@ function openRouteModal(id) {
           <span class="tag">Exigencia: ${r.exigencia || SIN_DATO}</span>
           <span class="tag">${r.tipo_ruta || SIN_DATO}</span>
           ${r.trailrank != null ? `<span class="tag">Trailrank: ${r.trailrank}</span>` : ''}
+          <span class="pill ${origenClass}" title="Procedencia del dato">${origen}</span>
         </div>
       </div>
       <div class="modal-section">

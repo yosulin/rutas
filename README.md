@@ -17,6 +17,21 @@ sw.js                    service worker (caché de app shell + datos, offline)
 assets/icons/            logo e iconos de la app
 ```
 
+## Origen de los datos
+
+Cada ruta tiene un campo `origen` que indica su procedencia:
+
+- `"Wikiloc personal"` (por defecto): rutas ya grabadas o subidas a tu cuenta de Wikiloc.
+- `"Oficial · <organismo>"` (p. ej. `"Oficial · Gobierno de Aragón"`): rutas importadas de
+  un portal de datos abiertos público que todavía no se han subido a Wikiloc. Estas pueden
+  llevar además un `fuente_url` con el enlace a la página o dataset oficial original.
+
+En el modal de detalle esto se ve como una pastilla junto a dificultad/exigencia/trailrank,
+y si hay `fuente_url` aparece un botón "Ver fuente oficial" junto a los de Wikiloc/YouTube.
+La idea a medio plazo es que las rutas "Oficial · ..." acaben subiéndose a Wikiloc (pasando
+así a `wikiloc_url` y `origen: "Wikiloc personal"`), de forma que esta web funcione como
+repositorio/borrador propio antes de publicarlas.
+
 ## Actualizar las rutas
 
 El JSON (`data/rutas.json`) es la fuente que consume la web. Para regenerarlo a partir
@@ -24,7 +39,8 @@ de un CSV con las mismas columnas que el original (`ruta_id, nombre, localidad, 
 pais, distancia_km, desnivel_positivo_m, desnivel_negativo_m, dificultad, exigencia,
 duracion, duracion_min, tipo_ruta, altitud_maxima_m, altitud_minima_m, trailrank,
 fecha_realizacion, caracteristicas, precauciones, descripcion, wikiloc_url, youtube_url,
-youtube_disponible`):
+youtube_disponible`), más dos columnas opcionales `origen` y `fuente_url` (si se omiten,
+`origen` se rellena como `"Wikiloc personal"` y `fuente_url` queda vacío):
 
 ```bash
 python3 scripts/build_data.py ruta_al_csv_actualizado.csv

@@ -63,6 +63,15 @@ def parse_row(row):
         "descripcion": to_str_or_none(row.get("descripcion")),
         "wikiloc_url": to_str_or_none(row.get("wikiloc_url")),
         "youtube_url": to_str_or_none(row.get("youtube_url")) if to_bool(row.get("youtube_disponible")) else None,
+        # Procedencia del dato: "Wikiloc personal" para las rutas propias ya
+        # grabadas/subidas a Wikiloc, o "Oficial · <organismo>" para rutas
+        # importadas de un portal de datos abiertos (ayuntamiento, diputación,
+        # gobierno regional...) que todavía no se han subido a Wikiloc.
+        "origen": to_str_or_none(row.get("origen")) or "Wikiloc personal",
+        # Enlace a la fuente oficial original (portal de datos abiertos, ficha
+        # del ayuntamiento, etc.), cuando la ruta no viene de Wikiloc o cuando
+        # queremos conservar la referencia aunque ya se haya subido a Wikiloc.
+        "fuente_url": to_str_or_none(row.get("fuente_url")),
     }
 
 def main():
