@@ -313,7 +313,6 @@ function renderCard(r) {
         <div class="route-stat"><b>${fmtKm(r.distancia_km)}</b>Distancia</div>
         <div class="route-stat"><b>${fmtM(r.desnivel_positivo_m)}</b>Desnivel +</div>
         <div class="route-stat"><b>${fmtDur(r)}</b>Duración</div>
-        <div class="route-stat"><b>${fmtPct(r.pendiente_media_pct)}</b>Pend. media</div>
       </div>
       <div class="card-footer">
         ${wikiBtn}${ytBtn}${mapIcon}

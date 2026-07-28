@@ -98,7 +98,8 @@ sustituir el modal para no acumular mapas en memoria.
 ### Pendiente y perfil de elevación
 
 - `pendiente_media_pct` (desnivel positivo / distancia total) se calcula para las 273
-  rutas, tengan o no track real, y se muestra tanto en la ficha como en el detalle.
+  rutas, tengan o no track real. Se muestra en el detalle; se probó también en la ficha
+  (tarjeta) pero se quitó de ahí a petición del usuario.
 - El **perfil de elevación** (gráfico SVG) y la `pendiente_maxima_pct` solo existen para
   las rutas con track (mismo requisito que el mapa): se calculan a partir del GeoJSON real
   con `scripts/route_metrics.py`, remuestreando el track cada 100 m y suavizando picos
