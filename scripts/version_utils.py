@@ -11,7 +11,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 # Mantener sincronizado a mano con CACHE_VERSION en sw.js en cada release.
-APP_BUILD = "v5"
+APP_BUILD = "v6"
 
 
 def write_version(data_dir: Path, total_rutas: int) -> Path:

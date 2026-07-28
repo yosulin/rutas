@@ -15,7 +15,7 @@
      esos tiles en su caché HTTP normal, pero no lo garantizamos aquí.
    ============================================================ */
 
-const CACHE_VERSION = 'v5'; // v5: pendiente media/máxima + perfil de elevación (bump para forzar actualización)
+const CACHE_VERSION = 'v6'; // v6: perfil de elevación interactivo (seguir altitud + punto en el mapa)
 const SHELL_CACHE = `rutas-shell-${CACHE_VERSION}`;
 const DATA_CACHE = `rutas-data-${CACHE_VERSION}`;
 const RUNTIME_CACHE = `rutas-runtime-${CACHE_VERSION}`;

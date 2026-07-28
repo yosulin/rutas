@@ -257,10 +257,16 @@ button{ font-family:inherit; }
 
 /* ---------- perfil de elevación ---------- */
 .elevation-container{ margin-top:12px; }
-.elevation-svg{ width:100%; height:130px; display:block; }
+.elevation-readout{
+  font-family:var(--mono); font-size:11.5px; color:var(--text-dim);
+  margin-bottom:4px; min-height:15px;
+}
+.elevation-svg{ width:100%; height:130px; display:block; cursor:crosshair; touch-action:pan-y; }
 .elevation-area{ fill:var(--accent-dim); stroke:none; }
 .elevation-line{ fill:none; stroke:var(--accent); stroke-width:2; }
 .elevation-axis-label{ font-family:var(--mono); font-size:9px; fill:var(--text-faint); }
+.elevation-cursor-line{ stroke:var(--text-faint); stroke-width:1; stroke-dasharray:3 3; }
+.elevation-cursor-dot{ fill:var(--accent); stroke:#fff; stroke-width:1.5; }
 .elevation-caption{ font-size:11px; color:var(--text-faint); margin-top:6px; text-align:right; }
 
 /* ---------- modal de ajustes ---------- */

@@ -497,50 +497,127 @@ function haversineMetros(lat1, lon1, lat2, lon2) {
   return 2 * R * Math.asin(Math.sqrt(a));
 }
 
-// Extrae [{d: distancia acumulada en m, ele: altitud en m}] de la primera
-// LineString del GeoJSON, siempre que traiga elevación (3er valor de cada
-// coordenada [lon, lat, ele]). Si no la trae, no hay perfil que dibujar.
+// Coordenadas del "lienzo" del SVG del perfil (viewBox), compartidas entre
+// el renderizado y la interacción de arrastrar el dedo/ratón sobre él.
+const ELEV_W = 600, ELEV_H = 130, ELEV_PAD_L = 34, ELEV_PAD_R = 8, ELEV_PAD_T = 10, ELEV_PAD_B = 18;
+
+// Extrae [{d: distancia acumulada en m, ele: altitud en m, lat, lon}] de la
+// primera LineString del GeoJSON, siempre que traiga elevación (3er valor de
+// cada coordenada [lon, lat, ele]). Si no la trae, no hay perfil que dibujar.
 function buildElevationSeries(geojson) {
   const feature = (geojson.features || []).find(f => f.geometry && f.geometry.type === 'LineString');
   const coords = feature && feature.geometry.coordinates;
   if (!coords || coords.length < 2 || coords[0].length < 3) return null;
 
-  const pts = [{ d: 0, ele: coords[0][2] }];
+  const pts = [{ d: 0, ele: coords[0][2], lat: coords[0][1], lon: coords[0][0] }];
   let cum = 0;
   for (let i = 1; i < coords.length; i++) {
     const [lon1, lat1] = coords[i - 1];
     const [lon2, lat2, ele2] = coords[i];
     cum += haversineMetros(lat1, lon1, lat2, lon2);
-    pts.push({ d: cum, ele: ele2 });
+    pts.push({ d: cum, ele: ele2, lat: lat2, lon: lon2 });
   }
   return pts;
 }
 
 function renderElevationSvg(pts) {
-  const W = 600, H = 130, PAD_L = 34, PAD_R = 8, PAD_T = 10, PAD_B = 18;
   const totalD = pts[pts.length - 1].d;
   if (!totalD) return '';
   const eles = pts.map(p => p.ele);
   const minE = Math.min(...eles), maxE = Math.max(...eles);
   const spanE = Math.max(maxE - minE, 1);
 
-  const x = d => PAD_L + (d / totalD) * (W - PAD_L - PAD_R);
-  const y = e => PAD_T + (1 - (e - minE) / spanE) * (H - PAD_T - PAD_B);
+  const x = d => ELEV_PAD_L + (d / totalD) * (ELEV_W - ELEV_PAD_L - ELEV_PAD_R);
+  const y = e => ELEV_PAD_T + (1 - (e - minE) / spanE) * (ELEV_H - ELEV_PAD_T - ELEV_PAD_B);
 
   const linePts = pts.map(p => `${x(p.d).toFixed(1)},${y(p.ele).toFixed(1)}`).join(' ');
-  const base = (H - PAD_B).toFixed(1);
+  const base = (ELEV_H - ELEV_PAD_B).toFixed(1);
   const areaPts = `${x(0).toFixed(1)},${base} ${linePts} ${x(totalD).toFixed(1)},${base}`;
 
   return `
-    <svg viewBox="0 0 ${W} ${H}" class="elevation-svg" preserveAspectRatio="none">
+    <svg viewBox="0 0 ${ELEV_W} ${ELEV_H}" class="elevation-svg" preserveAspectRatio="none">
       <polygon points="${areaPts}" class="elevation-area"></polygon>
       <polyline points="${linePts}" class="elevation-line"></polyline>
-      <text x="${PAD_L}" y="${H - 5}" class="elevation-axis-label">0 km</text>
-      <text x="${(W - PAD_R).toFixed(1)}" y="${H - 5}" text-anchor="end" class="elevation-axis-label">${(totalD / 1000).toFixed(1)} km</text>
-      <text x="${(PAD_L - 4).toFixed(1)}" y="${y(maxE).toFixed(1)}" text-anchor="end" class="elevation-axis-label">${Math.round(maxE)} m</text>
-      <text x="${(PAD_L - 4).toFixed(1)}" y="${y(minE).toFixed(1)}" text-anchor="end" class="elevation-axis-label">${Math.round(minE)} m</text>
+      <text x="${ELEV_PAD_L}" y="${ELEV_H - 5}" class="elevation-axis-label">0 km</text>
+      <text x="${(ELEV_W - ELEV_PAD_R).toFixed(1)}" y="${ELEV_H - 5}" text-anchor="end" class="elevation-axis-label">${(totalD / 1000).toFixed(1)} km</text>
+      <text x="${(ELEV_PAD_L - 4).toFixed(1)}" y="${y(maxE).toFixed(1)}" text-anchor="end" class="elevation-axis-label">${Math.round(maxE)} m</text>
+      <text x="${(ELEV_PAD_L - 4).toFixed(1)}" y="${y(minE).toFixed(1)}" text-anchor="end" class="elevation-axis-label">${Math.round(minE)} m</text>
+      <line class="elevation-cursor-line" style="display:none"></line>
+      <circle class="elevation-cursor-dot" r="4" style="display:none"></circle>
     </svg>
   `;
+}
+
+// Permite "seguir" el perfil con el ratón/dedo: dibuja una guía vertical y un
+// punto sobre la altitud correspondiente, muestra distancia/altitud en un
+// pequeño texto, y sincroniza un marcador sobre el mapa (si sigue abierto).
+function wireElevationInteraction(container, pts) {
+  const svg = container.querySelector('.elevation-svg');
+  const readout = container.querySelector('.elevation-readout');
+  const cursorLine = container.querySelector('.elevation-cursor-line');
+  const cursorDot = container.querySelector('.elevation-cursor-dot');
+  if (!svg || !cursorLine || !cursorDot || pts.length < 2) return;
+
+  const totalD = pts[pts.length - 1].d;
+  const eles = pts.map(p => p.ele);
+  const minE = Math.min(...eles), maxE = Math.max(...eles);
+  const spanE = Math.max(maxE - minE, 1);
+  const xOf = d => ELEV_PAD_L + (d / totalD) * (ELEV_W - ELEV_PAD_L - ELEV_PAD_R);
+  const yOf = e => ELEV_PAD_T + (1 - (e - minE) / spanE) * (ELEV_H - ELEV_PAD_T - ELEV_PAD_B);
+
+  let marker = null;
+
+  function nearestPoint(d) {
+    let lo = 0, hi = pts.length - 1;
+    while (lo < hi) {
+      const mid = (lo + hi) >> 1;
+      if (pts[mid].d < d) lo = mid + 1; else hi = mid;
+    }
+    return pts[lo];
+  }
+
+  function update(clientX) {
+    const rect = svg.getBoundingClientRect();
+    if (!rect.width) return;
+    const frac = Math.min(1, Math.max(0, (clientX - rect.left) / rect.width));
+    const pt = nearestPoint(frac * totalD);
+    const px = xOf(pt.d);
+
+    cursorLine.setAttribute('x1', px);
+    cursorLine.setAttribute('x2', px);
+    cursorLine.setAttribute('y1', ELEV_PAD_T);
+    cursorLine.setAttribute('y2', ELEV_H - ELEV_PAD_B);
+    cursorDot.setAttribute('cx', px);
+    cursorDot.setAttribute('cy', yOf(pt.ele));
+    cursorLine.style.display = 'block';
+    cursorDot.style.display = 'block';
+
+    if (readout) readout.textContent = `${(pt.d / 1000).toFixed(2)} km · ${Math.round(pt.ele)} m`;
+
+    if (activeLeafletMap && typeof L !== 'undefined' && pt.lat != null && pt.lon != null) {
+      if (!marker) {
+        marker = L.circleMarker([pt.lat, pt.lon], {
+          radius: 7, color: '#fff', weight: 2, fillColor: '#e2664d', fillOpacity: 1,
+        }).addTo(activeLeafletMap);
+      } else {
+        marker.setLatLng([pt.lat, pt.lon]);
+      }
+    }
+  }
+
+  function clear() {
+    cursorLine.style.display = 'none';
+    cursorDot.style.display = 'none';
+    if (readout) readout.textContent = 'Desliza sobre el perfil para ver altitud y distancia';
+    if (marker) { marker.remove(); marker = null; }
+  }
+
+  svg.addEventListener('mousemove', e => update(e.clientX));
+  svg.addEventListener('mouseleave', clear);
+  svg.addEventListener('touchmove', e => {
+    if (e.touches && e.touches[0]) { update(e.touches[0].clientX); e.preventDefault(); }
+  }, { passive: false });
+  svg.addEventListener('touchend', clear);
 }
 
 function renderElevationProfile(container, geojson, r) {
@@ -548,7 +625,12 @@ function renderElevationProfile(container, geojson, r) {
   const pts = buildElevationSeries(geojson);
   if (!pts) { container.innerHTML = ''; return; }
   const maxTxt = r.pendiente_maxima_pct != null ? ` · pendiente máx. ${r.pendiente_maxima_pct}%` : '';
-  container.innerHTML = `${renderElevationSvg(pts)}<div class="elevation-caption">Perfil de elevación${maxTxt}</div>`;
+  container.innerHTML = `
+    <div class="elevation-readout">Desliza sobre el perfil para ver altitud y distancia</div>
+    ${renderElevationSvg(pts)}
+    <div class="elevation-caption">Perfil de elevación${maxTxt}</div>
+  `;
+  wireElevationInteraction(container, pts);
 }
 
 /* ---------------- mapa embebido en el detalle (Leaflet + GeoJSON bajo demanda) ---------------- */

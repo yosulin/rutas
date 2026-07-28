@@ -107,6 +107,9 @@ sustituir el modal para no acumular mapas en memoria.
   no dispara el resultado a cifras irreales.
 - El perfil de elevación en el detalle reutiliza el mismo GeoJSON que ya se descarga para
   el mapa: no hace una petición aparte.
+- El gráfico es interactivo: al pasar el ratón (o el dedo, en móvil) sobre el perfil se ve
+  una guía con la distancia y altitud exactas en ese punto, y aparece un marcador en el mapa
+  de arriba mostrando dónde está ese punto del recorrido.
 
 ### Cómo se generan `data/gpx/` y `data/tracks/`
 
