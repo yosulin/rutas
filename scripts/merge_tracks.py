@@ -23,6 +23,7 @@ import sys
 from pathlib import Path
 
 from version_utils import write_version
+from route_metrics import pendiente_media_pct, pendiente_maxima_pct
 
 NO_SOBRESCRIBIR = {
     "distancia_km", "desnivel_positivo_m", "desnivel_negativo_m",
@@ -34,7 +35,7 @@ CAMPOS_MAPA = [
     "estado_track", "track_disponible", "mapa_habilitado",
     "track_geojson", "track_gpx",
     "latitud_origen", "longitud_origen", "latitud_final", "longitud_final",
-    "mapa_origen_url",
+    "mapa_origen_url", "pendiente_maxima_pct",
 ]
 
 
@@ -75,6 +76,13 @@ def main():
     rutas_por_id = {str(r["id"]): r for r in rutas}
 
     for rid, ruta in rutas_por_id.items():
+        # No depende de si hay track: usa distancia_km/desnivel_positivo_m,
+        # que ya existen para las 273 rutas. Se recalcula siempre (idempotente),
+        # así no importa si build_data.py ya la había puesto o no.
+        ruta["pendiente_media_pct"] = pendiente_media_pct(
+            ruta.get("distancia_km"), ruta.get("desnivel_positivo_m")
+        )
+
         entradas = merge_by_id.get(rid)
         if not entradas:
             rutas_sin_entrada_merge.append(rid)
@@ -101,6 +109,13 @@ def main():
         geojson_existe = bool(geojson_destino) and (args.repo_root / geojson_destino).is_file()
 
         mapa_habilitado_final = mapa_habilitado_merge and estado == "VALIDADO" and gpx_existe and geojson_existe
+
+        # Pendiente máxima: solo se puede calcular con el track real, así que
+        # solo se rellena cuando el GeoJSON existe de verdad en el repo.
+        pendiente_max = (
+            pendiente_maxima_pct(args.repo_root / geojson_destino)
+            if geojson_existe else None
+        )
 
         if mapa_habilitado_merge and estado == "VALIDADO" and not (gpx_existe and geojson_existe):
             pendientes_archivos.append({
@@ -131,6 +146,7 @@ def main():
             "latitud_final": m.get("latitud_final"),
             "longitud_final": m.get("longitud_final"),
             "mapa_origen_url": m.get("mapa_origen_url"),
+            "pendiente_maxima_pct": pendiente_max,
         }
         for k, v in nuevos.items():
             if k in NO_SOBRESCRIBIR:

@@ -95,6 +95,19 @@ los 273 recorridos al iniciar la app). El mapa usa Leaflet 1.9.4 (versión fijad
 sobre mosaicos de OpenStreetMap, y la instancia se destruye (`map.remove()`) al cerrar o
 sustituir el modal para no acumular mapas en memoria.
 
+### Pendiente y perfil de elevación
+
+- `pendiente_media_pct` (desnivel positivo / distancia total) se calcula para las 273
+  rutas, tengan o no track real, y se muestra tanto en la ficha como en el detalle.
+- El **perfil de elevación** (gráfico SVG) y la `pendiente_maxima_pct` solo existen para
+  las rutas con track (mismo requisito que el mapa): se calculan a partir del GeoJSON real
+  con `scripts/route_metrics.py`, remuestreando el track cada 100 m y suavizando picos
+  aislados de altitud (ruido típico del GPS en cuevas, cañones o bajo arbolado) antes de
+  tomar el percentil 90 de las pendientes por tramo — así una lectura puntual mala del GPS
+  no dispara el resultado a cifras irreales.
+- El perfil de elevación en el detalle reutiliza el mismo GeoJSON que ya se descarga para
+  el mapa: no hace una petición aparte.
+
 ### Cómo se generan `data/gpx/` y `data/tracks/`
 
 Estos archivos **no se generan a mano**: vienen de un proceso externo (extractor local +

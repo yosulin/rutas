@@ -54,6 +54,7 @@ function orderedUnique(values, order) {
 function fmtKm(v) { return v == null ? '—' : `${v.toLocaleString('es-ES')} km`; }
 function fmtM(v) { return v == null ? '—' : `${v.toLocaleString('es-ES')} m`; }
 function fmtDur(r) { return r.duracion_texto || (r.duracion_min ? `${r.duracion_min} min` : '—'); }
+function fmtPct(v) { return v == null ? '—' : `${v}%`; }
 
 /* ---------------- carga de datos ---------------- */
 async function loadRoutes() {
@@ -312,6 +313,7 @@ function renderCard(r) {
         <div class="route-stat"><b>${fmtKm(r.distancia_km)}</b>Distancia</div>
         <div class="route-stat"><b>${fmtM(r.desnivel_positivo_m)}</b>Desnivel +</div>
         <div class="route-stat"><b>${fmtDur(r)}</b>Duración</div>
+        <div class="route-stat"><b>${fmtPct(r.pendiente_media_pct)}</b>Pend. media</div>
       </div>
       <div class="card-footer">
         ${wikiBtn}${ytBtn}${mapIcon}
@@ -450,6 +452,7 @@ function openRouteModal(id) {
           <div class="kpi-cell"><div class="kpi-num">${fmtDur(r)}</div><div class="kpi-label">Duración</div></div>
           <div class="kpi-cell"><div class="kpi-num">${fmtM(r.altitud_maxima_m)}</div><div class="kpi-label">Altitud máx.</div></div>
           <div class="kpi-cell"><div class="kpi-num">${fmtM(r.altitud_minima_m)}</div><div class="kpi-label">Altitud mín.</div></div>
+          <div class="kpi-cell"><div class="kpi-num">${fmtPct(r.pendiente_media_pct)}</div><div class="kpi-label">Pendiente media</div></div>
         </div>
       </div>
       <div class="modal-section">
@@ -470,6 +473,7 @@ function openRouteModal(id) {
       <div class="modal-section">
         <p class="modal-section-title">Mapa y recorrido</p>
         <div id="map-container" class="map-container"><div class="map-loading">Cargando mapa…</div></div>
+        <div id="elevation-container" class="elevation-container"></div>
       </div>` : ''}
       <div class="modal-section">
         <div class="modal-links">${linksHtml.trim() ? linksHtml : '<span class="tag">Sin enlaces disponibles</span>'}</div>
@@ -482,6 +486,69 @@ function openRouteModal(id) {
     // siguiente frame para que tenga tamaño real antes de inicializar Leaflet.
     requestAnimationFrame(() => initLeafletMap(r));
   }
+}
+
+/* ---------------- perfil de elevación (a partir del mismo GeoJSON del mapa) ---------------- */
+function haversineMetros(lat1, lon1, lat2, lon2) {
+  const R = 6371000;
+  const toRad = x => x * Math.PI / 180;
+  const dLat = toRad(lat2 - lat1), dLon = toRad(lon2 - lon1);
+  const a = Math.sin(dLat / 2) ** 2 + Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLon / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(a));
+}
+
+// Extrae [{d: distancia acumulada en m, ele: altitud en m}] de la primera
+// LineString del GeoJSON, siempre que traiga elevación (3er valor de cada
+// coordenada [lon, lat, ele]). Si no la trae, no hay perfil que dibujar.
+function buildElevationSeries(geojson) {
+  const feature = (geojson.features || []).find(f => f.geometry && f.geometry.type === 'LineString');
+  const coords = feature && feature.geometry.coordinates;
+  if (!coords || coords.length < 2 || coords[0].length < 3) return null;
+
+  const pts = [{ d: 0, ele: coords[0][2] }];
+  let cum = 0;
+  for (let i = 1; i < coords.length; i++) {
+    const [lon1, lat1] = coords[i - 1];
+    const [lon2, lat2, ele2] = coords[i];
+    cum += haversineMetros(lat1, lon1, lat2, lon2);
+    pts.push({ d: cum, ele: ele2 });
+  }
+  return pts;
+}
+
+function renderElevationSvg(pts) {
+  const W = 600, H = 130, PAD_L = 34, PAD_R = 8, PAD_T = 10, PAD_B = 18;
+  const totalD = pts[pts.length - 1].d;
+  if (!totalD) return '';
+  const eles = pts.map(p => p.ele);
+  const minE = Math.min(...eles), maxE = Math.max(...eles);
+  const spanE = Math.max(maxE - minE, 1);
+
+  const x = d => PAD_L + (d / totalD) * (W - PAD_L - PAD_R);
+  const y = e => PAD_T + (1 - (e - minE) / spanE) * (H - PAD_T - PAD_B);
+
+  const linePts = pts.map(p => `${x(p.d).toFixed(1)},${y(p.ele).toFixed(1)}`).join(' ');
+  const base = (H - PAD_B).toFixed(1);
+  const areaPts = `${x(0).toFixed(1)},${base} ${linePts} ${x(totalD).toFixed(1)},${base}`;
+
+  return `
+    <svg viewBox="0 0 ${W} ${H}" class="elevation-svg" preserveAspectRatio="none">
+      <polygon points="${areaPts}" class="elevation-area"></polygon>
+      <polyline points="${linePts}" class="elevation-line"></polyline>
+      <text x="${PAD_L}" y="${H - 5}" class="elevation-axis-label">0 km</text>
+      <text x="${(W - PAD_R).toFixed(1)}" y="${H - 5}" text-anchor="end" class="elevation-axis-label">${(totalD / 1000).toFixed(1)} km</text>
+      <text x="${(PAD_L - 4).toFixed(1)}" y="${y(maxE).toFixed(1)}" text-anchor="end" class="elevation-axis-label">${Math.round(maxE)} m</text>
+      <text x="${(PAD_L - 4).toFixed(1)}" y="${y(minE).toFixed(1)}" text-anchor="end" class="elevation-axis-label">${Math.round(minE)} m</text>
+    </svg>
+  `;
+}
+
+function renderElevationProfile(container, geojson, r) {
+  if (!container) return;
+  const pts = buildElevationSeries(geojson);
+  if (!pts) { container.innerHTML = ''; return; }
+  const maxTxt = r.pendiente_maxima_pct != null ? ` · pendiente máx. ${r.pendiente_maxima_pct}%` : '';
+  container.innerHTML = `${renderElevationSvg(pts)}<div class="elevation-caption">Perfil de elevación${maxTxt}</div>`;
 }
 
 /* ---------------- mapa embebido en el detalle (Leaflet + GeoJSON bajo demanda) ---------------- */
@@ -513,6 +580,11 @@ async function initLeafletMap(r) {
 
   // El modal pudo cerrarse mientras esperábamos la respuesta de fetch().
   if (!document.body.contains(container)) return;
+
+  // El perfil de elevación reutiliza este mismo GeoJSON (ya descargado para
+  // el mapa): no hace falta una segunda petición. Es independiente del mapa
+  // interactivo, así que se pinta aunque Leaflet fallase más abajo.
+  renderElevationProfile(document.getElementById('elevation-container'), geojson, r);
 
   container.innerHTML = '';
   const accent = getComputedStyle(document.documentElement).getPropertyValue('--accent').trim() || '#4fcf9d';

@@ -13,6 +13,7 @@ import os
 from pathlib import Path
 
 from version_utils import write_version
+from route_metrics import pendiente_media_pct
 
 def to_float(v):
     v = (v or "").strip()
@@ -43,15 +44,22 @@ def parse_row(row):
     caracteristicas = to_str_or_none(row.get("caracteristicas"))
     tags = [t.strip() for t in caracteristicas.split(";")] if caracteristicas else []
 
+    distancia_km = to_float(row.get("distancia_km"))
+    desnivel_positivo_m = to_int(row.get("desnivel_positivo_m"))
+
     return {
         "id": row["ruta_id"].strip(),
         "nombre": row["nombre"].strip(),
         "localidad": to_str_or_none(row.get("localidad")),
         "region": to_str_or_none(row.get("region")),
         "pais": to_str_or_none(row.get("pais")),
-        "distancia_km": to_float(row.get("distancia_km")),
-        "desnivel_positivo_m": to_int(row.get("desnivel_positivo_m")),
+        "distancia_km": distancia_km,
+        "desnivel_positivo_m": desnivel_positivo_m,
         "desnivel_negativo_m": to_int(row.get("desnivel_negativo_m")),
+        # Derivada de distancia_km/desnivel_positivo_m (no viene del CSV): se
+        # recalcula también en merge_tracks.py para las 273 rutas, tengan o
+        # no track real, así que no depende de en qué orden se ejecuten.
+        "pendiente_media_pct": pendiente_media_pct(distancia_km, desnivel_positivo_m),
         "dificultad": to_str_or_none(row.get("dificultad")),
         "exigencia": to_str_or_none(row.get("exigencia")),
         "duracion_texto": to_str_or_none(row.get("duracion")),

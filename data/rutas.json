@@ -39,7 +39,9 @@
     "longitud_origen": -1.590023,
     "latitud_final": 43.104212,
     "longitud_final": -1.590049,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.104474,-1.59007"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.104474,-1.59007",
+    "pendiente_media_pct": 7.4,
+    "pendiente_maxima_pct": 30.7
   },
   {
     "id": "155441406",
@@ -78,7 +80,9 @@
     "longitud_origen": -1.974246,
     "latitud_final": 43.221648,
     "longitud_final": -1.974395,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.221721,-1.974321"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.221721,-1.974321",
+    "pendiente_media_pct": 7.1,
+    "pendiente_maxima_pct": 17.7
   },
   {
     "id": "87269079",
@@ -118,7 +122,9 @@
     "longitud_origen": -0.655298,
     "latitud_final": 42.840963,
     "longitud_final": -0.655232,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.841062,-0.655298"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.841062,-0.655298",
+    "pendiente_media_pct": 6.1,
+    "pendiente_maxima_pct": 27.1
   },
   {
     "id": "91630629",
@@ -160,7 +166,9 @@
     "longitud_origen": -2.565117,
     "latitud_final": 42.981554,
     "longitud_final": -2.56488,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.981567,-2.565117"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.981567,-2.565117",
+    "pendiente_media_pct": 4.4,
+    "pendiente_maxima_pct": 19.0
   },
   {
     "id": "123372481",
@@ -202,7 +210,9 @@
     "longitud_origen": -1.45361,
     "latitud_final": 43.216979,
     "longitud_final": -1.45359,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.217022,-1.45361"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.217022,-1.45361",
+    "pendiente_media_pct": 5.2,
+    "pendiente_maxima_pct": 20.7
   },
   {
     "id": "129782424",
@@ -244,7 +254,9 @@
     "longitud_origen": -1.498787,
     "latitud_final": 43.233249,
     "longitud_final": -1.498698,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.233237,-1.498787"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.233237,-1.498787",
+    "pendiente_media_pct": 4.9,
+    "pendiente_maxima_pct": 26.4
   },
   {
     "id": "81964632",
@@ -286,7 +298,9 @@
     "longitud_origen": -0.767182,
     "latitud_final": 42.969346,
     "longitud_final": -0.767242,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.96969,-0.766818"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.96969,-0.766818",
+    "pendiente_media_pct": 5.5,
+    "pendiente_maxima_pct": 23.7
   },
   {
     "id": "102241080",
@@ -325,7 +339,9 @@
     "longitud_origen": 0.650442,
     "latitud_final": 42.669342,
     "longitud_final": 0.650565,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.678926,0.649775"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.678926,0.649775",
+    "pendiente_media_pct": 11.1,
+    "pendiente_maxima_pct": 40.0
   },
   {
     "id": "101388861",
@@ -367,7 +383,9 @@
     "longitud_origen": -2.400683,
     "latitud_final": 42.979214,
     "longitud_final": -2.400388,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.979455,-2.400683"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.979455,-2.400683",
+    "pendiente_media_pct": 5.8,
+    "pendiente_maxima_pct": 27.9
   },
   {
     "id": "90998933",
@@ -406,7 +424,9 @@
     "longitud_origen": -0.772701,
     "latitud_final": 42.963538,
     "longitud_final": -0.772701,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.963538,-0.772701"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.963538,-0.772701",
+    "pendiente_media_pct": 7.1,
+    "pendiente_maxima_pct": 29.5
   },
   {
     "id": "115411081",
@@ -448,7 +468,9 @@
     "longitud_origen": -2.01212,
     "latitud_final": 42.859333,
     "longitud_final": -2.012176,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.859357,-2.01212"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.859357,-2.01212",
+    "pendiente_media_pct": 2.3,
+    "pendiente_maxima_pct": 14.1
   },
   {
     "id": "116322251",
@@ -490,7 +512,9 @@
     "longitud_origen": -2.143785,
     "latitud_final": 42.798851,
     "longitud_final": -2.143742,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.798872,-2.143785"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.798872,-2.143785",
+    "pendiente_media_pct": 2.0,
+    "pendiente_maxima_pct": 10.0
   },
   {
     "id": "45166278",
@@ -528,7 +552,9 @@
     "longitud_origen": -1.515414,
     "latitud_final": 42.209727,
     "longitud_final": -1.515176,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.209688,-1.515414"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.209688,-1.515414",
+    "pendiente_media_pct": 1.3,
+    "pendiente_maxima_pct": 9.6
   },
   {
     "id": "117575599",
@@ -567,7 +593,9 @@
     "longitud_origen": -2.969642,
     "latitud_final": 43.404286,
     "longitud_final": -2.969703,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.40433,-2.9696423"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.40433,-2.9696423",
+    "pendiente_media_pct": 3.0,
+    "pendiente_maxima_pct": 14.4
   },
   {
     "id": "89270151",
@@ -609,7 +637,9 @@
     "longitud_origen": -2.002666,
     "latitud_final": 42.957056,
     "longitud_final": -2.002678,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.957108,-2.002666"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.957108,-2.002666",
+    "pendiente_media_pct": 3.7,
+    "pendiente_maxima_pct": 18.4
   },
   {
     "id": "121454686",
@@ -649,7 +679,9 @@
     "longitud_origen": -1.795898,
     "latitud_final": 43.272119,
     "longitud_final": -1.795936,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.272108,-1.795898"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.272108,-1.795898",
+    "pendiente_media_pct": 5.4,
+    "pendiente_maxima_pct": 19.5
   },
   {
     "id": "33374956",
@@ -688,7 +720,9 @@
     "longitud_origen": -1.678415,
     "latitud_final": 42.965688,
     "longitud_final": -1.678419,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.965663,-1.6784"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.965663,-1.6784",
+    "pendiente_media_pct": 1.2,
+    "pendiente_maxima_pct": 8.4
   },
   {
     "id": "87102267",
@@ -730,7 +764,9 @@
     "longitud_origen": -1.563519,
     "latitud_final": 42.96398,
     "longitud_final": -1.563509,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.963965,-1.563519"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.963965,-1.563519",
+    "pendiente_media_pct": 4.3,
+    "pendiente_maxima_pct": 20.3
   },
   {
     "id": "129027346",
@@ -772,7 +808,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 5.7,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "115321547",
@@ -814,7 +852,9 @@
     "longitud_origen": -2.01768,
     "latitud_final": 43.266002,
     "longitud_final": -2.01776,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.266118,-2.01768"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.266118,-2.01768",
+    "pendiente_media_pct": 4.1,
+    "pendiente_maxima_pct": 21.0
   },
   {
     "id": "173604183",
@@ -852,7 +892,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 5.1,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "92801538",
@@ -892,7 +934,9 @@
     "longitud_origen": -0.418112,
     "latitud_final": 42.814471,
     "longitud_final": -0.418056,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.814498,-0.418112"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.814498,-0.418112",
+    "pendiente_media_pct": 6.5,
+    "pendiente_maxima_pct": 24.6
   },
   {
     "id": "59888309",
@@ -931,7 +975,9 @@
     "longitud_origen": -1.87528,
     "latitud_final": 42.837231,
     "longitud_final": -1.878712,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.832977,-1.87528"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.832977,-1.87528",
+    "pendiente_media_pct": 4.2,
+    "pendiente_maxima_pct": 15.2
   },
   {
     "id": "168074487",
@@ -969,7 +1015,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 3.0,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "44178315",
@@ -1008,7 +1056,9 @@
     "longitud_origen": -0.011094,
     "latitud_final": 42.735196,
     "longitud_final": -0.01106,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.735272,-0.011094"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.735272,-0.011094",
+    "pendiente_media_pct": 3.2,
+    "pendiente_maxima_pct": 22.1
   },
   {
     "id": "138775580",
@@ -1047,7 +1097,9 @@
     "longitud_origen": -1.891244,
     "latitud_final": 43.001196,
     "longitud_final": -1.891094,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.001213,-1.891244"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.001213,-1.891244",
+    "pendiente_media_pct": 0.7,
+    "pendiente_maxima_pct": 12.7
   },
   {
     "id": "138716040",
@@ -1087,7 +1139,9 @@
     "longitud_origen": -1.891244,
     "latitud_final": 43.001196,
     "longitud_final": -1.891094,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.001213,-1.891244"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.001213,-1.891244",
+    "pendiente_media_pct": 1.0,
+    "pendiente_maxima_pct": 12.7
   },
   {
     "id": "139240724",
@@ -1127,7 +1181,9 @@
     "longitud_origen": -0.316,
     "latitud_final": 42.736889,
     "longitud_final": -0.316088,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.736837,-0.316"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.736837,-0.316",
+    "pendiente_media_pct": 6.5,
+    "pendiente_maxima_pct": 22.1
   },
   {
     "id": "166275338",
@@ -1165,7 +1221,9 @@
     "longitud_origen": -1.517267,
     "latitud_final": 43.147916,
     "longitud_final": -1.517335,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.147895,-1.517267"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.147895,-1.517267",
+    "pendiente_media_pct": 4.6,
+    "pendiente_maxima_pct": 19.5
   },
   {
     "id": "100135484",
@@ -1207,7 +1265,9 @@
     "longitud_origen": -0.311112,
     "latitud_final": 42.591369,
     "longitud_final": -0.311132,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.591365,-0.311112"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.591365,-0.311112",
+    "pendiente_media_pct": 3.9,
+    "pendiente_maxima_pct": 33.8
   },
   {
     "id": "149479699",
@@ -1246,7 +1306,9 @@
     "longitud_origen": -2.133782,
     "latitud_final": 43.006832,
     "longitud_final": -2.133929,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.006822,-2.133782"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.006822,-2.133782",
+    "pendiente_media_pct": 2.0,
+    "pendiente_maxima_pct": 20.3
   },
   {
     "id": "127634606",
@@ -1286,7 +1348,9 @@
     "longitud_origen": -1.735488,
     "latitud_final": 43.179548,
     "longitud_final": -1.735459,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.179617,-1.735488"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.179617,-1.735488",
+    "pendiente_media_pct": 3.6,
+    "pendiente_maxima_pct": 11.2
   },
   {
     "id": "97392800",
@@ -1325,7 +1389,9 @@
     "longitud_origen": -1.887488,
     "latitud_final": 42.775409,
     "longitud_final": -1.887609,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.775412,-1.887488"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.775412,-1.887488",
+    "pendiente_media_pct": 3.8,
+    "pendiente_maxima_pct": 19.1
   },
   {
     "id": "97387077",
@@ -1367,7 +1433,9 @@
     "longitud_origen": -1.887488,
     "latitud_final": 42.775409,
     "longitud_final": -1.887609,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.775412,-1.887488"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.775412,-1.887488",
+    "pendiente_media_pct": 4.7,
+    "pendiente_maxima_pct": 19.1
   },
   {
     "id": "171876887",
@@ -1406,7 +1474,9 @@
     "longitud_origen": -2.713517,
     "latitud_final": 43.050297,
     "longitud_final": -2.713447,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.050225,-2.713517"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.050225,-2.713517",
+    "pendiente_media_pct": 1.9,
+    "pendiente_maxima_pct": 17.7
   },
   {
     "id": "154054542",
@@ -1446,7 +1516,9 @@
     "longitud_origen": -1.459347,
     "latitud_final": 43.18318,
     "longitud_final": -1.459197,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.183164,-1.459347"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.183164,-1.459347",
+    "pendiente_media_pct": 2.3,
+    "pendiente_maxima_pct": 12.6
   },
   {
     "id": "154070535",
@@ -1486,7 +1558,9 @@
     "longitud_origen": -1.106486,
     "latitud_final": 42.989039,
     "longitud_final": -1.106505,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.989047,-1.106486"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.989047,-1.106486",
+    "pendiente_media_pct": 2.5,
+    "pendiente_maxima_pct": 14.0
   },
   {
     "id": "181005343",
@@ -1525,7 +1599,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 2.7,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "93320589",
@@ -1565,7 +1641,9 @@
     "longitud_origen": -1.673087,
     "latitud_final": 43.112217,
     "longitud_final": -1.673181,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.112323,-1.673087"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.112323,-1.673087",
+    "pendiente_media_pct": 4.1,
+    "pendiente_maxima_pct": 18.1
   },
   {
     "id": "112802080",
@@ -1606,7 +1684,9 @@
     "longitud_origen": -0.051347,
     "latitud_final": 42.713557,
     "longitud_final": -0.051306,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.713593,-0.051347"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.713593,-0.051347",
+    "pendiente_media_pct": 10.2,
+    "pendiente_maxima_pct": 37.0
   },
   {
     "id": "35444509",
@@ -1644,7 +1724,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 7.3,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "31546490",
@@ -1686,7 +1768,9 @@
     "longitud_origen": -1.803534,
     "latitud_final": 43.23927,
     "longitud_final": -1.803701,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.238811,-1.803534/@43.2931839,-1.9021567,12z"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.238811,-1.803534/@43.2931839,-1.9021567,12z",
+    "pendiente_media_pct": 3.7,
+    "pendiente_maxima_pct": 16.1
   },
   {
     "id": "31547682",
@@ -1727,7 +1811,9 @@
     "longitud_origen": -1.821616,
     "latitud_final": 43.36672,
     "longitud_final": -1.821249,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.367318,-1.821616"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.367318,-1.821616",
+    "pendiente_media_pct": 3.5,
+    "pendiente_maxima_pct": 13.4
   },
   {
     "id": "31897250",
@@ -1767,7 +1853,9 @@
     "longitud_origen": -1.89584,
     "latitud_final": 43.266801,
     "longitud_final": -1.895895,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.266795,-1.89584/@43.3067822,-1.9976171,11z"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.266795,-1.89584/@43.3067822,-1.9976171,11z",
+    "pendiente_media_pct": 5.9,
+    "pendiente_maxima_pct": 20.6
   },
   {
     "id": "201641672",
@@ -1808,7 +1896,9 @@
     "longitud_origen": -1.823681,
     "latitud_final": 43.247601,
     "longitud_final": -1.823569,
-    "mapa_origen_url": "https://www.google.com/maps/dir/bera/43.247591,-1.823681"
+    "mapa_origen_url": "https://www.google.com/maps/dir/bera/43.247591,-1.823681",
+    "pendiente_media_pct": 3.9,
+    "pendiente_maxima_pct": 12.7
   },
   {
     "id": "35788829",
@@ -1846,7 +1936,9 @@
     "longitud_origen": -2.25742,
     "latitud_final": 42.778641,
     "longitud_final": -2.257539,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.77857,-2.25742"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.77857,-2.25742",
+    "pendiente_media_pct": 3.8,
+    "pendiente_maxima_pct": 23.6
   },
   {
     "id": "44686126",
@@ -1887,7 +1979,9 @@
     "longitud_origen": -2.099858,
     "latitud_final": 42.960642,
     "longitud_final": -2.099958,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.960671,-2.099858"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.960671,-2.099858",
+    "pendiente_media_pct": 4.7,
+    "pendiente_maxima_pct": 20.6
   },
   {
     "id": "100616056",
@@ -1927,7 +2021,9 @@
     "longitud_origen": -0.28325,
     "latitud_final": 42.721829,
     "longitud_final": -0.28325,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.722125,-0.28119"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.722125,-0.28119",
+    "pendiente_media_pct": 5.7,
+    "pendiente_maxima_pct": 24.4
   },
   {
     "id": "113896566",
@@ -1968,7 +2064,9 @@
     "longitud_origen": -1.918252,
     "latitud_final": 43.087252,
     "longitud_final": -1.918107,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.087287,-1.918252"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.087287,-1.918252",
+    "pendiente_media_pct": 5.4,
+    "pendiente_maxima_pct": 20.9
   },
   {
     "id": "122685076",
@@ -2008,7 +2106,9 @@
     "longitud_origen": -1.714073,
     "latitud_final": 42.869263,
     "longitud_final": -1.714152,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.869225,-1.714073"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.869225,-1.714073",
+    "pendiente_media_pct": 6.4,
+    "pendiente_maxima_pct": 21.1
   },
   {
     "id": "140510668",
@@ -2048,7 +2148,9 @@
     "longitud_origen": -2.335842,
     "latitud_final": 43.020128,
     "longitud_final": -2.33603,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.02021,-2.335842"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.02021,-2.335842",
+    "pendiente_media_pct": 1.9,
+    "pendiente_maxima_pct": 11.7
   },
   {
     "id": "163393718",
@@ -2086,7 +2188,9 @@
     "longitud_origen": -2.255512,
     "latitud_final": 43.297223,
     "longitud_final": -2.255496,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.297338,-2.255512"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.297338,-2.255512",
+    "pendiente_media_pct": 2.4,
+    "pendiente_maxima_pct": 14.5
   },
   {
     "id": "94781662",
@@ -2127,7 +2231,9 @@
     "longitud_origen": -0.410813,
     "latitud_final": 42.780285,
     "longitud_final": -0.410837,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.779389,-0.413024"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.779389,-0.413024",
+    "pendiente_media_pct": 7.3,
+    "pendiente_maxima_pct": 24.9
   },
   {
     "id": "172796138",
@@ -2163,7 +2269,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 1.9,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "209261626",
@@ -2202,7 +2310,9 @@
     "longitud_origen": -3.584422,
     "latitud_final": 43.511451,
     "longitud_final": -3.584442,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.511417,-3.584422"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.511417,-3.584422",
+    "pendiente_media_pct": 2.0,
+    "pendiente_maxima_pct": 8.4
   },
   {
     "id": "44936791",
@@ -2243,7 +2353,9 @@
     "longitud_origen": -1.821369,
     "latitud_final": 43.366754,
     "longitud_final": -1.821208,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.366732,-1.821369"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.366732,-1.821369",
+    "pendiente_media_pct": 2.7,
+    "pendiente_maxima_pct": 15.5
   },
   {
     "id": "32243452",
@@ -2285,7 +2397,9 @@
     "longitud_origen": -2.25205,
     "latitud_final": 43.29386,
     "longitud_final": -2.252053,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.2937399,-2.251284/@43.2931953,-2.2519066,18z/data=!4m2!4m1!3e0"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.2937399,-2.251284/@43.2931953,-2.2519066,18z/data=!4m2!4m1!3e0",
+    "pendiente_media_pct": 2.5,
+    "pendiente_maxima_pct": 14.8
   },
   {
     "id": "121737296",
@@ -2327,7 +2441,9 @@
     "longitud_origen": -2.147847,
     "latitud_final": 43.194696,
     "longitud_final": -2.14851,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.194672,-2.147847"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.194672,-2.147847",
+    "pendiente_media_pct": 6.3,
+    "pendiente_maxima_pct": 24.1
   },
   {
     "id": "35359988",
@@ -2366,7 +2482,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 16.6,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "109027105",
@@ -2408,7 +2526,9 @@
     "longitud_origen": -1.953845,
     "latitud_final": 43.050462,
     "longitud_final": -1.954002,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.050487,-1.953845"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.050487,-1.953845",
+    "pendiente_media_pct": 4.7,
+    "pendiente_maxima_pct": 22.4
   },
   {
     "id": "44708314",
@@ -2448,7 +2568,9 @@
     "longitud_origen": -1.776559,
     "latitud_final": 43.370615,
     "longitud_final": -1.776546,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.370597,-1.776559"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.370597,-1.776559",
+    "pendiente_media_pct": 0.9,
+    "pendiente_maxima_pct": 8.0
   },
   {
     "id": "34264243",
@@ -2484,7 +2606,9 @@
     "longitud_origen": -1.510112,
     "latitud_final": 42.703696,
     "longitud_final": -1.508957,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.7036896,-1.5092067/"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.7036896,-1.5092067/",
+    "pendiente_media_pct": 7.1,
+    "pendiente_maxima_pct": 42.1
   },
   {
     "id": "181228796",
@@ -2524,7 +2648,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 5.0,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "181091122",
@@ -2562,7 +2688,9 @@
     "longitud_origen": -0.325646,
     "latitud_final": 42.69537,
     "longitud_final": -0.325566,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.695362,-0.325646"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.695362,-0.325646",
+    "pendiente_media_pct": 4.0,
+    "pendiente_maxima_pct": 24.5
   },
   {
     "id": "79639744",
@@ -2602,7 +2730,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 1.4,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "79464155",
@@ -2642,7 +2772,9 @@
     "longitud_origen": 0.25671,
     "latitud_final": 42.554441,
     "longitud_final": 0.25673,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.554398,0.25671"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.554398,0.25671",
+    "pendiente_media_pct": 5.8,
+    "pendiente_maxima_pct": 26.5
   },
   {
     "id": "99907154",
@@ -2684,7 +2816,9 @@
     "longitud_origen": -0.315989,
     "latitud_final": 42.714605,
     "longitud_final": -0.315889,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.713024,-0.315537"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.713024,-0.315537",
+    "pendiente_media_pct": 4.9,
+    "pendiente_maxima_pct": 24.0
   },
   {
     "id": "100311229",
@@ -2725,7 +2859,9 @@
     "longitud_origen": -0.23561,
     "latitud_final": 42.761377,
     "longitud_final": -0.235219,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.76156,-0.23561"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.76156,-0.23561",
+    "pendiente_media_pct": 9.1,
+    "pendiente_maxima_pct": 33.6
   },
   {
     "id": "99510461",
@@ -2767,7 +2903,9 @@
     "longitud_origen": -1.158585,
     "latitud_final": 42.716794,
     "longitud_final": -1.158839,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.716712,-1.158709"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.716712,-1.158709",
+    "pendiente_media_pct": 8.6,
+    "pendiente_maxima_pct": 30.6
   },
   {
     "id": "115746452",
@@ -2807,7 +2945,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 3.5,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "37050508",
@@ -2845,7 +2985,9 @@
     "longitud_origen": -2.046443,
     "latitud_final": 43.304852,
     "longitud_final": -2.046439,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.304834,-2.046443"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.304834,-2.046443",
+    "pendiente_media_pct": 2.2,
+    "pendiente_maxima_pct": 12.8
   },
   {
     "id": "143455930",
@@ -2884,7 +3026,9 @@
     "longitud_origen": -2.202618,
     "latitud_final": 43.265352,
     "longitud_final": -2.202538,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.265383,-2.202618"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.265383,-2.202618",
+    "pendiente_media_pct": 3.9,
+    "pendiente_maxima_pct": 23.0
   },
   {
     "id": "110706015",
@@ -2926,7 +3070,9 @@
     "longitud_origen": -1.856593,
     "latitud_final": 43.083605,
     "longitud_final": -1.856627,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.083547,-1.856593"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.083547,-1.856593",
+    "pendiente_media_pct": 5.7,
+    "pendiente_maxima_pct": 20.2
   },
   {
     "id": "113189593",
@@ -2968,7 +3114,9 @@
     "longitud_origen": -1.846595,
     "latitud_final": 43.04123,
     "longitud_final": -1.846653,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.041215,-1.846595"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.041215,-1.846595",
+    "pendiente_media_pct": 3.7,
+    "pendiente_maxima_pct": 17.2
   },
   {
     "id": "33387293",
@@ -3004,7 +3152,9 @@
     "longitud_origen": -1.821236,
     "latitud_final": 43.366732,
     "longitud_final": -1.821422,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.366717,-1.821236/@43.3553024,-1.8182172,14z"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.366717,-1.821236/@43.3553024,-1.8182172,14z",
+    "pendiente_media_pct": 4.0,
+    "pendiente_maxima_pct": 22.9
   },
   {
     "id": "144088947",
@@ -3045,7 +3195,9 @@
     "longitud_origen": -0.922232,
     "latitud_final": 42.862313,
     "longitud_final": -0.922236,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.86237,-0.922232"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.86237,-0.922232",
+    "pendiente_media_pct": 6.7,
+    "pendiente_maxima_pct": 30.0
   },
   {
     "id": "80556194",
@@ -3087,7 +3239,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 5.0,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "80643153",
@@ -3129,7 +3283,9 @@
     "longitud_origen": -3.219509,
     "latitud_final": 43.200787,
     "longitud_final": -3.220023,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.200248,-3.215539"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.200248,-3.215539",
+    "pendiente_media_pct": 5.7,
+    "pendiente_maxima_pct": 23.4
   },
   {
     "id": "111663430",
@@ -3167,7 +3323,9 @@
     "longitud_origen": -1.91379,
     "latitud_final": 43.081259,
     "longitud_final": -1.913991,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.08113,-1.91379"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.08113,-1.91379",
+    "pendiente_media_pct": 5.0,
+    "pendiente_maxima_pct": 21.3
   },
   {
     "id": "35416439",
@@ -3206,7 +3364,9 @@
     "longitud_origen": 2.415186,
     "latitud_final": 43.18287,
     "longitud_final": 2.414561,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.183226,2.415186"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.183226,2.415186",
+    "pendiente_media_pct": 1.1,
+    "pendiente_maxima_pct": 8.8
   },
   {
     "id": "130707286",
@@ -3246,7 +3406,9 @@
     "longitud_origen": 1.600047,
     "latitud_final": 42.530273,
     "longitud_final": 1.599894,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.530202,1.600047"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.530202,1.600047",
+    "pendiente_media_pct": 1.6,
+    "pendiente_maxima_pct": 16.7
   },
   {
     "id": "33890503",
@@ -3284,7 +3446,9 @@
     "longitud_origen": -1.686437,
     "latitud_final": 43.309754,
     "longitud_final": -1.686677,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.309811,-1.686437"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.309811,-1.686437",
+    "pendiente_media_pct": 3.7,
+    "pendiente_maxima_pct": 18.9
   },
   {
     "id": "165383599",
@@ -3322,7 +3486,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 0.6,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "42897670",
@@ -3362,7 +3528,9 @@
     "longitud_origen": -0.448585,
     "latitud_final": 42.868401,
     "longitud_final": -0.44811,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.868481,-0.448157"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.868481,-0.448157",
+    "pendiente_media_pct": 4.8,
+    "pendiente_maxima_pct": 24.1
   },
   {
     "id": "122606948",
@@ -3403,7 +3571,9 @@
     "longitud_origen": -1.517992,
     "latitud_final": 42.840729,
     "longitud_final": -1.518062,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.84068,-1.517992"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.84068,-1.517992",
+    "pendiente_media_pct": 4.4,
+    "pendiente_maxima_pct": 18.5
   },
   {
     "id": "113853329",
@@ -3444,7 +3614,9 @@
     "longitud_origen": -0.835335,
     "latitud_final": 42.945127,
     "longitud_final": -0.835356,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.944918,-0.835058"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.944918,-0.835058",
+    "pendiente_media_pct": 7.2,
+    "pendiente_maxima_pct": 32.0
   },
   {
     "id": "109464295",
@@ -3484,7 +3656,9 @@
     "longitud_origen": -0.835058,
     "latitud_final": 42.944942,
     "longitud_final": -0.835096,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.944918,-0.835058"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.944918,-0.835058",
+    "pendiente_media_pct": 6.2,
+    "pendiente_maxima_pct": 25.6
   },
   {
     "id": "105856169",
@@ -3524,7 +3698,9 @@
     "longitud_origen": -1.539663,
     "latitud_final": 43.145458,
     "longitud_final": -1.539617,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.145428,-1.539663"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.145428,-1.539663",
+    "pendiente_media_pct": 6.9,
+    "pendiente_maxima_pct": 25.2
   },
   {
     "id": "124905894",
@@ -3564,7 +3740,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 3.3,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "129672516",
@@ -3603,7 +3781,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 4.4,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "115016765",
@@ -3645,7 +3825,9 @@
     "longitud_origen": -1.742625,
     "latitud_final": 43.124973,
     "longitud_final": -1.742463,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.124892,-1.742625"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.124892,-1.742625",
+    "pendiente_media_pct": 5.9,
+    "pendiente_maxima_pct": 25.5
   },
   {
     "id": "82925325",
@@ -3684,7 +3866,9 @@
     "longitud_origen": -0.804987,
     "latitud_final": 42.895928,
     "longitud_final": -0.804846,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.895952,-0.804987"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.895952,-0.804987",
+    "pendiente_media_pct": 7.6,
+    "pendiente_maxima_pct": 33.6
   },
   {
     "id": "51871585",
@@ -3723,7 +3907,9 @@
     "longitud_origen": -1.906997,
     "latitud_final": 43.114064,
     "longitud_final": -1.907045,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.11411,-1.906997"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.11411,-1.906997",
+    "pendiente_media_pct": 5.5,
+    "pendiente_maxima_pct": 22.8
   },
   {
     "id": "155920143",
@@ -3762,7 +3948,9 @@
     "longitud_origen": -2.329607,
     "latitud_final": 43.293877,
     "longitud_final": -2.329842,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.293858,-2.329607"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.293858,-2.329607",
+    "pendiente_media_pct": 3.8,
+    "pendiente_maxima_pct": 18.0
   },
   {
     "id": "159420774",
@@ -3801,7 +3989,9 @@
     "longitud_origen": -1.245209,
     "latitud_final": 42.930206,
     "longitud_final": -1.245231,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.929959,-1.244304"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.929959,-1.244304",
+    "pendiente_media_pct": 4.6,
+    "pendiente_maxima_pct": 20.2
   },
   {
     "id": "130775882",
@@ -3839,7 +4029,9 @@
     "longitud_origen": 1.586772,
     "latitud_final": 42.571451,
     "longitud_final": 1.586855,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.571525,1.586772"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.571525,1.586772",
+    "pendiente_media_pct": 4.4,
+    "pendiente_maxima_pct": 17.6
   },
   {
     "id": "97137755",
@@ -3880,7 +4072,9 @@
     "longitud_origen": -1.639383,
     "latitud_final": 43.233976,
     "longitud_final": -1.63938,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.233923,-1.639383"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.233923,-1.639383",
+    "pendiente_media_pct": 7.0,
+    "pendiente_maxima_pct": 29.5
   },
   {
     "id": "95195486",
@@ -3922,7 +4116,9 @@
     "longitud_origen": -1.699745,
     "latitud_final": 43.225311,
     "longitud_final": -1.699827,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.225172,-1.699745"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.225172,-1.699745",
+    "pendiente_media_pct": 5.5,
+    "pendiente_maxima_pct": 23.2
   },
   {
     "id": "34681111",
@@ -3960,7 +4156,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 2.7,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "34630995",
@@ -3998,7 +4196,9 @@
     "longitud_origen": -2.456018,
     "latitud_final": 42.991904,
     "longitud_final": -2.456063,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.991945,-2.456018/"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.991945,-2.456018/",
+    "pendiente_media_pct": 6.0,
+    "pendiente_maxima_pct": 26.8
   },
   {
     "id": "98331545",
@@ -4040,7 +4240,9 @@
     "longitud_origen": -1.47014,
     "latitud_final": 43.035969,
     "longitud_final": -1.470226,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.035893,-1.47014"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.035893,-1.47014",
+    "pendiente_media_pct": 5.3,
+    "pendiente_maxima_pct": 25.5
   },
   {
     "id": "36125305",
@@ -4079,7 +4281,9 @@
     "longitud_origen": -1.974246,
     "latitud_final": 43.221648,
     "longitud_final": -1.974395,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.221721,-1.974321"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.221721,-1.974321",
+    "pendiente_media_pct": 7.3,
+    "pendiente_maxima_pct": 17.7
   },
   {
     "id": "108431613",
@@ -4120,7 +4324,9 @@
     "longitud_origen": -1.631592,
     "latitud_final": 43.13312,
     "longitud_final": -1.631434,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.13305,-1.631592"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.13305,-1.631592",
+    "pendiente_media_pct": 6.1,
+    "pendiente_maxima_pct": 23.0
   },
   {
     "id": "106797317",
@@ -4162,7 +4368,9 @@
     "longitud_origen": -0.994078,
     "latitud_final": 42.974299,
     "longitud_final": -0.993916,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.974318,-0.994078"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.974318,-0.994078",
+    "pendiente_media_pct": 4.4,
+    "pendiente_maxima_pct": 19.6
   },
   {
     "id": "44208952",
@@ -4200,7 +4408,9 @@
     "longitud_origen": -2.148105,
     "latitud_final": 43.237289,
     "longitud_final": -2.148084,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.23735,-2.148105"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.23735,-2.148105",
+    "pendiente_media_pct": 5.4,
+    "pendiente_maxima_pct": 29.4
   },
   {
     "id": "33210211",
@@ -4236,7 +4446,9 @@
     "longitud_origen": -1.577836,
     "latitud_final": 43.180055,
     "longitud_final": -1.577772,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.179913,-1.577696/@43.2363704,-1.8216273,11z"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.179913,-1.577696/@43.2363704,-1.8216273,11z",
+    "pendiente_media_pct": 4.9,
+    "pendiente_maxima_pct": 17.8
   },
   {
     "id": "100213190",
@@ -4275,7 +4487,9 @@
     "longitud_origen": -0.28119,
     "latitud_final": 42.721959,
     "longitud_final": -0.281104,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.722125,-0.28119"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.722125,-0.28119",
+    "pendiente_media_pct": 8.8,
+    "pendiente_maxima_pct": 29.3
   },
   {
     "id": "112729727",
@@ -4317,7 +4531,9 @@
     "longitud_origen": -0.093028,
     "latitud_final": 42.756704,
     "longitud_final": -0.092955,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.756643,-0.093028"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.756643,-0.093028",
+    "pendiente_media_pct": 9.3,
+    "pendiente_maxima_pct": 49.6
   },
   {
     "id": "134219048",
@@ -4355,7 +4571,9 @@
     "longitud_origen": -0.417802,
     "latitud_final": 42.815332,
     "longitud_final": -0.417861,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.815331,-0.417802"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.815331,-0.417802",
+    "pendiente_media_pct": 7.1,
+    "pendiente_maxima_pct": 30.9
   },
   {
     "id": "35370660",
@@ -4391,7 +4609,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 9.1,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "108152429",
@@ -4433,7 +4653,9 @@
     "longitud_origen": -0.414122,
     "latitud_final": 42.801033,
     "longitud_final": -0.414242,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.800955,-0.414122"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.800955,-0.414122",
+    "pendiente_media_pct": 6.6,
+    "pendiente_maxima_pct": 27.4
   },
   {
     "id": "111125598",
@@ -4475,7 +4697,9 @@
     "longitud_origen": -0.327302,
     "latitud_final": 42.775313,
     "longitud_final": -0.327274,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.775368,-0.327302"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.775368,-0.327302",
+    "pendiente_media_pct": 8.8,
+    "pendiente_maxima_pct": 26.7
   },
   {
     "id": "111845479",
@@ -4517,7 +4741,9 @@
     "longitud_origen": -5.018803,
     "latitud_final": 42.967956,
     "longitud_final": -5.018805,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.967873,-5.018803"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.967873,-5.018803",
+    "pendiente_media_pct": 7.3,
+    "pendiente_maxima_pct": 36.7
   },
   {
     "id": "81271168",
@@ -4559,7 +4785,9 @@
     "longitud_origen": -0.235416,
     "latitud_final": 42.761231,
     "longitud_final": -0.235549,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.761347,-0.235465"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.761347,-0.235465",
+    "pendiente_media_pct": 10.2,
+    "pendiente_maxima_pct": 36.8
   },
   {
     "id": "76278095",
@@ -4599,7 +4827,9 @@
     "longitud_origen": -1.361234,
     "latitud_final": 42.593927,
     "longitud_final": -1.361208,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.593976,-1.361234"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.593976,-1.361234",
+    "pendiente_media_pct": 1.8,
+    "pendiente_maxima_pct": 16.3
   },
   {
     "id": "173804877",
@@ -4635,7 +4865,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 5.9,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "141381265",
@@ -4673,7 +4905,9 @@
     "longitud_origen": -1.821075,
     "latitud_final": 43.368449,
     "longitud_final": -1.820834,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.368453,-1.821075"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.368453,-1.821075",
+    "pendiente_media_pct": 4.1,
+    "pendiente_maxima_pct": 19.9
   },
   {
     "id": "31673327",
@@ -4713,7 +4947,9 @@
     "longitud_origen": -1.680215,
     "latitud_final": 43.305504,
     "longitud_final": -1.680159,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.305582,-1.680215"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.305582,-1.680215",
+    "pendiente_media_pct": 3.5,
+    "pendiente_maxima_pct": 11.3
   },
   {
     "id": "145436948",
@@ -4751,7 +4987,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 1.9,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "136575665",
@@ -4790,7 +5028,9 @@
     "longitud_origen": -2.156633,
     "latitud_final": 43.24853,
     "longitud_final": -2.156705,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.248498,-2.156633"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.248498,-2.156633",
+    "pendiente_media_pct": 3.2,
+    "pendiente_maxima_pct": 17.6
   },
   {
     "id": "123896337",
@@ -4830,7 +5070,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 6.3,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "83672410",
@@ -4872,7 +5114,9 @@
     "longitud_origen": -1.62205,
     "latitud_final": 43.046076,
     "longitud_final": -1.621891,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.046038,-1.62205"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.046038,-1.62205",
+    "pendiente_media_pct": 6.4,
+    "pendiente_maxima_pct": 18.3
   },
   {
     "id": "119481734",
@@ -4911,7 +5155,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 3.4,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "80338790",
@@ -4951,7 +5197,9 @@
     "longitud_origen": -1.775855,
     "latitud_final": 43.322722,
     "longitud_final": -1.77579,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.322859,-1.775855"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.322859,-1.775855",
+    "pendiente_media_pct": 5.1,
+    "pendiente_maxima_pct": 20.8
   },
   {
     "id": "92323324",
@@ -4993,7 +5241,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 7.7,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "145576915",
@@ -5031,7 +5281,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 0.0,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "144331884",
@@ -5071,7 +5323,9 @@
     "longitud_origen": -2.400803,
     "latitud_final": 42.97939,
     "longitud_final": -2.400756,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.979408,-2.400803"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.979408,-2.400803",
+    "pendiente_media_pct": 6.7,
+    "pendiente_maxima_pct": 27.4
   },
   {
     "id": "95042716",
@@ -5112,7 +5366,9 @@
     "longitud_origen": -3.092578,
     "latitud_final": 43.050721,
     "longitud_final": -3.092597,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.050762,-3.092578"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.050762,-3.092578",
+    "pendiente_media_pct": 6.8,
+    "pendiente_maxima_pct": 22.2
   },
   {
     "id": "79813926",
@@ -5152,7 +5408,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 3.2,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "109929222",
@@ -5194,7 +5452,9 @@
     "longitud_origen": -1.767393,
     "latitud_final": 43.060456,
     "longitud_final": -1.767434,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.060363,-1.767393"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.060363,-1.767393",
+    "pendiente_media_pct": 3.3,
+    "pendiente_maxima_pct": 17.5
   },
   {
     "id": "131070163",
@@ -5232,7 +5492,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 4.1,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "131385453",
@@ -5270,7 +5532,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 0.9,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "130992233",
@@ -5308,7 +5572,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 0.5,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "131094816",
@@ -5346,7 +5612,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 3.1,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "131184796",
@@ -5384,7 +5652,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 4.7,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "130931545",
@@ -5422,7 +5692,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 5.6,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "116451524",
@@ -5464,7 +5736,9 @@
     "longitud_origen": -2.744933,
     "latitud_final": 42.613856,
     "longitud_final": -2.745039,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.613918,-2.744933"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.613918,-2.744933",
+    "pendiente_media_pct": 5.4,
+    "pendiente_maxima_pct": 24.1
   },
   {
     "id": "108802018",
@@ -5506,7 +5780,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 3.0,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "33141674",
@@ -5546,7 +5822,9 @@
     "longitud_origen": -1.30748,
     "latitud_final": 42.638213,
     "longitud_final": -1.307483,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.638221,-1.30748"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.638221,-1.30748",
+    "pendiente_media_pct": 4.7,
+    "pendiente_maxima_pct": 19.1
   },
   {
     "id": "106865604",
@@ -5586,7 +5864,9 @@
     "longitud_origen": -1.994832,
     "latitud_final": 42.962848,
     "longitud_final": -1.995311,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.962892,-1.995121"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.962892,-1.995121",
+    "pendiente_media_pct": 4.1,
+    "pendiente_maxima_pct": 23.5
   },
   {
     "id": "103972561",
@@ -5625,7 +5905,9 @@
     "longitud_origen": -0.884322,
     "latitud_final": 42.901543,
     "longitud_final": -0.884243,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.901517,-0.884322"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.901517,-0.884322",
+    "pendiente_media_pct": 7.4,
+    "pendiente_maxima_pct": 27.2
   },
   {
     "id": "108689956",
@@ -5664,7 +5946,9 @@
     "longitud_origen": -1.62205,
     "latitud_final": 43.046076,
     "longitud_final": -1.621891,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.046038,-1.62205"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.046038,-1.62205",
+    "pendiente_media_pct": 3.8,
+    "pendiente_maxima_pct": 18.3
   },
   {
     "id": "148850044",
@@ -5705,7 +5989,9 @@
     "longitud_origen": -2.008792,
     "latitud_final": 43.02138,
     "longitud_final": -2.010077,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.0206556,-2.0097909"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.0206556,-2.0097909",
+    "pendiente_media_pct": 8.5,
+    "pendiente_maxima_pct": 39.3
   },
   {
     "id": "122776311",
@@ -5747,7 +6033,9 @@
     "longitud_origen": -2.100075,
     "latitud_final": 42.960564,
     "longitud_final": -2.100029,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.960352,-2.100089"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.960352,-2.100089",
+    "pendiente_media_pct": 4.4,
+    "pendiente_maxima_pct": 18.7
   },
   {
     "id": "107745539",
@@ -5788,7 +6076,9 @@
     "longitud_origen": -1.539677,
     "latitud_final": 43.145601,
     "longitud_final": -1.5397,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.145428,-1.539663"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.145428,-1.539663",
+    "pendiente_media_pct": 6.5,
+    "pendiente_maxima_pct": 24.3
   },
   {
     "id": "118073179",
@@ -5828,7 +6118,9 @@
     "longitud_origen": -2.659261,
     "latitud_final": 43.138773,
     "longitud_final": -2.659144,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.13827868876734,-2.6602943350618076"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.13827868876734,-2.6602943350618076",
+    "pendiente_media_pct": 7.8,
+    "pendiente_maxima_pct": 35.4
   },
   {
     "id": "33629487",
@@ -5864,7 +6156,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 3.2,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "39665773",
@@ -5906,7 +6200,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 4.7,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "61400900",
@@ -5946,7 +6242,9 @@
     "longitud_origen": -1.054389,
     "latitud_final": 42.9137,
     "longitud_final": -1.054198,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.913624,-1.054389"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.913624,-1.054389",
+    "pendiente_media_pct": 4.6,
+    "pendiente_maxima_pct": 21.0
   },
   {
     "id": "53716848",
@@ -5986,7 +6284,9 @@
     "longitud_origen": -0.788746,
     "latitud_final": 42.854275,
     "longitud_final": -0.788806,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.854325,-0.788746"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.854325,-0.788746",
+    "pendiente_media_pct": 12.3,
+    "pendiente_maxima_pct": 35.3
   },
   {
     "id": "39483167",
@@ -6025,7 +6325,9 @@
     "longitud_origen": -2.011701,
     "latitud_final": 42.85941,
     "longitud_final": -2.011717,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.859222,-2.012229"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.859222,-2.012229",
+    "pendiente_media_pct": 4.1,
+    "pendiente_maxima_pct": 15.7
   },
   {
     "id": "37890796",
@@ -6064,7 +6366,9 @@
     "longitud_origen": -2.401009,
     "latitud_final": 42.979326,
     "longitud_final": -2.400849,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.979335,-2.401009"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.979335,-2.401009",
+    "pendiente_media_pct": 5.7,
+    "pendiente_maxima_pct": 29.8
   },
   {
     "id": "73830228",
@@ -6105,7 +6409,9 @@
     "longitud_origen": -2.63448,
     "latitud_final": 43.123785,
     "longitud_final": -2.634612,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.123804,-2.63448"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.123804,-2.63448",
+    "pendiente_media_pct": 13.6,
+    "pendiente_maxima_pct": 44.3
   },
   {
     "id": "39311449",
@@ -6145,7 +6451,9 @@
     "longitud_origen": -2.643427,
     "latitud_final": 43.09994,
     "longitud_final": -2.643426,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.099879,-2.643427"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.099879,-2.643427",
+    "pendiente_media_pct": 8.7,
+    "pendiente_maxima_pct": 48.2
   },
   {
     "id": "58797876",
@@ -6183,7 +6491,9 @@
     "longitud_origen": -2.328359,
     "latitud_final": 43.274198,
     "longitud_final": -2.328286,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.274166,-2.328359"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.274166,-2.328359",
+    "pendiente_media_pct": 5.4,
+    "pendiente_maxima_pct": 25.5
   },
   {
     "id": "38884439",
@@ -6225,7 +6535,9 @@
     "longitud_origen": -2.272831,
     "latitud_final": 42.930634,
     "longitud_final": -2.272744,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.930611,-2.272831"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.930611,-2.272831",
+    "pendiente_media_pct": 5.6,
+    "pendiente_maxima_pct": 27.2
   },
   {
     "id": "40993134",
@@ -6265,7 +6577,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 5.5,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "38142293",
@@ -6304,7 +6618,9 @@
     "longitud_origen": -2.012229,
     "latitud_final": 42.859303,
     "longitud_final": -2.012156,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.859222,-2.012229"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.859222,-2.012229",
+    "pendiente_media_pct": 3.0,
+    "pendiente_maxima_pct": 12.5
   },
   {
     "id": "44438263",
@@ -6343,7 +6659,9 @@
     "longitud_origen": -1.401119,
     "latitud_final": 43.313405,
     "longitud_final": -1.401253,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.313537,-1.401119/@43.3953815,-1.8656874,10z"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.313537,-1.401119/@43.3953815,-1.8656874,10z",
+    "pendiente_media_pct": 8.6,
+    "pendiente_maxima_pct": 43.0
   },
   {
     "id": "51799503",
@@ -6379,7 +6697,9 @@
     "longitud_origen": -0.766818,
     "latitud_final": 42.969622,
     "longitud_final": -0.766946,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.96969,-0.766818"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.96969,-0.766818",
+    "pendiente_media_pct": 6.5,
+    "pendiente_maxima_pct": 28.3
   },
   {
     "id": "40712194",
@@ -6417,7 +6737,9 @@
     "longitud_origen": -2.09734,
     "latitud_final": 43.036043,
     "longitud_final": -2.097353,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.035466,-2.0969"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.035466,-2.0969",
+    "pendiente_media_pct": 7.1,
+    "pendiente_maxima_pct": 31.2
   },
   {
     "id": "38621025",
@@ -6456,7 +6778,9 @@
     "longitud_origen": -1.401752,
     "latitud_final": 43.175549,
     "longitud_final": -1.401712,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.1756,-1.401752"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.1756,-1.401752",
+    "pendiente_media_pct": 8.2,
+    "pendiente_maxima_pct": 40.3
   },
   {
     "id": "79304712",
@@ -6496,7 +6820,9 @@
     "longitud_origen": -2.070245,
     "latitud_final": 43.038728,
     "longitud_final": -2.070162,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.038711,-2.070245"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.038711,-2.070245",
+    "pendiente_media_pct": 9.7,
+    "pendiente_maxima_pct": 36.0
   },
   {
     "id": "35917829",
@@ -6534,7 +6860,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 7.7,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "69245001",
@@ -6573,7 +6901,9 @@
     "longitud_origen": -1.995121,
     "latitud_final": 42.962893,
     "longitud_final": -1.99519,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.962892,-1.995121"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.962892,-1.995121",
+    "pendiente_media_pct": 4.0,
+    "pendiente_maxima_pct": 18.5
   },
   {
     "id": "35771593",
@@ -6609,7 +6939,9 @@
     "longitud_origen": -2.015809,
     "latitud_final": 42.886374,
     "longitud_final": -2.015775,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.886355,-2.015809"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.886355,-2.015809",
+    "pendiente_media_pct": 9.1,
+    "pendiente_maxima_pct": 42.7
   },
   {
     "id": "56217516",
@@ -6648,7 +6980,9 @@
     "longitud_origen": -0.633385,
     "latitud_final": 42.76332,
     "longitud_final": -0.633511,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.763207,-0.633385"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.763207,-0.633385",
+    "pendiente_media_pct": 10.5,
+    "pendiente_maxima_pct": 42.3
   },
   {
     "id": "56814178",
@@ -6686,7 +7020,9 @@
     "longitud_origen": -4.805646,
     "latitud_final": 43.153644,
     "longitud_final": -4.80573,
-    "mapa_origen_url": "https://www.google.com/maps/dir//Teleferico+Fuente+D%C3%A9,+Calle+Fuente+la+Riega,+0,+39588+Camale%C3%B1o,+Cantabria/@43.1440363,-4.8143184,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0xd49b3df107dd40f:0x7d7e2d2f67001832!2m2!1d-4.8121297!2d43.1440363!3e0"
+    "mapa_origen_url": "https://www.google.com/maps/dir//Teleferico+Fuente+D%C3%A9,+Calle+Fuente+la+Riega,+0,+39588+Camale%C3%B1o,+Cantabria/@43.1440363,-4.8143184,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0xd49b3df107dd40f:0x7d7e2d2f67001832!2m2!1d-4.8121297!2d43.1440363!3e0",
+    "pendiente_media_pct": 5.9,
+    "pendiente_maxima_pct": 24.7
   },
   {
     "id": "53348986",
@@ -6728,7 +7064,9 @@
     "longitud_origen": -0.711984,
     "latitud_final": 42.831696,
     "longitud_final": -0.712035,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.831666,-0.711984"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.831666,-0.711984",
+    "pendiente_media_pct": 9.1,
+    "pendiente_maxima_pct": 34.0
   },
   {
     "id": "72457585",
@@ -6769,7 +7107,9 @@
     "longitud_origen": -1.182326,
     "latitud_final": 43.035679,
     "longitud_final": -1.182412,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.035697,-1.182326"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.035697,-1.182326",
+    "pendiente_media_pct": 3.7,
+    "pendiente_maxima_pct": 59.1
   },
   {
     "id": "75107730",
@@ -6811,7 +7151,9 @@
     "longitud_origen": -2.791222,
     "latitud_final": 43.078891,
     "longitud_final": -2.792334,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.078733,-2.791222"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.078733,-2.791222",
+    "pendiente_media_pct": 5.1,
+    "pendiente_maxima_pct": 21.7
   },
   {
     "id": "69099602",
@@ -6852,7 +7194,9 @@
     "longitud_origen": -2.027621,
     "latitud_final": 42.82063,
     "longitud_final": -2.027563,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.820648,-2.027621"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.820648,-2.027621",
+    "pendiente_media_pct": 4.5,
+    "pendiente_maxima_pct": 22.6
   },
   {
     "id": "70010099",
@@ -6893,7 +7237,9 @@
     "longitud_origen": -1.348416,
     "latitud_final": 42.871408,
     "longitud_final": -1.348416,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.871346,-1.348416"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.871346,-1.348416",
+    "pendiente_media_pct": 5.6,
+    "pendiente_maxima_pct": 23.4
   },
   {
     "id": "32097587",
@@ -6934,7 +7280,9 @@
     "longitud_origen": -2.399576,
     "latitud_final": 42.979068,
     "longitud_final": -2.397216,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 5.3,
+    "pendiente_maxima_pct": 21.0
   },
   {
     "id": "59880066",
@@ -6973,7 +7321,9 @@
     "longitud_origen": -1.825535,
     "latitud_final": 42.920298,
     "longitud_final": -1.825511,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.920258,-1.8255358"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.920258,-1.8255358",
+    "pendiente_media_pct": 8.1,
+    "pendiente_maxima_pct": 31.4
   },
   {
     "id": "44766657",
@@ -7011,7 +7361,9 @@
     "longitud_origen": -2.262385,
     "latitud_final": 43.185032,
     "longitud_final": -2.262424,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.184793,-2.262385/@43.1848849,-2.2665359,16z"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.184793,-2.262385/@43.1848849,-2.2665359,16z",
+    "pendiente_media_pct": 6.8,
+    "pendiente_maxima_pct": 32.5
   },
   {
     "id": "64012452",
@@ -7053,7 +7405,9 @@
     "longitud_origen": -1.307402,
     "latitud_final": 42.638256,
     "longitud_final": -1.307166,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.638262,-1.307402"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.638262,-1.307402",
+    "pendiente_media_pct": 5.4,
+    "pendiente_maxima_pct": 15.9
   },
   {
     "id": "41036434",
@@ -7095,7 +7449,9 @@
     "longitud_origen": -2.09671,
     "latitud_final": 43.035215,
     "longitud_final": -2.096591,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.035466,-2.0969"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.035466,-2.0969",
+    "pendiente_media_pct": 7.3,
+    "pendiente_maxima_pct": 38.7
   },
   {
     "id": "58998279",
@@ -7134,7 +7490,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 5.9,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "55123719",
@@ -7173,7 +7531,9 @@
     "longitud_origen": -0.23547,
     "latitud_final": 42.761161,
     "longitud_final": -0.235338,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.76128,-0.23547"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.76128,-0.23547",
+    "pendiente_media_pct": 14.1,
+    "pendiente_maxima_pct": 44.5
   },
   {
     "id": "68416005",
@@ -7211,7 +7571,9 @@
     "longitud_origen": -1.624526,
     "latitud_final": 43.039509,
     "longitud_final": -1.624562,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.039278,-1.624526"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.039278,-1.624526",
+    "pendiente_media_pct": 5.5,
+    "pendiente_maxima_pct": 26.3
   },
   {
     "id": "33460904",
@@ -7249,7 +7611,9 @@
     "longitud_origen": -2.742159,
     "latitud_final": 43.003314,
     "longitud_final": -2.742075,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.003628,-2.742159"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.003628,-2.742159",
+    "pendiente_media_pct": 6.3,
+    "pendiente_maxima_pct": 29.3
   },
   {
     "id": "60969473",
@@ -7289,7 +7653,9 @@
     "longitud_origen": -1.424456,
     "latitud_final": 43.181637,
     "longitud_final": -1.42453,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.181568,-1.424456"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.181568,-1.424456",
+    "pendiente_media_pct": 5.4,
+    "pendiente_maxima_pct": 23.0
   },
   {
     "id": "31781599",
@@ -7328,7 +7694,9 @@
     "longitud_origen": -2.148757,
     "latitud_final": 43.194535,
     "longitud_final": -2.148648,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.194688,-2.148757"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.194688,-2.148757",
+    "pendiente_media_pct": 5.7,
+    "pendiente_maxima_pct": 23.2
   },
   {
     "id": "54326383",
@@ -7368,7 +7736,9 @@
     "longitud_origen": -1.631614,
     "latitud_final": 43.282871,
     "longitud_final": -1.631673,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.138704,-2.659209"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.138704,-2.659209",
+    "pendiente_media_pct": 5.0,
+    "pendiente_maxima_pct": 26.9
   },
   {
     "id": "51010794",
@@ -7408,7 +7778,9 @@
     "longitud_origen": -1.995437,
     "latitud_final": 42.962878,
     "longitud_final": -1.995227,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.197189,-1.724855"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.197189,-1.724855",
+    "pendiente_media_pct": 3.6,
+    "pendiente_maxima_pct": 17.4
   },
   {
     "id": "54894267",
@@ -7450,7 +7822,9 @@
     "longitud_origen": -2.629517,
     "latitud_final": 42.991949,
     "longitud_final": -2.629516,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.991999,-2.629517"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.991999,-2.629517",
+    "pendiente_media_pct": 4.6,
+    "pendiente_maxima_pct": 18.8
   },
   {
     "id": "40075048",
@@ -7489,7 +7863,9 @@
     "longitud_origen": -1.631931,
     "latitud_final": 43.282703,
     "longitud_final": -1.631846,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.282549,-1.631931"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.282549,-1.631931",
+    "pendiente_media_pct": 7.7,
+    "pendiente_maxima_pct": 39.3
   },
   {
     "id": "51436957",
@@ -7529,7 +7905,9 @@
     "longitud_origen": -0.857913,
     "latitud_final": 42.937795,
     "longitud_final": -0.857799,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.937808,-0.857913"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.937808,-0.857913",
+    "pendiente_media_pct": 8.6,
+    "pendiente_maxima_pct": 36.6
   },
   {
     "id": "32331689",
@@ -7570,7 +7948,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 7.2,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "60055374",
@@ -7610,7 +7990,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 5.3,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "37354068",
@@ -7649,7 +8031,9 @@
     "longitud_origen": -1.732368,
     "latitud_final": 43.152284,
     "longitud_final": -1.732412,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.152173,-1.732368"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.152173,-1.732368",
+    "pendiente_media_pct": 7.0,
+    "pendiente_maxima_pct": 27.2
   },
   {
     "id": "62416560",
@@ -7688,7 +8072,9 @@
     "longitud_origen": -1.319204,
     "latitud_final": 43.009137,
     "longitud_final": -1.318926,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.009257,-1.318797"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.009257,-1.318797",
+    "pendiente_media_pct": 3.0,
+    "pendiente_maxima_pct": 14.8
   },
   {
     "id": "42348697",
@@ -7727,7 +8113,9 @@
     "longitud_origen": -0.799748,
     "latitud_final": 42.897994,
     "longitud_final": -0.799484,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.897942,-0.799748"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.897942,-0.799748",
+    "pendiente_media_pct": 7.4,
+    "pendiente_maxima_pct": 27.8
   },
   {
     "id": "70922238",
@@ -7769,7 +8157,9 @@
     "longitud_origen": -1.283976,
     "latitud_final": 42.877334,
     "longitud_final": -1.283722,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.87728,-1.283976"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.87728,-1.283976",
+    "pendiente_media_pct": 5.8,
+    "pendiente_maxima_pct": 26.2
   },
   {
     "id": "64213333",
@@ -7810,7 +8200,9 @@
     "longitud_origen": -1.655403,
     "latitud_final": 42.839928,
     "longitud_final": -1.655425,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.839861,-1.655403"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.839861,-1.655403",
+    "pendiente_media_pct": 5.9,
+    "pendiente_maxima_pct": 22.3
   },
   {
     "id": "32591152",
@@ -7850,7 +8242,9 @@
     "longitud_origen": -2.552545,
     "latitud_final": 43.200486,
     "longitud_final": -2.552742,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.200651,-2.552545/@43.1982799,-2.5550687,17z"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.200651,-2.552545/@43.1982799,-2.5550687,17z",
+    "pendiente_media_pct": 5.0,
+    "pendiente_maxima_pct": 19.0
   },
   {
     "id": "55472416",
@@ -7891,7 +8285,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 13.0,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "54578338",
@@ -7930,7 +8326,9 @@
     "longitud_origen": -2.044152,
     "latitud_final": 42.650006,
     "longitud_final": -2.044272,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.650062,-2.044152"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.650062,-2.044152",
+    "pendiente_media_pct": 5.6,
+    "pendiente_maxima_pct": 26.0
   },
   {
     "id": "60310797",
@@ -7970,7 +8368,9 @@
     "longitud_origen": -1.810095,
     "latitud_final": 42.848739,
     "longitud_final": -1.810105,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.848728,-1.810095"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.848728,-1.810095",
+    "pendiente_media_pct": 5.6,
+    "pendiente_maxima_pct": 24.4
   },
   {
     "id": "54400233",
@@ -8012,7 +8412,9 @@
     "longitud_origen": -2.659209,
     "latitud_final": 43.138697,
     "longitud_final": -2.659318,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.138704,-2.659209"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.138704,-2.659209",
+    "pendiente_media_pct": 9.1,
+    "pendiente_maxima_pct": 26.6
   },
   {
     "id": "80051602",
@@ -8051,7 +8453,9 @@
     "longitud_origen": -2.245027,
     "latitud_final": 43.08741,
     "longitud_final": -2.244768,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.08732,-2.245027"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.08732,-2.245027",
+    "pendiente_media_pct": 4.5,
+    "pendiente_maxima_pct": 23.0
   },
   {
     "id": "39921181",
@@ -8091,7 +8495,9 @@
     "longitud_origen": -0.993921,
     "latitud_final": 42.974326,
     "longitud_final": -0.993917,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.974314,-0.993921"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.974314,-0.993921",
+    "pendiente_media_pct": 9.1,
+    "pendiente_maxima_pct": 34.7
   },
   {
     "id": "60863229",
@@ -8130,7 +8536,9 @@
     "longitud_origen": -1.318797,
     "latitud_final": 43.009294,
     "longitud_final": -1.318839,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.009257,-1.318797"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.009257,-1.318797",
+    "pendiente_media_pct": 6.5,
+    "pendiente_maxima_pct": 24.8
   },
   {
     "id": "59026734",
@@ -8169,7 +8577,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 6.3,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "65762765",
@@ -8210,7 +8620,9 @@
     "longitud_origen": -1.470223,
     "latitud_final": 43.120323,
     "longitud_final": -1.47013,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.120367,-1.470223"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.120367,-1.470223",
+    "pendiente_media_pct": 6.2,
+    "pendiente_maxima_pct": 27.1
   },
   {
     "id": "78509467",
@@ -8252,7 +8664,9 @@
     "longitud_origen": -0.82704,
     "latitud_final": 42.866724,
     "longitud_final": -0.826893,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.866722,-0.82704"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.866722,-0.82704",
+    "pendiente_media_pct": 11.5,
+    "pendiente_maxima_pct": 51.1
   },
   {
     "id": "53858395",
@@ -8294,7 +8708,9 @@
     "longitud_origen": -1.421969,
     "latitud_final": 42.733953,
     "longitud_final": -1.42197,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.733886,-1.421969"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.733886,-1.421969",
+    "pendiente_media_pct": 8.2,
+    "pendiente_maxima_pct": 26.4
   },
   {
     "id": "58447147",
@@ -8335,7 +8751,9 @@
     "longitud_origen": -0.532137,
     "latitud_final": 42.527626,
     "longitud_final": -0.532122,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.527746,-0.532137"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.527746,-0.532137",
+    "pendiente_media_pct": 6.3,
+    "pendiente_maxima_pct": 26.3
   },
   {
     "id": "61264972",
@@ -8374,7 +8792,9 @@
     "longitud_origen": -1.62559,
     "latitud_final": 42.651854,
     "longitud_final": -1.625666,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.651809,-1.62559"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.651809,-1.62559",
+    "pendiente_media_pct": 8.1,
+    "pendiente_maxima_pct": 34.7
   },
   {
     "id": "56812878",
@@ -8415,7 +8835,9 @@
     "longitud_origen": -4.805646,
     "latitud_final": 43.153644,
     "longitud_final": -4.80573,
-    "mapa_origen_url": "https://www.google.com/maps/dir//Teleferico+Fuente+D%C3%A9,+Calle+Fuente+la+Riega,+0,+39588+Camale%C3%B1o,+Cantabria/@43.1440363,-4.8143184,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0xd49b3df107dd40f:0x7d7e2d2f67001832!2m2!1d-4.8121297!2d43.1440363!3e0"
+    "mapa_origen_url": "https://www.google.com/maps/dir//Teleferico+Fuente+D%C3%A9,+Calle+Fuente+la+Riega,+0,+39588+Camale%C3%B1o,+Cantabria/@43.1440363,-4.8143184,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0xd49b3df107dd40f:0x7d7e2d2f67001832!2m2!1d-4.8121297!2d43.1440363!3e0",
+    "pendiente_media_pct": 7.8,
+    "pendiente_maxima_pct": 28.9
   },
   {
     "id": "56700605",
@@ -8451,7 +8873,9 @@
     "longitud_origen": -4.805646,
     "latitud_final": 43.153644,
     "longitud_final": -4.80573,
-    "mapa_origen_url": "https://www.google.com/maps/dir//Teleferico+Fuente+D%C3%A9,+Calle+Fuente+la+Riega,+0,+39588+Camale%C3%B1o,+Cantabria/@43.1440363,-4.8143184,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0xd49b3df107dd40f:0x7d7e2d2f67001832!2m2!1d-4.8121297!2d43.1440363!3e0"
+    "mapa_origen_url": "https://www.google.com/maps/dir//Teleferico+Fuente+D%C3%A9,+Calle+Fuente+la+Riega,+0,+39588+Camale%C3%B1o,+Cantabria/@43.1440363,-4.8143184,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0xd49b3df107dd40f:0x7d7e2d2f67001832!2m2!1d-4.8121297!2d43.1440363!3e0",
+    "pendiente_media_pct": 7.5,
+    "pendiente_maxima_pct": 24.7
   },
   {
     "id": "54123724",
@@ -8491,7 +8915,9 @@
     "longitud_origen": -0.788986,
     "latitud_final": 42.854396,
     "longitud_final": -0.788752,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.854191,-0.788986"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.854191,-0.788986",
+    "pendiente_media_pct": 8.1,
+    "pendiente_maxima_pct": 28.6
   },
   {
     "id": "77889625",
@@ -8531,7 +8957,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 7.2,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "80154852",
@@ -8571,7 +8999,9 @@
     "longitud_origen": -0.235465,
     "latitud_final": 42.761336,
     "longitud_final": -0.235424,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.761347,-0.235465"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.761347,-0.235465",
+    "pendiente_media_pct": 8.0,
+    "pendiente_maxima_pct": 29.4
   },
   {
     "id": "54007325",
@@ -8613,7 +9043,9 @@
     "longitud_origen": -0.234077,
     "latitud_final": 42.759482,
     "longitud_final": -0.234126,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.759592,-0.234077"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.759592,-0.234077",
+    "pendiente_media_pct": 7.5,
+    "pendiente_maxima_pct": 28.8
   },
   {
     "id": "31818625",
@@ -8653,7 +9085,9 @@
     "longitud_origen": -1.786456,
     "latitud_final": 43.295139,
     "longitud_final": -1.786499,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.29531,-1.786456"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.29531,-1.786456",
+    "pendiente_media_pct": 7.6,
+    "pendiente_maxima_pct": 27.0
   },
   {
     "id": "55579980",
@@ -8695,7 +9129,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 4.7,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "55447419",
@@ -8737,7 +9173,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 8.7,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "40314036",
@@ -8776,7 +9214,9 @@
     "longitud_origen": -1.968616,
     "latitud_final": 42.92318,
     "longitud_final": -1.96863,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.923174,-1.968616"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.923174,-1.968616",
+    "pendiente_media_pct": 6.4,
+    "pendiente_maxima_pct": 29.0
   },
   {
     "id": "62374269",
@@ -8817,7 +9257,9 @@
     "longitud_origen": -1.843988,
     "latitud_final": 42.78586,
     "longitud_final": -1.843872,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.785833,-1.843988"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.785833,-1.843988",
+    "pendiente_media_pct": 7.9,
+    "pendiente_maxima_pct": 39.7
   },
   {
     "id": "55591928",
@@ -8858,7 +9300,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 9.0,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "37615883",
@@ -8894,7 +9338,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 9.4,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "59130882",
@@ -8935,7 +9381,9 @@
     "longitud_origen": -1.835654,
     "latitud_final": 42.863223,
     "longitud_final": -1.835522,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.863283,-1.835654"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.863283,-1.835654",
+    "pendiente_media_pct": 5.9,
+    "pendiente_maxima_pct": 37.9
   },
   {
     "id": "46686288",
@@ -8976,7 +9424,9 @@
     "longitud_origen": -2.516713,
     "latitud_final": 43.079543,
     "longitud_final": -2.516625,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.079566,-2.516713"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.079566,-2.516713",
+    "pendiente_media_pct": 7.0,
+    "pendiente_maxima_pct": 32.0
   },
   {
     "id": "56121464",
@@ -9014,7 +9464,9 @@
     "longitud_origen": -2.063376,
     "latitud_final": 43.138311,
     "longitud_final": -2.063237,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.138356,-2.063376"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.138356,-2.063376",
+    "pendiente_media_pct": 4.3,
+    "pendiente_maxima_pct": 22.2
   },
   {
     "id": "64755986",
@@ -9055,7 +9507,9 @@
     "longitud_origen": -2.335333,
     "latitud_final": 42.623139,
     "longitud_final": -2.335444,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.623093,-2.335333"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.623093,-2.335333",
+    "pendiente_media_pct": 7.8,
+    "pendiente_maxima_pct": 31.2
   },
   {
     "id": "62277039",
@@ -9095,7 +9549,9 @@
     "longitud_origen": -1.539098,
     "latitud_final": 43.050233,
     "longitud_final": -1.539082,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.050152,-1.539098"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.050152,-1.539098",
+    "pendiente_media_pct": 5.0,
+    "pendiente_maxima_pct": 21.8
   },
   {
     "id": "72457553",
@@ -9135,7 +9591,9 @@
     "longitud_origen": -1.224408,
     "latitud_final": 43.036053,
     "longitud_final": -1.224347,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.03604,-1.224408"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.03604,-1.224408",
+    "pendiente_media_pct": 6.7,
+    "pendiente_maxima_pct": 25.5
   },
   {
     "id": "53250419",
@@ -9173,7 +9631,9 @@
     "longitud_origen": -0.928035,
     "latitud_final": 43.017078,
     "longitud_final": -0.928079,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.017174,-0.928035/@43.2673757,-1.6036247,10z"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.017174,-0.928035/@43.2673757,-1.6036247,10z",
+    "pendiente_media_pct": 12.5,
+    "pendiente_maxima_pct": 31.3
   },
   {
     "id": "53042301",
@@ -9211,7 +9671,9 @@
     "longitud_origen": -0.928035,
     "latitud_final": 43.017078,
     "longitud_final": -0.928079,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.017174,-0.928035/@43.2673757,-1.6036247,10z"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.017174,-0.928035/@43.2673757,-1.6036247,10z",
+    "pendiente_media_pct": 8.2,
+    "pendiente_maxima_pct": 31.3
   },
   {
     "id": "46447614",
@@ -9251,7 +9713,9 @@
     "longitud_origen": -1.775771,
     "latitud_final": 43.322798,
     "longitud_final": -1.775641,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.322784,-1.775771"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.322784,-1.775771",
+    "pendiente_media_pct": 4.4,
+    "pendiente_maxima_pct": 20.7
   },
   {
     "id": "59926185",
@@ -9290,7 +9754,9 @@
     "longitud_origen": -1.87528,
     "latitud_final": 42.837231,
     "longitud_final": -1.878712,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.832977,-1.87528"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.832977,-1.87528",
+    "pendiente_media_pct": 3.3,
+    "pendiente_maxima_pct": 15.2
   },
   {
     "id": "58651989",
@@ -9332,7 +9798,9 @@
     "longitud_origen": -0.922225,
     "latitud_final": 42.862552,
     "longitud_final": -0.922243,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.862607,-0.922225"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.862607,-0.922225",
+    "pendiente_media_pct": 3.8,
+    "pendiente_maxima_pct": 24.6
   },
   {
     "id": "37696129",
@@ -9370,7 +9838,9 @@
     "longitud_origen": -1.459347,
     "latitud_final": 43.18318,
     "longitud_final": -1.459197,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.183164,-1.459347"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.183164,-1.459347",
+    "pendiente_media_pct": 2.9,
+    "pendiente_maxima_pct": 12.6
   },
   {
     "id": "46495717",
@@ -9409,7 +9879,9 @@
     "longitud_origen": -2.266065,
     "latitud_final": 42.859277,
     "longitud_final": -2.266163,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.859319,-2.266065/@43.1031005,-2.3048875,10z"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.859319,-2.266065/@43.1031005,-2.3048875,10z",
+    "pendiente_media_pct": 6.8,
+    "pendiente_maxima_pct": 24.2
   },
   {
     "id": "45383085",
@@ -9451,7 +9923,9 @@
     "longitud_origen": -2.987996,
     "latitud_final": 42.969257,
     "longitud_final": -2.988057,
-    "mapa_origen_url": "https://www.google.com/maps/dir//Parking+Puerto+de+Ordu%C3%B1a,+09511+Villalba+de+Losa,+Burgos/@42.5276348,-3.4857059,8z/data=!4m8!4m7!1m0!1m5!1m1!1s0xd4fa7cd47d6c3a5:0x553a6d13d0ee5fe7!2m2!1d-3.0246942!2d42.9550854"
+    "mapa_origen_url": "https://www.google.com/maps/dir//Parking+Puerto+de+Ordu%C3%B1a,+09511+Villalba+de+Losa,+Burgos/@42.5276348,-3.4857059,8z/data=!4m8!4m7!1m0!1m5!1m1!1s0xd4fa7cd47d6c3a5:0x553a6d13d0ee5fe7!2m2!1d-3.0246942!2d42.9550854",
+    "pendiente_media_pct": 7.3,
+    "pendiente_maxima_pct": 19.7
   },
   {
     "id": "61471757",
@@ -9492,7 +9966,9 @@
     "longitud_origen": -1.054389,
     "latitud_final": 42.9137,
     "longitud_final": -1.054198,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.913624,-1.054389"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.913624,-1.054389",
+    "pendiente_media_pct": 4.9,
+    "pendiente_maxima_pct": 21.1
   },
   {
     "id": "39698347",
@@ -9534,7 +10010,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 7.2,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "33634765",
@@ -9574,7 +10052,9 @@
     "longitud_origen": -2.17849,
     "latitud_final": 42.860488,
     "longitud_final": -2.178567,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.86044,-2.17849"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.86044,-2.17849",
+    "pendiente_media_pct": 3.7,
+    "pendiente_maxima_pct": 23.9
   },
   {
     "id": "31925438",
@@ -9616,7 +10096,9 @@
     "longitud_origen": -1.679066,
     "latitud_final": 43.282905,
     "longitud_final": -1.679167,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.282821,-1.679066"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.282821,-1.679066",
+    "pendiente_media_pct": 4.6,
+    "pendiente_maxima_pct": 19.4
   },
   {
     "id": "55578517",
@@ -9658,7 +10140,9 @@
     "longitud_origen": -0.060015,
     "latitud_final": 42.649906,
     "longitud_final": 0.015507,
-    "mapa_origen_url": "https://www.google.com/maps/dir/bera/42.649815,-0.060015"
+    "mapa_origen_url": "https://www.google.com/maps/dir/bera/42.649815,-0.060015",
+    "pendiente_media_pct": 5.9,
+    "pendiente_maxima_pct": 23.9
   },
   {
     "id": "41779743",
@@ -9699,7 +10183,9 @@
     "longitud_origen": -1.170784,
     "latitud_final": 42.636168,
     "longitud_final": -1.170911,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.636088,-1.170784"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.636088,-1.170784",
+    "pendiente_media_pct": 7.6,
+    "pendiente_maxima_pct": 27.8
   },
   {
     "id": "40027630",
@@ -9737,7 +10223,9 @@
     "longitud_origen": -1.715517,
     "latitud_final": 43.071858,
     "longitud_final": -1.715497,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.071797,-1.715517"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.071797,-1.715517",
+    "pendiente_media_pct": 1.3,
+    "pendiente_maxima_pct": 15.9
   },
   {
     "id": "32908882",
@@ -9773,7 +10261,9 @@
     "longitud_origen": -1.775635,
     "latitud_final": 43.32293,
     "longitud_final": -1.775703,
-    "mapa_origen_url": "https://www.google.com/maps/dir//43.323126,-1.775703/@43.3330346,-1.8049315,14z"
+    "mapa_origen_url": "https://www.google.com/maps/dir//43.323126,-1.775703/@43.3330346,-1.8049315,14z",
+    "pendiente_media_pct": 5.1,
+    "pendiente_maxima_pct": 19.1
   },
   {
     "id": "40424564",
@@ -9812,7 +10302,9 @@
     "longitud_origen": -1.220955,
     "latitud_final": 42.673916,
     "longitud_final": -1.184685,
-    "mapa_origen_url": "https://www.google.com/maps/dir//Mirador+de+Iso,+31454+Iso,+Navarra/@43.0573748,-2.1628263,9z/data=!4m9!4m8!1m0!1m5!1m1!1s0xd5752900e9a1d31:0xc4da174c4ce6550!2m2!1d-1.1844361!2d42.6917575!3e0"
+    "mapa_origen_url": "https://www.google.com/maps/dir//Mirador+de+Iso,+31454+Iso,+Navarra/@43.0573748,-2.1628263,9z/data=!4m9!4m8!1m0!1m5!1m1!1s0xd5752900e9a1d31:0xc4da174c4ce6550!2m2!1d-1.1844361!2d42.6917575!3e0",
+    "pendiente_media_pct": 2.2,
+    "pendiente_maxima_pct": 16.2
   },
   {
     "id": "40427222",
@@ -9851,7 +10343,9 @@
     "longitud_origen": -1.220955,
     "latitud_final": 42.673916,
     "longitud_final": -1.184685,
-    "mapa_origen_url": "https://www.google.com/maps/dir//Mirador+de+Iso,+31454+Iso,+Navarra/@43.0573748,-2.1628263,9z/data=!4m9!4m8!1m0!1m5!1m1!1s0xd5752900e9a1d31:0xc4da174c4ce6550!2m2!1d-1.1844361!2d42.6917575!3e0"
+    "mapa_origen_url": "https://www.google.com/maps/dir//Mirador+de+Iso,+31454+Iso,+Navarra/@43.0573748,-2.1628263,9z/data=!4m9!4m8!1m0!1m5!1m1!1s0xd5752900e9a1d31:0xc4da174c4ce6550!2m2!1d-1.1844361!2d42.6917575!3e0",
+    "pendiente_media_pct": 5.6,
+    "pendiente_maxima_pct": 16.2
   },
   {
     "id": "55478172",
@@ -9891,7 +10385,9 @@
     "longitud_origen": -0.060015,
     "latitud_final": 42.649715,
     "longitud_final": -0.059972,
-    "mapa_origen_url": "https://www.google.com/maps/dir/bera/42.649815,-0.060015"
+    "mapa_origen_url": "https://www.google.com/maps/dir/bera/42.649815,-0.060015",
+    "pendiente_media_pct": 1.1,
+    "pendiente_maxima_pct": 27.0
   },
   {
     "id": "41300211",
@@ -9929,7 +10425,9 @@
     "longitud_origen": -0.696647,
     "latitud_final": 42.855047,
     "longitud_final": -0.696703,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.854932,-0.696647/@43.0368855,-1.9270204,9z"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.854932,-0.696647/@43.0368855,-1.9270204,9z",
+    "pendiente_media_pct": 5.6,
+    "pendiente_maxima_pct": 29.8
   },
   {
     "id": "52946091",
@@ -9969,7 +10467,9 @@
     "longitud_origen": -0.107054,
     "latitud_final": 42.692742,
     "longitud_final": -0.106964,
-    "mapa_origen_url": "https://www.google.com/maps/dir//42.692761,-0.107054"
+    "mapa_origen_url": "https://www.google.com/maps/dir//42.692761,-0.107054",
+    "pendiente_media_pct": 9.9,
+    "pendiente_maxima_pct": 35.4
   },
   {
     "id": "57541724",
@@ -10010,7 +10510,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 5.5,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "39386147",
@@ -10049,7 +10551,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 4.8,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "54440281",
@@ -10091,7 +10595,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 6.9,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "41244803",
@@ -10129,7 +10635,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 5.6,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "39080747",
@@ -10168,7 +10676,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 5.5,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "34665553",
@@ -10206,7 +10716,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 4.8,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "52175041",
@@ -10246,7 +10758,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 5.2,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "52310634",
@@ -10287,7 +10801,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 3.9,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "31380458",
@@ -10328,7 +10844,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 7.9,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "31518170",
@@ -10367,7 +10885,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 7.2,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "39947434",
@@ -10405,7 +10925,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 6.6,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "33324926",
@@ -10441,7 +10963,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 4.1,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "42851210",
@@ -10480,7 +11004,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 5.4,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "32929358",
@@ -10519,7 +11045,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": 5.3,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "38368775",
@@ -10555,7 +11083,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": null,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "40356185",
@@ -10593,7 +11123,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": null,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "34159910",
@@ -10631,7 +11163,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": null,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "46206492",
@@ -10667,7 +11201,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": null,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "59490832",
@@ -10703,7 +11239,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": null,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "54676882",
@@ -10739,7 +11277,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": null,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "35155180",
@@ -10775,7 +11315,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": null,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "59442244",
@@ -10811,7 +11353,9 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": null,
+    "pendiente_maxima_pct": null
   },
   {
     "id": "54829883",
@@ -10849,6 +11393,8 @@
     "longitud_origen": null,
     "latitud_final": null,
     "longitud_final": null,
-    "mapa_origen_url": null
+    "mapa_origen_url": null,
+    "pendiente_media_pct": null,
+    "pendiente_maxima_pct": null
   }
 ]
